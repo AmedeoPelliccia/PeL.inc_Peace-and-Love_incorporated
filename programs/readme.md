@@ -51,6 +51,14 @@ Este documento presenta la matriz oficial y corregida de **ALICES** (sistemas f�
 
 ---
 
+## ⚛️ DOMINIO CUÁNTICO-DATOS – Programas AMPEL-EVO
+
+| Programa Oficial | ALICE | BOB DT | BOB DA | Descripción Funcional |
+| ---------------- | ----- | ------ | ------ | --------------------- |
+| [AMPEL-EVO/PAPALAIKED-V2](./AMPEL-EVO/AMPEL-EVO-2026-04-05-PAPALAIKED-V2.md) | ALICE-AMPEL-EVO-PIPELINE | BOB-DT-AMPEL-EVO-PIPELINE | BOB-DA-AMPEL-EVO-PIPELINE | Pipeline cuántico AM.PEL v2.0: QML, provenance híbrida, telemetría aeroespacial y SSA |
+
+---
+
 ## 📌 Notas:
 
 * **ALICE**: sistema físico real (aeronave, satélite, robot, etc.) con capacidades cuántico-integradas.

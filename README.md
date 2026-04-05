@@ -7840,6 +7840,14 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 > **Impacto operativo**: El nuevo **AMPEL360‑BWB‑e** reutiliza el chasis BWB existente, por lo que solo exige adaptar **ROBBBO‑T‑TEST** (banco de baterías y pruebas EMI) y **ROBBBO‑T‑FAL** (línea de integración de packs modulares). No requiere alteraciones en los programas espaciales.
 
+---
+
+### 4. Programas de datos cuánticos **AMPEL‑EVO**
+
+| Programa | Descripción básica |
+| -------- | ------------------ |
+| **AMPEL‑EVO/PAPALAIKED‑V2** | Pipeline cuántico AM.PEL v2.0: QML híbrido, clasificación de transientes astrofísicos, telemetría aeroespacial (CCSDS), SSA y provenance cuántica inmutable. Evolved de la baseline PapaLaiked v1.x. Alineado con los hubs de Nápoles (quantum propulsion sensors) y Bolonia (Earth Protection / SSA). |
+
 
 ## ANEXO I  🌐 ESTRUCTURA DE DIRECTORIO GAIA-QAO ADVENT v2.0.0
 
