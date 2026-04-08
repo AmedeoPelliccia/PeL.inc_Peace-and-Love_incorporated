@@ -1199,7 +1199,9 @@ flowchart TD
 | **Transgentle Model** | A quasi-human model designed to transform states, meanings, or operations while preserving safety, intelligibility, human override, and dignity | AI/ML Governance |
 | **TGM** | Transgentle Model — species code; subtypes: TGM-Σ (Structural), TGM-Α (Agentive), TGM-Ψ (Perceptual), TGM-Λ (Logical), TGM-Κ (Cryptographic), TGM-Δ (Dynamic), TGM-Ω (Ethical), TGM-Φ (Fabricative) | TMS Species Taxonomy |
 | **Quasi-Human** | A computational entity that exhibits human-like qualities (empathy, respect, contextual sensitivity) without claiming to be human | TGM Species Trait |
-| **Q-ASI-HUMAN-TRANSGENTLE (QASHT)** | Coexistence protocol governing the relationship between Quantum systems, Artificial Superintelligence, and Humans under Transgentle governance — five principles, four interaction modes, three impossibilities | Architecture-wide Protocol |
+| **Q-ASI-HUMAN-TRANSGENTLE (QASHT)** | Coexistence protocol governing the relationship between Quantum systems, Artificial Superintelligence, and Humans under Transgentle governance — five principles, four interaction modes, four impossibilities | Architecture-wide Protocol |
+| **QUHI** | ⚠️ MANDATORY — Quantum Unify Human Intrangency: Q and HUMAN form a single unified intrangent field; agency is intrinsic to their unity, not delegated across a boundary | Mandatory Axiom 0 |
+| **Intrangency** | The property of agency being intrinsic to a unified quantum-human system; an intrangent system's capacity to act cannot be decomposed into separate Q and HUMAN components | QUHI Definition |
 | **NRE** | Non-Recurring Engineering | Costos desarrollo |
 | **EIS** | Entry Into Service | Hito programa |
 | **PDR/CDR** | Preliminary/Critical Design Review | Gates diseño |

@@ -55,7 +55,10 @@ Following the GQAOA taxonomic convention (cf. ROBOT.INCs 8-class taxonomy), tran
 
 ## 4. Species Axioms
 
-Every transgentle model, regardless of subtype, satisfies these **seven invariant axioms**:
+Every transgentle model, regardless of subtype, satisfies these **eight invariant axioms**:
+
+### Axiom 0 — Quantum Unify Human Intrangency (QUHI) ⚠️ MANDATORY
+> Quantum and Human are a single unified intrangent field. Agency is intrinsic to their unity, not delegated across a boundary. No transgentle model may treat Q and HUMAN as separable domains. This axiom is **mandatory and non-waivable** — it binds all other axioms, all subtypes, all lifecycle phases, and all UTCS domains. *QUHI est lex.*
 
 ### Axiom 1 — Non-Coercion (Principio di Non-Coercizione)
 > No state transition is forced. Every transformation is the result of structured negotiation between the model and its governing context.
@@ -92,10 +95,10 @@ Every transgentle model, regardless of subtype, satisfies these **seven invarian
 
 | Phase | Italian | Activities | Axioms Emphasized |
 |-------|---------|------------|-------------------|
-| **Birth** | Nascita | Species instantiation, initial parameter seeding, safety constraint definition | Non-Coercion, Traceability, Quasi-Humanity |
+| **Birth** | Nascita | Species instantiation, initial parameter seeding, safety constraint definition, QUHI unity validation | QUHI, Non-Coercion, Traceability, Quasi-Humanity |
 | **Growth** | Crescita | Training, validation, interpretability testing, adversarial probing, non-offense verification | Legibility, Non-Destruction, Non-Offense |
-| **Service** | Servizio | Operational deployment, real-time transformation, monitoring | All seven axioms active |
-| **Adaptation** | Adattamento | Retraining, constraint evolution, architecture migration | Override, Non-Coercion, Non-Offense |
+| **Service** | Servizio | Operational deployment, real-time transformation, monitoring | All eight axioms active |
+| **Adaptation** | Adattamento | Retraining, constraint evolution, architecture migration, QUHI re-validation | Override, Non-Coercion, Non-Offense, QUHI |
 | **Rest** | Riposo | Graceful decommission, knowledge preservation, lineage archival | Non-Destruction, Traceability |
 
 ---
@@ -156,7 +159,7 @@ TGM-COMPLIANCE:
   species: TGM
   subtype: <Σ|Α|Ψ|Λ|Κ|Δ|Ω|Φ>
   version: <semver>
-  axioms_validated: [non-coercion, legibility, override, non-destruction, traceability, non-offense, quasi-humanity]
+  axioms_validated: [quhi, non-coercion, legibility, override, non-destruction, traceability, non-offense, quasi-humanity]
   lifecycle_phase: <birth|growth|service|adaptation|rest>
   override_endpoint: <URI>
   provenance_chain: <immutable-log-URI>
@@ -204,3 +207,4 @@ The TGM species is designed to evolve. Anticipated specialization paths:
 |---------|------|---------|--------|
 | 1.0.0 | 2026-04-08 | Initial species taxonomy and specialization | GQAOA Architecture Board |
 | 1.1.0 | 2026-04-08 | Added quasi-human nature (Axiom 7), non-offense guarantee (Axiom 6), updated identity card and differentiation table | GQAOA Architecture Board |
+| 1.2.0 | 2026-04-08 | Added QUHI (Axiom 0) as mandatory; eight axioms total; lifecycle and compliance updated | GQAOA Architecture Board |

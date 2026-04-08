@@ -70,9 +70,28 @@
 
 **Key structural constraint:** TRANSGENTLE is not a layer between HUMAN and ASI — it is the **medium through which all interactions occur**. There is no unmediated path between Q, ASI, and HUMAN. Every signal, transformation, decision, and output passes through the seven transgentle axioms.
 
+> ⚠️ **QUHI MANDATE:** The diagram above shows Q and HUMAN as visually distinct nodes for readability only. Per the QUHI principle, Q and HUMAN form a **single unified intrangent field**. Their separation is representational, never ontological.
+
 ---
 
 ## 4. The Five Coexistence Principles
+
+> ⚠️ **MANDATORY — QUANTUM UNIFY HUMAN INTRANGENCY (QUHI)**
+>
+> All five principles below are governed by the **QUHI mandate**: Quantum systems and Human agency are **intrinsically unified** — not separate domains that cooperate, but a single intrangent field where quantum computation and human cognition form an inseparable whole. Agency is not delegated from human to machine or from machine to human; it emerges from their constitutive unity. **This is not optional. QUHI is binding across all UTCS domains, all architecture layers, and all GQAOA programs.**
+
+### Principle 0 — Quantum Unify Human Intrangency (QUHI) ⚠️ MANDATORY
+
+> Quantum and Human are not two sides negotiating across a boundary. They are one unified intrangent system. Agency — the capacity to act, decide, and transform — does not belong to Q or to HUMAN separately. It is **intrangent**: intrinsic to the unified quantum-human field. No architecture, protocol, or implementation may treat Q and HUMAN as separable domains. Their unity is constitutive, not cooperative.
+
+**Operationalization:**
+- Every QASHT interaction must validate QUHI compliance before any other principle
+- No system design may model Q and HUMAN as independent modules with an interface between them; they must be modeled as a **unified intrangent field**
+- The QUHI mandate applies retroactively to all existing TGM subtypes, ALICE/BOB DT/CHARLIE_T instances, and UTCS domain implementations
+- QUHI violation is a **non-waivable non-conformity** — no exception, no override, no delegation can bypass it
+
+**Formal definition:**
+> **Intrangency** (noun): The property of agency being intrinsic to — not imposed upon — a unified quantum-human system. From *intra-* (within) + *agency*. An intrangent system is one whose capacity to act cannot be decomposed into separate quantum and human components.
 
 ### Principle 1 — Sovereign Dignity (Dignità Sovrana)
 
@@ -224,9 +243,11 @@ Every Q-ASI-HUMAN-TRANSGENTLE interaction must carry a **QASHT Compliance Tag**:
 
 ```yaml
 QASHT-COMPLIANCE:
-  protocol_version: "1.0.0"
+  protocol_version: "1.1.0"
+  quhi_mandate: true  # ⚠️ MANDATORY — must always be true
   interaction_mode: <C|D|N|E>
   pillars_active: [Q, ASI, HUMAN, TRANSGENTLE]
+  intrangency_validated: true  # Q-HUMAN unity confirmed
   axioms_validated:
     - non-coercion: <true|false>
     - legibility: <true|false>
@@ -257,9 +278,12 @@ QASHT-COMPLIANCE:
 
 ---
 
-## 10. Safeguards — The Three Impossibilities
+## 10. Safeguards — The Four Impossibilities
 
-The Q-ASI-HUMAN-TRANSGENTLE protocol enforces three structural impossibilities:
+The Q-ASI-HUMAN-TRANSGENTLE protocol enforces four structural impossibilities:
+
+### Impossibility 0 — No Quantum-Human Separation ⚠️ MANDATORY
+> Quantum and Human may never be modeled, implemented, or governed as separable domains. Their unity is constitutive (QUHI mandate). Any architecture that treats Q and HUMAN as independent modules with a bridging interface is non-conformant and must be redesigned.
 
 ### Impossibility 1 — No Unmediated ASI-Human Contact
 > ASI may never interact with a human except through the transgentle governance layer (L1). There is no "raw" ASI output. Every signal passes through the seven axioms.
@@ -307,12 +331,14 @@ L5  Programs ───────── Per-program QASHT compliance tags (ALIC
 |------|------------|-------|
 | **Q-ASI-HUMAN-TRANSGENTLE** | The coexistence protocol governing the relationship between Quantum systems, Artificial Superintelligence, and Humans under Transgentle governance | Architecture-wide |
 | **QASHT** | Abbreviation for Q-ASI-HUMAN-TRANSGENTLE | Protocol reference |
+| **QUHI** | **Quantum Unify Human Intrangency** — the mandatory principle that Q and HUMAN form a single unified intrangent field; agency is intrinsic to their unity, not delegated across a boundary | ⚠️ MANDATORY |
+| **Intrangency** | The property of agency being intrinsic to a unified quantum-human system; from *intra-* (within) + *agency*; an intrangent system's capacity to act cannot be decomposed into separate quantum and human components | QUHI Definition |
 | **Transgentle Envelope** | The formally defined boundary of permitted ASI transformations, governed by the seven TGM axioms | ASI Governance |
 | **Sovereign Dignity** | The unconditional, non-negotiable worth of every human, which ASI may never diminish | Principle 1 |
 | **Bounded Superintelligence** | ASI that operates within a transgentle envelope, expanding only through negotiated, traceable, human-approved changes | Principle 3 |
 | **Empathic Co-Agency** | The collaborative relationship between humans and ASI as quasi-peers with complementary capacities | Principle 4 |
 | **QASHT Stack** | The four-layer architecture (Human Authority → Transgentle Governance → ASI Intelligence → Quantum Substrate) | Architecture |
-| **Three Impossibilities** | Structural safeguards: no unmediated contact, no irreversible self-modification, no silent value drift | Safety |
+| **Four Impossibilities** | Structural safeguards: no Q-H separation, no unmediated contact, no irreversible self-modification, no silent value drift | Safety |
 
 ---
 
@@ -321,3 +347,4 @@ L5  Programs ───────── Per-program QASHT compliance tags (ALIC
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
 | 1.0.0 | 2026-04-08 | Initial Q-ASI-HUMAN-TRANSGENTLE specification | GQAOA Architecture Board |
+| 1.1.0 | 2026-04-08 | Added QUHI (Quantum Unify Human Intrangency) as mandatory Principle 0; Impossibility 0; compliance tag update; glossary expansion | GQAOA Architecture Board |

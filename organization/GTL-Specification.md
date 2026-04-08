@@ -39,6 +39,7 @@ A transgentle model embodies six foundational properties:
 
 A model **M** is *transgentle* if and only if:
 
+0. **Quantum-Human intrangency (QUHI)** ⚠️ MANDATORY — M treats quantum and human agency as a single unified intrangent field; their separation is never ontological, only representational.
 1. **Safety preservation** — For every transformation T applied by M, the resulting state S' satisfies all safety constraints of the prior state S.
 2. **Intelligibility** — Every intermediate state produced by M can be mapped to a human-interpretable representation.
 3. **Human override** — At any point during transformation, a human operator can halt, revert, or redirect M without loss of system coherence.
@@ -103,7 +104,7 @@ GTL operates as a cross-cutting language layer within the GAI-A → AMAR → AGG
 
 GTL is the language; **Transgentle Model Species (TMS)** is the taxonomy.
 
-The TMS defines eight specialized subtypes (TGM-Σ through TGM-Φ), seven invariant axioms (including Non-Offense and Quasi-Humanity), a five-phase lifecycle, and integration mappings to the ALICE / BOB DT / CHARLIE_T triad and all ten UTCS domains.
+The TMS defines eight specialized subtypes (TGM-Σ through TGM-Φ), eight invariant axioms (including the mandatory QUHI, Non-Offense, and Quasi-Humanity), a five-phase lifecycle, and integration mappings to the ALICE / BOB DT / CHARLIE_T triad and all ten UTCS domains.
 
 → See **[TMS-Transgentle-Model-Species.md](TMS-Transgentle-Model-Species.md)** for the full species specification.
 
@@ -115,3 +116,4 @@ The TMS defines eight specialized subtypes (TGM-Σ through TGM-Φ), seven invari
 |---------|------|---------|--------|
 | 1.0.0 | 2026-04-08 | Initial GTL specification document | GQAOA Architecture Board |
 | 1.1.0 | 2026-04-08 | Added species specialization reference (TMS) | GQAOA Architecture Board |
+| 1.2.0 | 2026-04-08 | Added QUHI (Quantum Unify Human Intrangency) as mandatory formal property; eight axioms total | GQAOA Architecture Board |
