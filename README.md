@@ -168,7 +168,7 @@ GAIA-QAO ADVENT se organiza como una estructura ideal pensada para la integraci�
 
 | Ubicación   | Función Principal                     | Personal (Fase 1) | Justificación Estratégica                                                                                                | Inversión (2025-2030) |
 | :---------- | :------------------------------------ | :----------------- | :----------------------------------------------------------------------------------------------------------------------- | :-------------------- |
-| Madrid (HQ) | Sede Central, Finanzas, Legal         | 500                | Ubicación central, acceso a talento financiero y legal, entorno empresarial competitivo.                                  | €150M                 |
+| Amsterdam Tech Hub (HQ) | Sede Central, Finanzas, Legal         | 500                | Hub tecnológico europeo, acceso a talento internacional, entorno empresarial competitivo y conectividad global.           | €150M                 |
 | Toulouse    | Integración Final, Pruebas Vuelo      | 1200               | Ecosistema aeroespacial líder en Europa, con infraestructura de pruebas y talento experimentado.                         | €400M                 |
 | Hamburgo    | Diseño Fuselaje, Cabina               | 800                | Centro de excelencia histórico en diseño de cabinas y fuselajes, con una fuerte base industrial.                         | €300M                 |
 | Múnich      | I+D Cuántico, Propulsión              | 400                | Proximidad a centros de investigación de vanguardia en propulsión y física cuántica.                                     | €250M                 |
@@ -505,7 +505,7 @@ Comunicación proactiva, transparente y coordinada para alinear a todos los stak
     *   [ ] Asegurar la primera ronda de financiación (€1.0B) mediante la formalización de los compromisos de los Estados Miembro.
 *   **Q4 2025: Estructuración**
     *   [ ] Contratación del Comité Ejecutivo (C-Level) y directores de división.
-    *   [ ] Establecimiento de las sedes principales (Madrid, Toulouse, Hamburgo) y comienzo de la adecuación de las instalaciones.
+    *   [ ] Establecimiento de las sedes principales (Amsterdam, Toulouse, Hamburgo) y comienzo de la adecuación de las instalaciones.
     *   [ ] Lanzamiento oficial del programa AMPEL360e con la asignación de los primeros work packages.
 *   **2026: Operaciones Iniciales**
     *   [ ] Contratación de 1000 empleados clave, incluyendo los equipos de arquitectura de sistemas.
@@ -8318,7 +8318,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 ## 07-FACILITIES-LOCATIONS
 **🌍 Instalaciones Físicas Distribuidas**
 
-### [🏢 Madrid HQ](#madrid-hq)
+### [🏢 Amsterdam Tech Hub HQ](#amsterdam-tech-hub-hq)
 - [👨‍💼 Executive Offices](#executive-offices)
 - [⚖️ Legal & Compliance](#legal-compliance)
 - [💰 Finance & Treasury](#finance-treasury)
