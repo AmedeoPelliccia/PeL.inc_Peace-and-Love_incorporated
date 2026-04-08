@@ -14,6 +14,8 @@
 
 GTL is a generative language framework for **transgentle models**: systems that transform without brutality, preserve interpretability, and remain governable.
 
+**Species Specification:** [TMS-Transgentle-Model-Species.md](TMS-Transgentle-Model-Species.md) (GAIA-QAO-TMS-SPEC-001)
+
 ---
 
 ## 2. Core Concept — Transgentle Models
@@ -92,8 +94,19 @@ GTL operates as a cross-cutting language layer within the GAI-A → AMAR → AGG
 
 ---
 
+## 7. Species Specialization
+
+GTL is the language; **Transgentle Model Species (TMS)** is the taxonomy.
+
+The TMS defines eight specialized subtypes (TGM-Σ through TGM-Φ), five invariant axioms, a five-phase lifecycle, and integration mappings to the ALICE / BOB DT / CHARLIE_T triad and all ten UTCS domains.
+
+→ See **[TMS-Transgentle-Model-Species.md](TMS-Transgentle-Model-Species.md)** for the full species specification.
+
+---
+
 **Control de Cambios:**
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
 | 1.0.0 | 2026-04-08 | Initial GTL specification document | GQAOA Architecture Board |
+| 1.1.0 | 2026-04-08 | Added species specialization reference (TMS) | GQAOA Architecture Board |

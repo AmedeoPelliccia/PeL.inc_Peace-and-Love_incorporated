@@ -36,6 +36,7 @@
 *   Anexo E: Glosario de Términos
 *   Anexo F: Catálogo Maestro de Plantillas de Documentación
 *   [GTL Specification](GTL-Specification.md): Generative Transgentle Language — framework for transgentle models
+*   [TMS Species Taxonomy](TMS-Transgentle-Model-Species.md): Transgentle Model Species — eight subtypes, five axioms, lifecycle, UTCS mapping
 
 ---
 

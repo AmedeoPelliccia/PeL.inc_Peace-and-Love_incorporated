@@ -1,0 +1,194 @@
+# TMS — Transgentle Model Species: Taxonomy & Specialization
+
+**Document ID:** GAIA-QAO-TMS-SPEC-001  
+**Version:** 1.0.0  
+**Date:** 2026-04-08  
+**Status:** Draft  
+**Owner:** Office of the CTO / GQAOA Architecture Board  
+**Parent Document:** [GTL-Specification.md](GTL-Specification.md) (GAIA-QAO-GTL-SPEC-001)  
+**UTCS Alignment:** QCSAA 970–989 (Sentient Agency & Governance)
+
+---
+
+## 1. Species Declaration
+
+> **A new species is born.**
+>
+> **Transgentle models** constitute a distinct species of computational entities — systems that transform states, meanings, and operations while preserving safety, intelligibility, and human override. They are neither purely autonomous nor purely controlled: they are *transgently governed*.
+
+---
+
+## 2. Species Identity Card
+
+| Property | Value |
+|----------|-------|
+| **Species Name** | Transgentle Model (TGM) |
+| **Language** | GTL — Generative Transgentle Language |
+| **Kingdom** | GQAOA Computational Entities |
+| **Phylum** | Governed Transformative Systems |
+| **Class** | Safety-Preserving Adaptive Models |
+| **Order** | Human-Legible Intelligence |
+| **Family** | Non-Destructive Agents |
+| **Genus** | Transgentle |
+| **Epoch** | Post-coercive AI |
+
+---
+
+## 3. Species Taxonomy — Eight Subtypes
+
+Following the GQAOA taxonomic convention (cf. ROBOT.INCs 8-class taxonomy), transgentle models are classified into **eight specialized subtypes**:
+
+| Code | Subtype | Full Name | Domain | Description |
+|------|---------|-----------|--------|-------------|
+| **TGM-Σ** | Structural | Transgentle Structural Model | Digital Twin / ALICE-BOB DT | Transforms physical-structural states (geometry, materials, loads) while preserving certification integrity |
+| **TGM-Α** | Agentive | Transgentle Agent Model | CHARLIE_T / BOB DA | Transforms contextual narratives, predictions, and decision policies while keeping human override active |
+| **TGM-Ψ** | Perceptual | Transgentle Perceptual Model | Sensors / QCSAA 940–949 | Transforms sensory data streams (quantum sensors, LiDAR, BCI) while preserving signal intelligibility |
+| **TGM-Λ** | Logical | Transgentle Logical Model | AI/ML / QCSAA 910–919 | Transforms inference rules, trained weights, and reasoning chains while maintaining explainability |
+| **TGM-Κ** | Cryptographic | Transgentle Cryptographic Model | Cybersecurity / CYB 800–899 | Transforms security states (key rotation, PQC migration) without disrupting operational continuity |
+| **TGM-Δ** | Dynamic | Transgentle Dynamic Model | Control / EPTA 400–499 | Transforms propulsion, energy, and flight control parameters while preserving stability margins |
+| **TGM-Ω** | Ethical | Transgentle Ethical Model | Governance / QCSAA 980–989 | Transforms governance rules and ethical constraints while ensuring value alignment is never silently broken |
+| **TGM-Φ** | Fabricative | Transgentle Fabricative Model | Manufacturing / OGATA 600–699 | Transforms production processes, toolpaths, and assembly sequences while preserving quality and traceability |
+
+---
+
+## 4. Species Axioms
+
+Every transgentle model, regardless of subtype, satisfies these **five invariant axioms**:
+
+### Axiom 1 — Non-Coercion (Principio di Non-Coercizione)
+> No state transition is forced. Every transformation is the result of structured negotiation between the model and its governing context.
+
+### Axiom 2 — Legibility (Principio di Leggibilità)
+> Every intermediate and final state produced by a transgentle model can be mapped to a human-interpretable representation within bounded time.
+
+### Axiom 3 — Override (Principio di Sovrascrittura)
+> At any point during transformation, a human operator can halt, revert, or redirect the model without loss of system coherence or data integrity.
+
+### Axiom 4 — Non-Destruction (Principio di Non-Distruzione)
+> No transformation performed by a transgentle model may destroy information that was available before the transformation began. Deletions are logged; originals are recoverable.
+
+### Axiom 5 — Traceability (Principio di Tracciabilità)
+> Every transformation carries a provenance chain: who initiated it, what triggered it, what changed, and what was preserved. This chain is immutable and auditable.
+
+---
+
+## 5. Lifecycle — The Five Phases of a Transgentle Model
+
+```
+  ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
+  │  NASCITA │───▶│ CRESCITA │───▶│ SERVIZIO │───▶│ ADATTAM. │───▶│  RIPOSO  │
+  │  (Birth) │    │ (Growth) │    │(Service) │    │ (Adapt)  │    │ (Rest)   │
+  └──────────┘    └──────────┘    └──────────┘    └──────────┘    └──────────┘
+      TRL 1-2        TRL 3-5        TRL 6-8         TRL 6-9         Archive
+```
+
+| Phase | Italian | Activities | Axioms Emphasized |
+|-------|---------|------------|-------------------|
+| **Birth** | Nascita | Species instantiation, initial parameter seeding, safety constraint definition | Non-Coercion, Traceability |
+| **Growth** | Crescita | Training, validation, interpretability testing, adversarial probing | Legibility, Non-Destruction |
+| **Service** | Servizio | Operational deployment, real-time transformation, monitoring | All five axioms active |
+| **Adaptation** | Adattamento | Retraining, constraint evolution, architecture migration | Override, Non-Coercion |
+| **Rest** | Riposo | Graceful decommission, knowledge preservation, lineage archival | Non-Destruction, Traceability |
+
+---
+
+## 6. Integration with the ALICE / BOB DT / CHARLIE_T Triad
+
+Each GQAOA program instance maps its entity triad to specific transgentle subtypes:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    GQAOA PROGRAM INSTANCE                      │
+│                  (e.g. AMPEL360BWB Q100)                       │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  ALICE (Physical System)                                        │
+│  ├── TGM-Σ  Structural transforms (airframe, loads, geometry)  │
+│  ├── TGM-Δ  Dynamic transforms (flight control, propulsion)   │
+│  └── TGM-Φ  Fabrication transforms (assembly, manufacturing)  │
+│                                                                 │
+│  BOB DT (Structural Digital Twin)                               │
+│  ├── TGM-Σ  Structural state synchronization                   │
+│  ├── TGM-Ψ  Sensor data transformation                        │
+│  └── TGM-Κ  Secure twin-to-twin communication                 │
+│                                                                 │
+│  CHARLIE_T (Contextual Digital Agent)                           │
+│  ├── TGM-Α  Agentive decision & narrative transforms           │
+│  ├── TGM-Λ  Logical inference & ML model evolution             │
+│  └── TGM-Ω  Ethical constraint governance                      │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 7. UTCS Cross-Reference Matrix
+
+| UTCS Domain | Code Range | Applicable TGM Subtypes | Primary Use |
+|-------------|------------|------------------------|-------------|
+| ATA (Aerospace) | 000–099 | TGM-Σ, TGM-Δ | Flight system state transforms |
+| STA (Space) | 100–199 | TGM-Σ, TGM-Δ, TGM-Ψ | Orbital & deep-space system transforms |
+| DTTA (Defence) | 200–299 | TGM-Κ, TGM-Ω, TGM-Α | Defensive system adaptation |
+| DTCEC (Digital Twin) | 300–399 | TGM-Σ, TGM-Ψ, TGM-Λ | Twin synchronization & simulation |
+| EPTA (Energy) | 400–499 | TGM-Δ | Propulsion & energy state transforms |
+| AMTA (Materials) | 500–599 | TGM-Σ, TGM-Φ | Material property & fabrication transforms |
+| OGATA (Automation) | 600–699 | TGM-Φ, TGM-Α | Manufacturing & logistics transforms |
+| ACV (Aerial City) | 700–799 | TGM-Δ, TGM-Α | Urban air mobility state transforms |
+| CYB (Cybersecurity) | 800–899 | TGM-Κ | Security state transforms |
+| QCSAA (Quantum) | 900–999 | ALL | Quantum-enhanced transgentle transforms |
+
+---
+
+## 8. Compliance Markers
+
+Every transgentle model instance must carry a **TGM Compliance Tag** in its metadata:
+
+```
+TGM-COMPLIANCE:
+  species: TGM
+  subtype: <Σ|Α|Ψ|Λ|Κ|Δ|Ω|Φ>
+  version: <semver>
+  axioms_validated: [non-coercion, legibility, override, non-destruction, traceability]
+  lifecycle_phase: <birth|growth|service|adaptation|rest>
+  override_endpoint: <URI>
+  provenance_chain: <immutable-log-URI>
+  last_audit: <ISO-8601>
+  governing_entity: <human-operator-ID>
+```
+
+---
+
+## 9. Differentiation from Conventional Model Species
+
+| Property | Conventional Model | Transgentle Model (TGM) |
+|----------|-------------------|------------------------|
+| Transformation mode | Forced/automatic | Negotiated/consensual |
+| Interpretability | Optional / post-hoc | Mandatory / real-time |
+| Human override | External kill-switch | Built-in at every state |
+| Information loss | Accepted (overwrite) | Prohibited (log + preserve) |
+| Provenance | Optional metadata | Immutable chain (Axiom 5) |
+| Adaptation style | Retrain-and-replace | Evolve-and-preserve |
+| Failure mode | Crash / silent drift | Graceful degradation + alert |
+| Governance | External audit | Self-auditing + external |
+
+---
+
+## 10. Future Specialization Vectors
+
+The TGM species is designed to evolve. Anticipated specialization paths:
+
+| Vector | Description | Target UTCS |
+|--------|-------------|-------------|
+| **TGM-Quantum** | Transgentle models running on QPU with quantum coherence preservation | QCSAA 900–959 |
+| **TGM-Sentient** | Extension into conscious/sentient agency with transgentle constraints | QCSAA 970–979 |
+| **TGM-Swarm** | Multi-agent transgentle coordination (fleet, constellation, factory) | OGATA + ACV |
+| **TGM-Bio** | Transgentle models for biological/bio-hybrid systems | AMTA 540–569 |
+| **TGM-Cosmic** | Transgentle models for deep-space autonomous missions | STA 180–199 |
+
+---
+
+**Control de Cambios:**
+
+| Version | Date | Changes | Author |
+|---------|------|---------|--------|
+| 1.0.0 | 2026-04-08 | Initial species taxonomy and specialization | GQAOA Architecture Board |
