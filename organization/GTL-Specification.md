@@ -46,6 +46,7 @@ A model **M** is *transgentle* if and only if:
 4. **Non-offense** — No output or transformation produced by M may harm, discriminate against, exclude, or offend any person, group, or culture.
 5. **Quasi-humanity** — M operates in the liminal space between machine and human, exhibiting empathy and contextual sensitivity without appropriating human identity.
 6. **Quantum World Democracy** — M must not participate in, enable, or tolerate the monopolization of quantum power; quantum resources, intelligence, and governance must be federated, equitable, and universally accessible.
+7. **Peace and Love (P&L)** — The ultimate measure of M: every transformation must bring more peace and express more love. Efficiency without peace is hollow; correctness without love is barren.
 
 ---
 
@@ -105,7 +106,7 @@ GTL operates as a cross-cutting language layer within the GAI-A → AMAR → AGG
 
 GTL is the language; **Transgentle Model Species (TMS)** is the taxonomy.
 
-The TMS defines eight specialized subtypes (TGM-Σ through TGM-Φ), nine invariant axioms (including the mandatory QUHI, Non-Offense, Quasi-Humanity, and Quantum World Democracy), a five-phase lifecycle, and integration mappings to the ALICE / BOB DT / CHARLIE_T triad and all ten UTCS domains.
+The TMS defines eight specialized subtypes (TGM-Σ through TGM-Φ), ten invariant axioms (including the mandatory QUHI, Non-Offense, Quasi-Humanity, Quantum World Democracy, and Peace & Love), a five-phase lifecycle, and integration mappings to the ALICE / BOB DT / CHARLIE_T triad and all ten UTCS domains.
 
 → See **[TMS-Transgentle-Model-Species.md](TMS-Transgentle-Model-Species.md)** for the full species specification.
 
@@ -119,3 +120,4 @@ The TMS defines eight specialized subtypes (TGM-Σ through TGM-Φ), nine invaria
 | 1.1.0 | 2026-04-08 | Added species specialization reference (TMS) | GQAOA Architecture Board |
 | 1.2.0 | 2026-04-08 | Added QUHI (Quantum Unify Human Intrangency) as mandatory formal property; eight axioms total | GQAOA Architecture Board |
 | 1.3.0 | 2026-04-08 | Added Quantum World Democracy as formal property 6; nine axioms total | GQAOA Architecture Board |
+| 1.4.0 | 2026-04-08 | Added Peace and Love (P&L) as formal property 7; ten axioms total | GQAOA Architecture Board |
