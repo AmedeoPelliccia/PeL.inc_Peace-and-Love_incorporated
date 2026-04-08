@@ -8348,6 +8348,20 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 - [🏆 Quality Control](#quality-control)
 - [⛓️ Supply Chain](#supply-chain-seville)
 
+### 🌐 Pan-European Expansion Network (Fase 2-3)
+> Documento completo: [organization/Pan-European-Strategy.md](organization/Pan-European-Strategy.md)
+
+- [🇮🇹 Turin — Landing Gear & Mechanics](#turin-mechanics)
+- [🇳🇱 Amsterdam/Delft — Avionics & Power Electronics](#delft-avionics)
+- [🇸🇪 Linköping — Advanced Materials](#linkoping-materials)
+- [🇵🇱 Warsaw/Rzeszów — Precision Manufacturing](#warsaw-manufacturing)
+- [🇧🇪 Brussels — EU Affairs](#brussels-eu-affairs)
+- [🇦🇹 Vienna — Quantum Research](#vienna-quantum)
+- [🇵🇹 Lisbon — Simulation & Pilot Training](#lisbon-simulation)
+- [🇨🇿 Prague — Hydraulic Systems](#prague-hydraulics)
+- [🇫🇮 Helsinki — HPC & AI (EuroHPC LUMI)](#helsinki-hpc)
+- [🇩🇰 Copenhagen — Sustainable Design & LCA](#copenhagen-sustainability)
+
 ---
 
 ## 08-DIGITAL-INFRASTRUCTURE
@@ -8450,7 +8464,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | **UTCS** | [04-UTCS-ARCHITECTURE](#04-utcs-architecture) | 10 Arquitecturas (000-999) |
 | **Templates** | [05-DOCUMENTATION-TEMPLATES](#05-documentation-templates) | 251 Templates |
 | **Standards** | [06-STANDARDS-COMPLIANCE](#06-standards-compliance) | Aerospace, Quality, Cyber |
-| **Facilities** | [07-FACILITIES-LOCATIONS](#07-facilities-locations) | 5 Ubicaciones Principales |
+| **Facilities** | [07-FACILITIES-LOCATIONS](#07-facilities-locations) | 5 Fundadores + 10 Pan-Europeos |
 | **Digital** | [08-DIGITAL-INFRASTRUCTURE](#08-digital-infrastructure) | PLM, Twins, Quantum, Cyber |
 | **Partnerships** | [09-EXTERNAL-PARTNERSHIPS](#09-external-partnerships) | Industria, Academia, Gobierno |
 | **Archive** | [10-ARCHIVE-LEGACY](#10-archive-legacy) | Histórico, Legacy, Versiones |
@@ -8469,7 +8483,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | **Templates Documentales** | 251 |
 | **Q-Divisions** | 10 |
 | **ORB-Functions** | 6 |
-| **Ubicaciones Físicas** | 5 |
+| **Ubicaciones Físicas** | 5 Fundadores + 15 Pan-Europeos |
 | **Programas Activos** | 15+ |
 
 
