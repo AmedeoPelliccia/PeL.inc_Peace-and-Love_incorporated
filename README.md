@@ -4505,6 +4505,12 @@ La **Digital Twin, Cloud & Edge Computing Architecture (DTCEC)** abarca todas la
         *   360-20-30: Practical Byzantine Fault Tolerance
         *   360-20-40: Delegated Proof of Stake
         *   360-20-50: Novel Consensus Algorithms
+    *   **360-30-00: BBCNs — Barcelona BlockChains Community Networks**
+        *   360-30-10: Red Comunitaria DLT Barcelona (Infraestructura de Nodos)
+        *   360-30-20: Gobernanza Descentralizada (DAO) y Votación On-Chain
+        *   360-30-30: Trazabilidad Aeroespacial Comunitaria
+        *   360-30-40: Tokenización de Digital Twins y Activos IP
+        *   360-30-50: Integración Post-Quantum y Criptografía Avanzada
 
 *   **361-00-00: Smart Contracts para Digital Twins**
     *   **361-10-00: Desarrollo de Smart Contracts**
@@ -8348,6 +8354,13 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 - [🏆 Quality Control](#quality-control)
 - [⛓️ Supply Chain](#supply-chain-seville)
 
+### [⛓️ Barcelona BBCNs](#barcelona-bbcns)
+- [⛓️ Blockchain Community Networks](#blockchain-community-networks)
+- [🔗 DLT Infrastructure & Validator Nodes](#dlt-infrastructure)
+- [📜 Smart Contracts & dApps](#smart-contracts-dapps)
+- [🏛️ Decentralized Governance (DAO)](#decentralized-governance)
+- [🔬 Post-Quantum Cryptography Lab](#pqc-lab-barcelona)
+
 ---
 
 ## 08-DIGITAL-INFRASTRUCTURE
@@ -8450,7 +8463,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | **UTCS** | [04-UTCS-ARCHITECTURE](#04-utcs-architecture) | 10 Arquitecturas (000-999) |
 | **Templates** | [05-DOCUMENTATION-TEMPLATES](#05-documentation-templates) | 251 Templates |
 | **Standards** | [06-STANDARDS-COMPLIANCE](#06-standards-compliance) | Aerospace, Quality, Cyber |
-| **Facilities** | [07-FACILITIES-LOCATIONS](#07-facilities-locations) | 5 Ubicaciones Principales |
+| **Facilities** | [07-FACILITIES-LOCATIONS](#07-facilities-locations) | 6 Ubicaciones Principales |
 | **Digital** | [08-DIGITAL-INFRASTRUCTURE](#08-digital-infrastructure) | PLM, Twins, Quantum, Cyber |
 | **Partnerships** | [09-EXTERNAL-PARTNERSHIPS](#09-external-partnerships) | Industria, Academia, Gobierno |
 | **Archive** | [10-ARCHIVE-LEGACY](#10-archive-legacy) | Histórico, Legacy, Versiones |
@@ -8469,8 +8482,8 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | **Templates Documentales** | 251 |
 | **Q-Divisions** | 10 |
 | **ORB-Functions** | 6 |
-| **Ubicaciones Físicas** | 5 |
-| **Programas Activos** | 15+ |
+| **Ubicaciones Físicas** | 6 |
+| **Programas Activos** | 16+ |
 
 
 ### **Control de Cambios:**
@@ -8479,6 +8492,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 |---------|-----------|-----------------------------------|-----------------|
 | 1.0.0   | 23/07/2025| Documento inicial completo        | A. Pelliccia    |
 | 2.0.0   | 23/07/2025| Corrección nomenclatura y autoría  | A. Pelliccia    |
+| 2.1.0   | 08/04/2026| Añadido programa BBCNs (Barcelona BlockChains Community Networks) y ubicación Barcelona | A. Pelliccia    |
 
 ---
 
