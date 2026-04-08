@@ -1,6 +1,6 @@
 # GAIA-QAO ADVENT: Documento Organizacional Maestro 
 ## Marco Estratégico para el Liderazgo Aeroespacial Sostenible Europeo
-### P&L Inc. — Peace and Love, Inc.
+### P&L Incorporated — Peace and Love, Incorporated
 
 **Identificador del Documento:** GAIA-QAO-ORG-MASTER-001
 **Versión:** 2.0.0

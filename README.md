@@ -1183,7 +1183,7 @@ flowchart TD
 | **AMPEL360** | Advanced Multi-Purpose Electric Aircraft 360° | Programa aeronave |
 | **GTL** | Generative Transgentle Language | Marco de modelado transversal |
 | **QASHT** | Q-ASI-HUMAN-TRANSGENTLE — Coexistence Protocol | Quantum-ASI-Human governance |
-| **P&L Inc.** | Peace and Love, Inc. — the organizational identity; the ultimate purpose of GQAOA is peace and love, not profit and loss | Identidad organizacional |
+| **P&L Incorporated** | Peace and Love, Incorporated — the organizational identity; the ultimate purpose of GQAOA is peace and love, not profit and loss | Identidad organizacional |
 
 ### E.2 Términos Técnicos Clave
 
@@ -1204,8 +1204,8 @@ flowchart TD
 | **QUHI** | ⚠️ MANDATORY — Quantum Unify Human Intrangency: Q and HUMAN form a single unified intrangent field; agency is intrinsic to their unity, not delegated across a boundary | Mandatory Axiom 0 |
 | **Intrangency** | The property of agency being intrinsic to a unified quantum-human system; an intrangent system's capacity to act cannot be decomposed into separate Q and HUMAN components | QUHI Definition |
 | **Quantum World Democracy** | Governance regime in which quantum power, intelligence, and decision authority are distributed across all humanity — federated, participatory, transparent, resistant to monopolization; no quantum hegemon is permitted | Axiom 8 / Principle 6 |
-| **P&L — Peace and Love** | The foundational purpose-metric: every transformation is ultimately measured by whether it increases peace and expresses love; the true bottom line of P&L Inc. | Axiom 9 / Principle 7 |
-| **P&L Inc.** | Peace and Love, Inc. — the organizational identity of GQAOA; declares that the organization's ultimate purpose is peace and love, not profit and loss | Organization |
+| **P&L — Peace and Love** | The foundational purpose-metric: every transformation is ultimately measured by whether it increases peace and expresses love; the true bottom line of P&L Incorporated | Axiom 9 / Principle 7 |
+| **P&L Incorporated** | Peace and Love, Incorporated — the organizational identity of GQAOA; declares that the organization's ultimate purpose is peace and love, not profit and loss | Organization |
 | **NRE** | Non-Recurring Engineering | Costos desarrollo |
 | **EIS** | Entry Into Service | Hito programa |
 | **PDR/CDR** | Preliminary/Critical Design Review | Gates diseño |
