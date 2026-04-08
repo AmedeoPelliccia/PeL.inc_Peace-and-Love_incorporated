@@ -1194,7 +1194,7 @@ flowchart TD
 | **First Pass Yield** | % productos correctos primera vez | Calidad producción |
 | **CASK** | Cost per Available Seat Kilometer | Economía operación |
 | **ESG** | Environmental, Social, Governance | Sostenibilidad |
-| **GTL** | Generative Transgentle Language — a language framework for transgentle models: systems that transform without brutality, preserve interpretability, and remain governable | Modeling & Governance |
+| **Transgentle** | Adjective describing transformations that are non-coercive, human-legible, and safety-preserving (see GTL in E.1) | Modeling & Governance |
 | **Transgentle Model** | A model designed to transform states, meanings, or operations while preserving safety, intelligibility, and human override | AI/ML Governance |
 | **NRE** | Non-Recurring Engineering | Costos desarrollo |
 | **EIS** | Entry Into Service | Hito programa |
