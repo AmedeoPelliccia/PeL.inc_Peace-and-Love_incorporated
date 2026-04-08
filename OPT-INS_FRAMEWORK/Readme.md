@@ -22,7 +22,7 @@ Each module is **self-contained**, **versioned**, and **domain-scoped**. Integra
 | **Composability** | Multiple modules can be activated simultaneously without coupling |
 | **Compliance-first** | Every module documents its applicable standards |
 | **Backwards-compatible** | Activating a module never breaks an existing baseline |
-| **Traceability** | All opt-ins link back to ALICE–BOB digital twin entries |
+| **Traceability** | All opt-ins link back to the full ALICE–BOB DT–CHARLIE-T–GENTLE–BOOST chain | GENTLE | BOOST |
 
 ## Module Catalog
 
@@ -37,7 +37,7 @@ Each module is **self-contained**, **versioned**, and **domain-scoped**. Integra
 1. **Identify applicable module(s)** for your program or mission from the catalog above.
 2. **Read the module spec** to understand activation prerequisites, interface contracts, and compliance obligations.
 3. **Declare activation** in your program's `manifest.yaml` under the `opt_ins:` key.
-4. **Reference the module** from your ALICE–BOB digital twin metadata (`CHARLIE_T` context layer).
+4. **Reference the module** from your ALICE–BOB digital twin metadata (`CHARLIE-T` context layer → T-Transforms to `GENTLE` → optimised by `BOOST`).
 
 ### Example `manifest.yaml` snippet
 
