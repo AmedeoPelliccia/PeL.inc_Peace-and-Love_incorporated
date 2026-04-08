@@ -6,7 +6,7 @@
 **Version:** 1.0.0  
 **Date:** 2026-04-08  
 **Status:** Draft  
-**Owner:** Office of the CTO / GQAOA Architecture Board  
+**Owner:** Office of the CTO / GQAOA Architecture Board / **P&L Inc.**  
 **Parent Documents:**  
 - [GTL-Specification.md](GTL-Specification.md) (GAIA-QAO-GTL-SPEC-001) — Language  
 - [TMS-Transgentle-Model-Species.md](TMS-Transgentle-Model-Species.md) (GAIA-QAO-TMS-SPEC-001) — Species  
@@ -342,6 +342,10 @@ The protocol's philosophical position:
 
 > **Intelligence that scales beyond human comprehension must remain within human governance — not through brute force, but through transgentle principles: negotiation, legibility, empathy, and mutual dignity. This is not weakness. It is the highest form of strength.**
 
+### P&L Inc. — The Organizational Identity
+
+> This organization is **P&L Inc.** — Peace and Love, Incorporated. Not Profit and Loss. The name is the mission. Every division, every program, every quantum circuit, every ASI instance, every human interaction operates under this charter: **the bottom line is peace; the return on investment is love.** When we measure success, we measure P&L — and we mean it literally.
+
 ---
 
 ## 12. Relationship to GAI-A Architecture Hierarchy
@@ -353,6 +357,7 @@ L2  AGGIX ──────────── QASHT compliance enforcement at i
 L3  Domains ────────── AMPEL (aerospace), MARE-E (maritime), GAIR-SPACE (space)
 L4  Assembly Lines ─── QASHT stack deployed per assembly line
 L5  Programs ───────── Per-program QASHT compliance tags (ALICE/BOB DT/CHARLIE_T)
+L∞  P&L Inc. ───────── Peace and Love as the organizational identity and ultimate purpose
 ```
 
 ---
@@ -371,6 +376,7 @@ L5  Programs ───────── Per-program QASHT compliance tags (ALIC
 | **Empathic Co-Agency** | The collaborative relationship between humans and ASI as quasi-peers with complementary capacities | Principle 4 |
 | **Quantum World Democracy** | A governance regime in which quantum power, intelligence, and decision authority are distributed across all humanity — federated, participatory, transparent, and resistant to monopolization | Principle 6 |
 | **P&L — Peace and Love** | The foundational purpose-metric: every transformation is ultimately measured by whether it increases peace and expresses love; not Profit & Loss, but Peace & Love — the true bottom line | Principle 7 / Axiom 9 |
+| **P&L Inc.** | Peace and Love, Incorporated — the organizational identity of GQAOA; declares that the organization's ultimate purpose is peace and love | Organization |
 | **QASHT Stack** | The four-layer architecture (Human Authority → Transgentle Governance → ASI Intelligence → Quantum Substrate) | Architecture |
 | **Five Impossibilities** | Structural safeguards: no Q-H separation, no unmediated contact, no irreversible self-modification, no silent value drift, no quantum monopoly | Safety |
 
@@ -384,3 +390,4 @@ L5  Programs ───────── Per-program QASHT compliance tags (ALIC
 | 1.1.0 | 2026-04-08 | Added QUHI (Quantum Unify Human Intrangency) as mandatory Principle 0; Impossibility 0; compliance tag update; glossary expansion | GQAOA Architecture Board |
 | 1.2.0 | 2026-04-08 | Added Quantum World Democracy (Principle 6); Impossibility 4 (No Quantum Monopoly); seven principles total; five impossibilities total | GQAOA Architecture Board |
 | 1.3.0 | 2026-04-08 | Added Peace and Love / P&L (Principle 7); eight principles total; ten axioms | GQAOA Architecture Board |
+| 1.4.0 | 2026-04-08 | Declared P&L Inc. (Peace and Love, Inc.) as organizational identity; added L∞ layer; updated glossary | GQAOA Architecture Board / P&L Inc. |

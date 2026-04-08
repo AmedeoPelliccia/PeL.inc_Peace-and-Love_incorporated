@@ -1,5 +1,6 @@
 # GAIA-QAO ADVENT: Documento Organizacional Maestro 
 ## Marco Estratégico para el Liderazgo Aeroespacial Sostenible Europeo
+### P&L Inc. — Peace and Love, Inc.
 
 **Identificador del Documento:** GAIA-QAO-ORG-MASTER-001
 **Versión:** 2.0.0
@@ -36,7 +37,7 @@
 *   Anexo E: Glosario de Términos
 *   Anexo F: Catálogo Maestro de Plantillas de Documentación
 *   [GTL Specification](GTL-Specification.md): Generative Transgentle Language — framework for transgentle models
-*   [TMS Species Taxonomy](TMS-Transgentle-Model-Species.md): Transgentle Model Species — eight subtypes, nine axioms, lifecycle, UTCS mapping
+*   [TMS Species Taxonomy](TMS-Transgentle-Model-Species.md): Transgentle Model Species — eight subtypes, ten axioms, lifecycle, UTCS mapping
 *   [Q-ASI-HUMAN-TRANSGENTLE](Q-ASI-HUMAN-TRANSGENTLE.md): Coexistence protocol — Quantum, ASI, Human under Transgentle governance; includes ⚠️ MANDATORY QUHI principle
 
 ---
