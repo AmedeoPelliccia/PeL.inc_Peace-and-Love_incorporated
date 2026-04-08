@@ -1181,6 +1181,7 @@ flowchart TD
 | **ORB** | Organizational Resource Branch | Funciones empresariales |
 | **BWB** | Blended Wing Body | Configuración aeronave |
 | **AMPEL360** | Advanced Multi-Purpose Electric Aircraft 360° | Programa aeronave |
+| **UR** | Union Realities — PR ∪ VR ∪ AR ∪ MR ∪ DR ∪ XR ∪ QR | Convergencia de modalidades de realidad (DTCEC 350-30 / QCSAA 993-30) |
 
 ### E.2 Términos Técnicos Clave
 
@@ -1196,6 +1197,9 @@ flowchart TD
 | **NRE** | Non-Recurring Engineering | Costos desarrollo |
 | **EIS** | Entry Into Service | Hito programa |
 | **PDR/CDR** | Preliminary/Critical Design Review | Gates diseño |
+| **Union Reality (UR)** | Set-theoretic union of all reality modalities into a coherent operational continuum | DTCEC 350-30 / QCSAA 993-30 |
+| **UR Fabric** | Cross-reality state mesh that synchronizes entity states across modality boundaries | UR infrastructure |
+| **UR State Vector** | Composite state of an entity across all reality modalities it participates in | UR data model |
 
 ### E.3 Roles y Responsabilidades
 
@@ -4355,6 +4359,12 @@ La **Digital Twin, Cloud & Edge Computing Architecture (DTCEC)** abarca todas la
         *   350-10-30: Mixed Reality (MR) Espacial
         *   350-10-40: Realidad Disminuida (DR)
         *   350-10-50: Realidad Extendida Adaptativa
+    *   **350-30-00: Union Realities (UR) — Fundamentals**
+        *   350-30-10: UR State Vector Definition
+        *   350-30-20: Cross-Reality State Mesh (UR Fabric)
+        *   350-30-30: Reality Transition Protocols
+        *   350-30-40: UR Session Management
+        *   350-30-50: UR Interoperability Standards
     *   **350-20-00: Hardware XR para Digital Twins**
         *   350-20-10: Head-Mounted Displays (HMD)
         *   350-20-20: Smart Glasses y AR Wearables
@@ -7780,6 +7790,12 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
     *   **993-20-00: Creación de Nuevas Realidades y Mundos Virtuales Cuánticos**
         *   993-20-10: Generación de Mundos Virtuales con Física Cuántica
         *   993-20-20: Entornos de Realidad Cuántica para Experiencias Inmersivas
+    *   **993-30-00: Quantum Union Realities (UR)**
+        *   993-30-10: Entangled Reality Anchors
+        *   993-30-20: Superposition of Reality States
+        *   993-30-30: Quantum Coherence across UR Fabric
+        *   993-30-40: Decoherence Management in UR
+        *   993-30-50: UR Measurement and Observation Ethics
 </details>
 
 ---
