@@ -7870,6 +7870,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | [08](#08-digital-infrastructure) | **DIGITAL-INFRASTRUCTURE** | Infraestructura Digital | - | - |
 | [09](#09-external-partnerships) | **EXTERNAL-PARTNERSHIPS** | Partnerships Externos | - | - |
 | [10](#10-archive-legacy) | **ARCHIVE-LEGACY** | Archivo y Legacy | - | - |
+| [OPT-INS](#opt-ins_framework) | **OPT-INS_FRAMEWORK** | Marco de Integraciones Opcionales (Space, Atmos…) | 6 | 12 |
 
 **Total: 559 subcarpetas | 36,101 archivos | 459 GB**
 
@@ -8462,6 +8463,26 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 ---
 
+## OPT-INS_FRAMEWORK
+**⚛️🛰️ Marco de Integraciones Opcionales por Dominio**
+
+> Módulos opt-in que cualquier programa GAIA-QAO puede activar selectivamente para extender las capacidades del pipeline central (AM.PEL v2.0) a dominios operacionales específicos.
+
+### [⚛️🛰️ S-SPACE — Space Domain Specifics](#s-space-specifics)
+- [📡 CCSDS Telemetry Adapter](#ccsds-telemetry-adapter)
+- [🔭 Space Situational Awareness (SSA)](#space-situational-awareness-ssa)
+- [🪐 Orbital Mechanics Engine](#orbital-mechanics-engine)
+- [🔐 QKD Inter-Satellite Link](#qkd-inter-satellite-link)
+- [📡 Ground Station Interface](#ground-station-interface)
+- [☢️ Radiation-Hardened Edge Profile](#radiation-hardened-edge-profile)
+- [🌞 Space Weather & Debris Monitoring](#space-weather-debris-monitoring)
+- [🌌 Deep Space Telemetry Extension](#deep-space-telemetry-extension)
+- [⚛️ Quantum Sensor Stream Adapter](#quantum-sensor-stream-adapter)
+
+> Full specification: [`OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md`](../OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md)
+
+---
+
 ## 🎯 **NAVEGACIÓN RÁPIDA**
 
 | **Sección** | **Link Directo** | **Subsecciones** |
@@ -8477,6 +8498,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | **Digital** | [08-DIGITAL-INFRASTRUCTURE](#08-digital-infrastructure) | PLM, Twins, Quantum, Cyber |
 | **Partnerships** | [09-EXTERNAL-PARTNERSHIPS](#09-external-partnerships) | Industria, Academia, Gobierno |
 | **Archive** | [10-ARCHIVE-LEGACY](#10-archive-legacy) | Histórico, Legacy, Versiones |
+| **Opt-Ins** | [OPT-INS_FRAMEWORK](#opt-ins_framework) | S-SPACE (9 sub-modules) |
 
 ---
 

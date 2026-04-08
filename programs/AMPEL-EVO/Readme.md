@@ -21,6 +21,17 @@ AMPEL-EVO houses the artifacts for the **AM.PEL v2.0** quantum-augmented data pr
 - **Post-Quantum Security** — Kyber-1024 provenance ledger, QKD inter-satellite simulation
 - **Standards Compliance** — DO-178C, ECSS-E-ST-40C, NASA SP-7009, NIST SP 800-53
 
+## Optional Integrations (OPT-INS)
+
+Space-domain capabilities are managed through the [OPT-INS_FRAMEWORK](../../OPT-INS_FRAMEWORK/Readme.md). Recommended profiles:
+
+| Profile | Use-case | Reference |
+|---|---|---|
+| `SSA_FULL` | Full SSA + CCSDS + ground station | [S-SPACE §4](../../OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#4-integration-profiles) |
+| `EARTH_PROTECT` | Bologna EPC mission profile | [S-SPACE §6.1](../../OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#61-bologna-earth-protection-center) |
+| `NAPLES_QH` | Naples Quantum Hub sensor streams | [S-SPACE §6.2](../../OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#62-naples-quantum-hub) |
+| `QKD_SECURE_LINK` | Quantum-secured ISL for GAIA-SAT-02-QKD | [S-SPACE §5.4](../../OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#54-quantum-key-distribution-qkd-inter-satellite-link) |
+
 ## Hub Alignment
 
 | Facility | Role in AM.PEL v2.0 |

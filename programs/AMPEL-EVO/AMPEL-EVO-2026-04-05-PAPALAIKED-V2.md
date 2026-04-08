@@ -119,9 +119,10 @@ Where `H` is the Ising Hamiltonian mapped from quantum material properties, solv
 - VQE kernels for material property simulation (composites under radiation)
 
 #### 3.2 Aerospace Extensions
-- Native support for satellite telemetry (CCSDS packets)
-- SSA catalog integration
-- Radiation-hardened edge deployment profiles
+- Native support for satellite telemetry (CCSDS packets) — see [OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS §5.1](../../OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#51-ccsds-telemetry-adapter)
+- SSA catalog integration — see [OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS §5.2](../../OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#52-space-situational-awareness-ssa)
+- Radiation-hardened edge deployment profiles — see [OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS §5.6](../../OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#56-radiation-hardened-edge-profile)
+- Space-domain optional integrations managed via [OPT-INS_FRAMEWORK](../../OPT-INS_FRAMEWORK/Readme.md) (profile: `SSA_FULL` / `EARTH_PROTECT` / `NAPLES_QH`)
 
 #### 3.3 Scalability
 - Kubernetes-orchestrated deployment
