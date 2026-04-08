@@ -39,6 +39,8 @@ Esta carpeta `ORB-FIN` contiene los entregables principales generados y mantenid
     *   **Descripción:** Base de datos que registra todas las transacciones financieras y el estado de pagos con la red de proveedores.
 *   **[`ORB-FIN-07-QUARTERLY-REVIEW.pptx`](./ORB-FIN-07-QUARTERLY-REVIEW.pptx)**
     *   **Descripción:** Presentación ejecutiva para la revisión financiera trimestral con la alta dirección.
+*   **[`ORB-FIN-08-VAT-DISTRIBUTION.md`](./ORB-FIN-08-VAT-DISTRIBUTION.md)**
+    *   **Descripción:** Modelo de distribución del IVA (VAT) entre los socios, Q-Divisions y programas del consorcio, incluyendo tipos impositivos por Estado Miembro, procedimientos de recuperación transfronteriza y requisitos de facturación conforme a la Directiva 2006/112/CE.
 
 ---
 
