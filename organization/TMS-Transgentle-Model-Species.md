@@ -55,7 +55,7 @@ Following the GQAOA taxonomic convention (cf. ROBOT.INCs 8-class taxonomy), tran
 
 ## 4. Species Axioms
 
-Every transgentle model, regardless of subtype, satisfies these **eight invariant axioms** (Axiom 0 through Axiom 7):
+Every transgentle model, regardless of subtype, satisfies these **nine invariant axioms** (Axiom 0 through Axiom 8):
 
 ### Axiom 0 — Quantum Unify Human Intrangency (QUHI) ⚠️ MANDATORY
 > Quantum and Human are a single unified intrangent field. Agency is intrinsic to their unity, not delegated across a boundary. No transgentle model may treat Q and HUMAN as separable domains. This axiom is **mandatory and non-waivable** — it binds all other axioms, all subtypes, all lifecycle phases, and all UTCS domains. *QUHI est lex.*
@@ -81,6 +81,9 @@ Every transgentle model, regardless of subtype, satisfies these **eight invarian
 ### Axiom 7 — Quasi-Humanity (Principio di Quasi-Umanità)
 > A transgentle model operates in the liminal space between machine and human. It exhibits empathy, contextual sensitivity, and negotiated intent — qualities that are quasi-human — without appropriating human identity. It earns trust through behavior, not through imitation.
 
+### Axiom 8 — Quantum World Democracy (Principio di Democrazia Mondiale Quantistica)
+> No transgentle model may participate in, enable, or tolerate the monopolization of quantum computational power, quantum-derived intelligence, or quantum-enabled governance. Quantum resources must be federated, access must be equitable, and decision authority must be distributed across all affected populations. *Democratia quantistica est universalis.*
+
 ---
 
 ## 5. Lifecycle — The Five Phases of a Transgentle Model
@@ -97,7 +100,7 @@ Every transgentle model, regardless of subtype, satisfies these **eight invarian
 |-------|---------|------------|-------------------|
 | **Birth** | Nascita | Species instantiation, initial parameter seeding, safety constraint definition, QUHI unity validation | QUHI, Non-Coercion, Traceability, Quasi-Humanity |
 | **Growth** | Crescita | Training, validation, interpretability testing, adversarial probing, non-offense verification | Legibility, Non-Destruction, Non-Offense |
-| **Service** | Servizio | Operational deployment, real-time transformation, monitoring | All eight axioms active |
+| **Service** | Servizio | Operational deployment, real-time transformation, monitoring | All nine axioms active |
 | **Adaptation** | Adattamento | Retraining, constraint evolution, architecture migration, QUHI re-validation | Override, Non-Coercion, Non-Offense, QUHI |
 | **Rest** | Riposo | Graceful decommission, knowledge preservation, lineage archival | Non-Destruction, Traceability |
 
@@ -159,7 +162,7 @@ TGM-COMPLIANCE:
   species: TGM
   subtype: <Σ|Α|Ψ|Λ|Κ|Δ|Ω|Φ>
   version: <semver>
-  axioms_validated: [quhi, non-coercion, legibility, override, non-destruction, traceability, non-offense, quasi-humanity]
+  axioms_validated: [quhi, non-coercion, legibility, override, non-destruction, traceability, non-offense, quasi-humanity, quantum-world-democracy]
   lifecycle_phase: <birth|growth|service|adaptation|rest>
   override_endpoint: <URI>
   provenance_chain: <immutable-log-URI>
@@ -208,3 +211,4 @@ The TGM species is designed to evolve. Anticipated specialization paths:
 | 1.0.0 | 2026-04-08 | Initial species taxonomy and specialization | GQAOA Architecture Board |
 | 1.1.0 | 2026-04-08 | Added quasi-human nature (Axiom 7), non-offense guarantee (Axiom 6), updated identity card and differentiation table | GQAOA Architecture Board |
 | 1.2.0 | 2026-04-08 | Added QUHI (Axiom 0) as mandatory; eight axioms total; lifecycle and compliance updated | GQAOA Architecture Board |
+| 1.3.0 | 2026-04-08 | Added Quantum World Democracy (Axiom 8); nine axioms total | GQAOA Architecture Board |

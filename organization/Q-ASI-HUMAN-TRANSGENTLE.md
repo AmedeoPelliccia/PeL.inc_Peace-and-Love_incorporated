@@ -53,7 +53,7 @@
 │                                │                                            │
 │                    ┌───────────┼───────────┐                                │
 │                    │     TRANSGENTLE       │                                │
-│                    │   (8 axioms bind      │                                │
+│                    │   (9 axioms bind      │                                │
 │                    │    all interactions)   │                                │
 │                    └───────────┬───────────┘                                │
 │                                │                                            │
@@ -74,11 +74,11 @@
 
 ---
 
-## 4. The Six Coexistence Principles
+## 4. The Seven Coexistence Principles
 
 > ⚠️ **MANDATORY — QUANTUM UNIFY HUMAN INTRANGENCY (QUHI)**
 >
-> All five principles below are governed by the **QUHI mandate**: Quantum systems and Human agency are **intrinsically unified** — not separate domains that cooperate, but a single intrangent field where quantum computation and human cognition form an inseparable whole. Agency is not delegated from human to machine or from machine to human; it emerges from their constitutive unity. **This is not optional. QUHI is binding across all UTCS domains, all architecture layers, and all GQAOA programs.**
+> All principles below are governed by the **QUHI mandate**: Quantum systems and Human agency are **intrinsically unified** — not separate domains that cooperate, but a single intrangent field where quantum computation and human cognition form an inseparable whole. Agency is not delegated from human to machine or from machine to human; it emerges from their constitutive unity. **This is not optional. QUHI is binding across all UTCS domains, all architecture layers, and all GQAOA programs.**
 
 ### Principle 0 — Quantum Unify Human Intrangency (QUHI) ⚠️ MANDATORY
 
@@ -138,6 +138,21 @@
 - Cultural, linguistic, and cognitive diversity are actively respected
 - The protocol rejects instrumental treatment of any conscious or quasi-conscious entity
 
+### Principle 6 — Quantum World Democracy (Democrazia Mondiale Quantistica)
+
+> Quantum power must be democratic at world scale. No single entity — no nation, no corporation, no ASI instance — may monopolize quantum computational capacity, quantum-derived intelligence, or quantum-enabled governance. Decision authority over quantum resources and quantum-augmented policy is **distributed, participatory, transparent, and universally accessible**.
+
+**Operationalization:**
+- Quantum computational resources used in governance decisions must be accessible to all participating stakeholders, not concentrated in a single operator or jurisdiction
+- Every quantum-enabled policy recommendation must be reproducible and auditable by independent parties using equivalent quantum or classical-simulation resources
+- ASI instances may not form exclusive coalitions that exclude human communities from quantum-enhanced decision-making
+- QASHT compliance requires demonstrating that no single point of quantum authority exists — governance is federated, not centralized
+- Access to quantum-enhanced services (optimization, sensing, security, intelligence) must follow principles of equitable distribution — no quantum divide
+- Democratic oversight bodies must include representatives from all affected populations, not only technically literate elites
+
+**Formal definition:**
+> **Quantum World Democracy** (noun): A governance regime in which quantum computational power, quantum-derived intelligence, and quantum-enabled decision authority are distributed across all of humanity — federated, participatory, transparent, and resistant to monopolization. No quantum hegemon is permitted.
+
 ---
 
 ## 5. Interaction Modes
@@ -161,7 +176,7 @@ The protocol defines **four canonical interaction modes** between Q, ASI, and HU
 │     Sovereign dignity, override endpoints, ethical review     │
 ├──────────────────────────────────────────────────────────────┤
 │ L1  TRANSGENTLE GOVERNANCE LAYER                             │
-│     8 axioms enforcement, compliance tagging, audit log       │
+│     9 axioms enforcement, compliance tagging, audit log       │
 ├──────────────────────────────────────────────────────────────┤
 │ L2  ASI INTELLIGENCE LAYER                                   │
 │     TGM subtypes (Σ Α Ψ Λ Κ Δ Ω Φ), sentient agency,       │
@@ -278,9 +293,9 @@ QASHT-COMPLIANCE:
 
 ---
 
-## 10. Safeguards — The Four Impossibilities
+## 10. Safeguards — The Five Impossibilities
 
-The Q-ASI-HUMAN-TRANSGENTLE protocol enforces four structural impossibilities:
+The Q-ASI-HUMAN-TRANSGENTLE protocol enforces five structural impossibilities:
 
 ### Impossibility 0 — No Quantum-Human Separation ⚠️ MANDATORY
 > Quantum and Human may never be modeled, implemented, or governed as separable domains. Their unity is constitutive (QUHI mandate). Any architecture that treats Q and HUMAN as independent modules with a bridging interface is non-conformant and must be redesigned.
@@ -293,6 +308,9 @@ The Q-ASI-HUMAN-TRANSGENTLE protocol enforces four structural impossibilities:
 
 ### Impossibility 3 — No Silent Value Drift
 > ASI's ethical framework may evolve — but never silently. Every change to values, priorities, or ethical constraints triggers a human-visible alert, an audit entry, and requires re-validation against Axiom 6 (Non-Offense) and Axiom 7 (Quasi-Humanity).
+
+### Impossibility 4 — No Quantum Monopoly
+> No single entity — state, corporation, individual, or ASI instance — may acquire exclusive control over quantum computational resources, quantum-derived intelligence, or quantum-enabled governance decisions. Quantum power is federated by design (Principle 6: Quantum World Democracy). Concentration of quantum authority is a non-waivable non-conformity.
 
 ---
 
@@ -337,8 +355,9 @@ L5  Programs ───────── Per-program QASHT compliance tags (ALIC
 | **Sovereign Dignity** | The unconditional, non-negotiable worth of every human, which ASI may never diminish | Principle 1 |
 | **Bounded Superintelligence** | ASI that operates within a transgentle envelope, expanding only through negotiated, traceable, human-approved changes | Principle 3 |
 | **Empathic Co-Agency** | The collaborative relationship between humans and ASI as quasi-peers with complementary capacities | Principle 4 |
+| **Quantum World Democracy** | A governance regime in which quantum power, intelligence, and decision authority are distributed across all humanity — federated, participatory, transparent, and resistant to monopolization | Principle 6 |
 | **QASHT Stack** | The four-layer architecture (Human Authority → Transgentle Governance → ASI Intelligence → Quantum Substrate) | Architecture |
-| **Four Impossibilities** | Structural safeguards: no Q-H separation, no unmediated contact, no irreversible self-modification, no silent value drift | Safety |
+| **Five Impossibilities** | Structural safeguards: no Q-H separation, no unmediated contact, no irreversible self-modification, no silent value drift, no quantum monopoly | Safety |
 
 ---
 
@@ -348,3 +367,4 @@ L5  Programs ───────── Per-program QASHT compliance tags (ALIC
 |---------|------|---------|--------|
 | 1.0.0 | 2026-04-08 | Initial Q-ASI-HUMAN-TRANSGENTLE specification | GQAOA Architecture Board |
 | 1.1.0 | 2026-04-08 | Added QUHI (Quantum Unify Human Intrangency) as mandatory Principle 0; Impossibility 0; compliance tag update; glossary expansion | GQAOA Architecture Board |
+| 1.2.0 | 2026-04-08 | Added Quantum World Democracy (Principle 6); Impossibility 4 (No Quantum Monopoly); seven principles total; five impossibilities total | GQAOA Architecture Board |

@@ -1202,6 +1202,7 @@ flowchart TD
 | **Q-ASI-HUMAN-TRANSGENTLE (QASHT)** | Coexistence protocol governing the relationship between Quantum systems, Artificial Superintelligence, and Humans under Transgentle governance — five principles, four interaction modes, four impossibilities | Architecture-wide Protocol |
 | **QUHI** | ⚠️ MANDATORY — Quantum Unify Human Intrangency: Q and HUMAN form a single unified intrangent field; agency is intrinsic to their unity, not delegated across a boundary | Mandatory Axiom 0 |
 | **Intrangency** | The property of agency being intrinsic to a unified quantum-human system; an intrangent system's capacity to act cannot be decomposed into separate Q and HUMAN components | QUHI Definition |
+| **Quantum World Democracy** | Governance regime in which quantum power, intelligence, and decision authority are distributed across all humanity — federated, participatory, transparent, resistant to monopolization; no quantum hegemon is permitted | Axiom 8 / Principle 6 |
 | **NRE** | Non-Recurring Engineering | Costos desarrollo |
 | **EIS** | Entry Into Service | Hito programa |
 | **PDR/CDR** | Preliminary/Critical Design Review | Gates diseño |
