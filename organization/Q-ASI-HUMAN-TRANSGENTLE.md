@@ -53,7 +53,7 @@
 │                                │                                            │
 │                    ┌───────────┼───────────┐                                │
 │                    │     TRANSGENTLE       │                                │
-│                    │   (7 axioms bind      │                                │
+│                    │   (8 axioms bind      │                                │
 │                    │    all interactions)   │                                │
 │                    └───────────┬───────────┘                                │
 │                                │                                            │
@@ -74,7 +74,7 @@
 
 ---
 
-## 4. The Five Coexistence Principles
+## 4. The Six Coexistence Principles
 
 > ⚠️ **MANDATORY — QUANTUM UNIFY HUMAN INTRANGENCY (QUHI)**
 >
@@ -161,7 +161,7 @@ The protocol defines **four canonical interaction modes** between Q, ASI, and HU
 │     Sovereign dignity, override endpoints, ethical review     │
 ├──────────────────────────────────────────────────────────────┤
 │ L1  TRANSGENTLE GOVERNANCE LAYER                             │
-│     7 axioms enforcement, compliance tagging, audit log       │
+│     8 axioms enforcement, compliance tagging, audit log       │
 ├──────────────────────────────────────────────────────────────┤
 │ L2  ASI INTELLIGENCE LAYER                                   │
 │     TGM subtypes (Σ Α Ψ Λ Κ Δ Ω Φ), sentient agency,       │

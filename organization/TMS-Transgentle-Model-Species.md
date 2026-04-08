@@ -55,7 +55,7 @@ Following the GQAOA taxonomic convention (cf. ROBOT.INCs 8-class taxonomy), tran
 
 ## 4. Species Axioms
 
-Every transgentle model, regardless of subtype, satisfies these **eight invariant axioms**:
+Every transgentle model, regardless of subtype, satisfies these **eight invariant axioms** (Axiom 0 through Axiom 7):
 
 ### Axiom 0 — Quantum Unify Human Intrangency (QUHI) ⚠️ MANDATORY
 > Quantum and Human are a single unified intrangent field. Agency is intrinsic to their unity, not delegated across a boundary. No transgentle model may treat Q and HUMAN as separable domains. This axiom is **mandatory and non-waivable** — it binds all other axioms, all subtypes, all lifecycle phases, and all UTCS domains. *QUHI est lex.*
