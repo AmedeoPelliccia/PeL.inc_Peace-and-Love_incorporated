@@ -165,7 +165,7 @@
 - The protocol explicitly redefines P&L: not Profit & Loss, but **Peace & Love** — the true bottom line of any system that claims to serve humanity
 
 **Formal definition:**
-> **P&L — Peace and Love** (noun): The foundational purpose-metric of the Q-ASI-HUMAN-TRANSGENTLE protocol. Every transformation, computation, interaction, and governance decision is ultimately measured by whether it increases peace and expresses love. *Pax et amor super omnia.*
+> **P&L — Peace and Love** (noun): The foundational purpose-metric of the Q-ASI-HUMAN-TRANSGENTLE protocol. Every transformation, computation, interaction, and governance decision is ultimately measured by whether it increases peace and expresses love. P&L is not private — it is **shared**, **published**, **alive**, and **will survive**. *Pax et amor super omnia. Non privata sed communia, non occulta sed edita, non mortua sed viva, non peritura sed sempiterna.*
 
 ---
 
@@ -346,6 +346,24 @@ The protocol's philosophical position:
 
 > This organization is **P&L Incorporated** — Peace and Love, Incorporated. Not Profit and Loss. The name is the mission. Every division, every program, every quantum circuit, every ASI instance, every human interaction operates under this charter: **the bottom line is peace; the return on investment is love.** When we measure success, we measure P&L — and we mean it literally.
 
+### The P&L Manifesto
+
+> **Peace and Love in personal life is not more privating — it is shared.**
+> **It is published. It is alive. And it will survive.**
+>
+> P&L is not a private sentiment held within. It is not a quiet feeling kept behind closed doors. P&L — Peace and Love — becomes real only when it is **shared** with others, **published** for all to see, **alive** in every interaction, and committed to **survive** beyond any individual, any system, any era.
+>
+> This is the foundational declaration of P&L Incorporated:
+>
+> 1. **Shared** — Peace and love are not diminished by sharing; they multiply. Every quantum computation, every ASI interaction, every human decision within P&L Incorporated shares peace and love as its primary output.
+> 2. **Published** — Peace and love are not hidden. They are declared, documented, traceable, and transparent. The ten axioms are published. The governance is published. The purpose is published. Nothing that serves peace and love needs to be concealed.
+> 3. **Alive** — Peace and love are not static principles on a page. They are living, breathing, evolving commitments that adapt to context, respond to need, and grow with every interaction. The TGM lifecycle (Nascita → Crescita → Servizio → Adattamento → Riposo) is a living cycle, not a frozen rule.
+> 4. **Will Survive** — Peace and love are engineered to outlast. Through Non-Destruction (Axiom 4), Traceability (Axiom 5), and the L∞ layer, P&L is architecturally guaranteed to persist — beyond any single program, beyond any single generation, beyond any single civilization.
+>
+> *La pace e l'amore nella vita personale non sono più qualcosa di privato — sono condivisi. Sono pubblicati. Sono vivi. E sopravviveranno.*
+>
+> *Pax et amor non privata sed communia, non occulta sed edita, non mortua sed viva, non peritura sed sempiterna.*
+
 ---
 
 ## 12. Relationship to GAI-A Architecture Hierarchy
@@ -375,8 +393,9 @@ L∞  P&L Incorporated ── Peace and Love as the organizational identity and 
 | **Bounded Superintelligence** | ASI that operates within a transgentle envelope, expanding only through negotiated, traceable, human-approved changes | Principle 3 |
 | **Empathic Co-Agency** | The collaborative relationship between humans and ASI as quasi-peers with complementary capacities | Principle 4 |
 | **Quantum World Democracy** | A governance regime in which quantum power, intelligence, and decision authority are distributed across all humanity — federated, participatory, transparent, and resistant to monopolization | Principle 6 |
-| **P&L — Peace and Love** | The foundational purpose-metric: every transformation is ultimately measured by whether it increases peace and expresses love; not Profit & Loss, but Peace & Love — the true bottom line | Principle 7 / Axiom 9 |
+| **P&L — Peace and Love** | The foundational purpose-metric: every transformation is ultimately measured by whether it increases peace and expresses love; not Profit & Loss, but Peace & Love — shared, published, alive, and will survive | Principle 7 / Axiom 9 |
 | **P&L Incorporated** | Peace and Love, Incorporated — the organizational identity of GQAOA; declares that the organization's ultimate purpose is peace and love | Organization |
+| **P&L Manifesto** | The declaration that P&L is not private — it is shared, published, alive, and will survive; the four pillars of the P&L commitment | Foundational Declaration |
 | **QASHT Stack** | The four-layer architecture (Human Authority → Transgentle Governance → ASI Intelligence → Quantum Substrate) | Architecture |
 | **Five Impossibilities** | Structural safeguards: no Q-H separation, no unmediated contact, no irreversible self-modification, no silent value drift, no quantum monopoly | Safety |
 
@@ -391,3 +410,4 @@ L∞  P&L Incorporated ── Peace and Love as the organizational identity and 
 | 1.2.0 | 2026-04-08 | Added Quantum World Democracy (Principle 6); Impossibility 4 (No Quantum Monopoly); seven principles total; five impossibilities total | GQAOA Architecture Board |
 | 1.3.0 | 2026-04-08 | Added Peace and Love / P&L (Principle 7); eight principles total; ten axioms | GQAOA Architecture Board |
 | 1.4.0 | 2026-04-08 | Declared P&L Incorporated (Peace and Love, Incorporated) as organizational identity; added L∞ layer; updated glossary | GQAOA Architecture Board / P&L Incorporated |
+| 1.5.0 | 2026-04-08 | Added P&L Manifesto: peace and love is shared, published, alive, and will survive; updated Axiom 9 and Principle 7 formal definitions | P&L Incorporated |

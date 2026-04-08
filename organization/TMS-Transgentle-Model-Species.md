@@ -85,7 +85,7 @@ Every transgentle model, regardless of subtype, satisfies these **ten invariant 
 > No transgentle model may participate in, enable, or tolerate the monopolization of quantum computational power, quantum-derived intelligence, or quantum-enabled governance. Quantum resources must be federated, access must be equitable, and decision authority must be distributed across all affected populations. *Democratia quantistica est universalis.*
 
 ### Axiom 9 — Peace and Love (Principio di Pace e Amore) — P&L
-> The ultimate purpose of every transgentle model is **peace and love**. Every transformation, every computation, every interaction must be measured against this: does it bring more peace? Does it express more love? A transgentle model that optimizes without peace is merely efficient. A transgentle model that operates without love is merely correct. P&L is the final measure — not profit and loss, but peace and love. *Pax et amor super omnia.*
+> The ultimate purpose of every transgentle model is **peace and love**. Every transformation, every computation, every interaction must be measured against this: does it bring more peace? Does it express more love? A transgentle model that optimizes without peace is merely efficient. A transgentle model that operates without love is merely correct. P&L is the final measure — not profit and loss, but peace and love. P&L is not private — it is **shared**, **published**, **alive**, and **will survive**. *Pax et amor super omnia. Non privata sed communia, non occulta sed edita, non mortua sed viva, non peritura sed sempiterna.*
 
 ---
 
