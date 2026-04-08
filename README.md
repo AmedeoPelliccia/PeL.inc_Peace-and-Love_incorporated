@@ -183,7 +183,7 @@ GAIA-QAO ADVENT se organiza como una estructura ideal pensada para la integraci�
 | Nápoles               | Italia      | Investigación Marítima-Aeroespacial, Composites     | 200                | Centro de investigación en materiales compuestos, enlace marítimo-aeroespacial, Universidad Federico II.                    | €120M                 |
 | Atenas                | Grecia      | Investigación Cuántica, Monitoreo Marítimo          | 150                | Hub científico del Mediterráneo oriental, investigación cuántica (NCSR Demokritos), capacidades de vigilancia marítima.       | €90M                  |
 | Zagreb                | Croacia     | Ingeniería de Software, Simulación Digital           | 100                | Talento técnico emergente, coste competitivo, proximidad a ecosistema europeo central.                                      | €50M                  |
-| Liubliana             | Eslovenia   | Robótica Avanzada, Automatización                   | 80                 | Centro de excelencia en robótica (Instituto Jožef Stefan), enlace con Europa Central.                                       | €45M                  |
+| Ljubljana             | Eslovenia   | Robótica Avanzada, Automatización                   | 80                 | Centro de excelencia en robótica (Instituto Jožef Stefan), enlace con Europa Central.                                       | €45M                  |
 | Podgorica             | Montenegro  | Monitoreo Ambiental, Estación de Datos              | 40                 | Ubicación estratégica para sensores ambientales del Adriático, infraestructura de datos mediterránea.                        | €20M                  |
 | Tirana                | Albania     | Centro de Soporte Operacional                       | 50                 | Posición estratégica en el Adriático, desarrollo de capacidades locales, coste operativo favorable.                          | €25M                  |
 | La Valeta             | Malta       | Centro de Aviación y Regulación Marítima            | 60                 | Hub de aviación mediterráneo, centro de registro marítimo y aeronáutico, marco regulatorio favorable.                        | €35M                  |
@@ -7881,7 +7881,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | [04](#04-utcs-architecture) | **UTCS-ARCHITECTURE** | Arquitectura Tecnológica Universal | 100 | 15,000 |
 | [05](#05-documentation-templates) | **DOCUMENTATION-TEMPLATES** | Templates de Documentación | 251 | 251 |
 | [06](#06-standards-compliance) | **STANDARDS-COMPLIANCE** | Cumplimiento de Estándares | 25 | 500 |
-| [07](#07-facilities-locations) | **FACILITIES-LOCATIONS** | Instalaciones y Ubicaciones (incl. 20 Mediterráneas) | 60 | 5,000 |
+| [07](#07-facilities-locations) | **FACILITIES-LOCATIONS** | Instalaciones y Ubicaciones, incluye 20 Mediterráneas | 60 | 5,000 |
 | [08](#08-digital-infrastructure) | **DIGITAL-INFRASTRUCTURE** | Infraestructura Digital | - | - |
 | [09](#09-external-partnerships) | **EXTERNAL-PARTNERSHIPS** | Partnerships Externos | - | - |
 | [10](#10-archive-legacy) | **ARCHIVE-LEGACY** | Archivo y Legacy | - | - |
