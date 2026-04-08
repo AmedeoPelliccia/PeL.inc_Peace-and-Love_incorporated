@@ -171,7 +171,7 @@ GAIA-QAO ADVENT se organiza como una estructura ideal pensada para la integraci�
 | Madrid (HQ) | Sede Central, Finanzas, Legal         | 500                | Ubicación central, acceso a talento financiero y legal, entorno empresarial competitivo.                                  | €150M                 |
 | Toulouse    | Integración Final, Pruebas Vuelo      | 1200               | Ecosistema aeroespacial líder en Europa, con infraestructura de pruebas y talento experimentado.                         | €400M                 |
 | Hamburgo    | Diseño Fuselaje, Cabina               | 800                | Centro de excelencia histórico en diseño de cabinas y fuselajes, con una fuerte base industrial.                         | €300M                 |
-| Múnich      | I+D Cuántico, Propulsión              | 400                | Proximidad a centros de investigación de vanguardia en propulsión y física cuántica.                                     | €250M                 |
+| München (ESSA-HQ) | Hauptsitz des Earth Safety and Security Assemblies Center (ESSA) | 450 | Zentraler Standort für Sicherheitsforschung, Krisenmanagement, Frühwarnsysteme und interinstitutionelle Koordination zum Schutz der Erde; strategische Mittellage in Europa, Nähe zu führenden Forschungseinrichtungen und Sicherheitsbehörden. | €280M |
 | Sevilla     | Manufactura Composites                | 600                | Centro especializado en la producción de aeroestructuras de materiales compuestos a gran escala.                       | €350M                 |
 | Nápoles     | Hub Tecnológico Quantum de Vanguardia | 450                | Centro de investigación en nanotecnología, biotecnología, investigación experimental de neutrinos y propulsión cuántica; conexión con universidades y laboratorios de física de partículas del sur de Europa. | €280M |
 | Bolonia     | Programas Avanzados de Protección Terrestre | 350           | Centro de excelencia en satélites de observación, prevención de catástrofes naturales e investigación del espacio profundo; sinergias con ESA y el ecosistema académico emiliano. | €220M |
@@ -8347,11 +8347,12 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 - [🔬 Structures Lab](#structures-lab)
 - [🧪 Materials Testing](#materials-testing)
 
-### [🔬 Munich Research](#munich-research)
-- [⚛️ Quantum Lab](#quantum-lab)
-- [🚀 Propulsion Research](#propulsion-research)
-- [🤖 AI Development](#ai-development)
-- [🎓 University Partnerships](#university-partnerships-munich)
+### [🛡️ München — ESSA-Hauptquartier](#muenchen-essa-hq)
+- [🔬 Sicherheitsforschung & Technologieentwicklung](#sicherheitsforschung-muenchen)
+- [⚠️ Krisenmanagement & Notfallkoordination](#krisenmanagement-muenchen)
+- [🌍 Frühwarnsysteme & Erdbeobachtung](#fruehwarnsysteme-muenchen)
+- [🏛️ Interinstitutionelle Zusammenarbeit & Normung](#zusammenarbeit-muenchen)
+- [🛠️ Sicherheits-Assemblierungshalle (ESSA-Core)](#essa-assembly-muenchen)
 
 ### [🏭 Seville Manufacturing](#seville-manufacturing)
 - [🧪 Composites Production](#composites-production)
@@ -8469,17 +8470,17 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 > Módulos opt-in que cualquier programa GAIA-QAO puede activar selectivamente para extender las capacidades del pipeline central (AM.PEL v2.0) a dominios operacionales específicos.
 
 ### [⚛️🛰️ S-SPACE — Space Domain Specifics](#s-space-specifics)
-- [📡 CCSDS Telemetry Adapter](#ccsds-telemetry-adapter)
-- [🔭 Space Situational Awareness (SSA)](#space-situational-awareness-ssa)
-- [🪐 Orbital Mechanics Engine](#orbital-mechanics-engine)
-- [🔐 QKD Inter-Satellite Link](#qkd-inter-satellite-link)
-- [📡 Ground Station Interface](#ground-station-interface)
-- [☢️ Radiation-Hardened Edge Profile](#radiation-hardened-edge-profile)
-- [🌞 Space Weather & Debris Monitoring](#space-weather-debris-monitoring)
-- [🌌 Deep Space Telemetry Extension](#deep-space-telemetry-extension)
-- [⚛️ Quantum Sensor Stream Adapter](#quantum-sensor-stream-adapter)
+- [📡 CCSDS Telemetry Adapter](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#51-ccsds-telemetry-adapter)
+- [🔭 Space Situational Awareness (SSA)](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#52-space-situational-awareness-ssa)
+- [🪐 Orbital Mechanics Engine](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#53-orbital-mechanics-engine)
+- [🔐 QKD Inter-Satellite Link](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#54-quantum-key-distribution-qkd-inter-satellite-link)
+- [📡 Ground Station Interface](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#55-ground-station-interface)
+- [☢️ Radiation-Hardened Edge Profile](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#56-radiation-hardened-edge-profile)
+- [🌞 Space Weather & Debris Monitoring](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#57-space-weather--debris-monitoring)
+- [🌌 Deep Space Telemetry Extension](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#58-deep-space-telemetry-extension)
+- [⚛️ Quantum Sensor Stream Adapter](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#59-quantum-sensor-stream-adapter)
 
-> Full specification: [`OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md`](../OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md)
+> Full specification: [`OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md`](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md)
 
 ---
 

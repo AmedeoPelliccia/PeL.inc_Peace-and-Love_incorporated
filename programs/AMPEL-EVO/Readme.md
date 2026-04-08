@@ -41,6 +41,6 @@ Space-domain capabilities are managed through the [OPT-INS_FRAMEWORK](../../OPT-
 
 ## ALICE–BOB Traceability
 
-| ALICE | BOB DT | CHARLIE_T |
+| ALICE | BOB DT | CHARLIE-T |
 |---|---|---|
 | ALICE-AMPEL-EVO-PIPELINE | BOB-DT-AMPEL-EVO-PIPELINE | CHARLIE-T-AMPEL-EVO-PIPELINE |
