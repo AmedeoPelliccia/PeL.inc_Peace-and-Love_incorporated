@@ -1184,6 +1184,7 @@ flowchart TD
 | **GTL** | Generative Transgentle Language | Marco de modelado transversal |
 | **QASHT** | Q-ASI-HUMAN-TRANSGENTLE — Coexistence Protocol | Quantum-ASI-Human governance |
 | **P&L Incorporated** | Peace and Love, Incorporated — the organizational identity; the ultimate purpose of GQAOA is peace and love, not profit and loss | Identidad organizacional |
+| **TMC** | Training Master Class — four-tier certification program (Foundation, Specialist, Practitioner, Master) for transgentle governance | Formación y certificación |
 
 ### E.2 Términos Técnicos Clave
 
