@@ -112,6 +112,10 @@ graph TD
 | Hamburgo    | Diseño Fuselaje, Cabina               | 800                | Centro de excelencia histórico en diseño de cabinas y fuselajes, con una fuerte base industrial.                         | €300M                 |
 | Múnich      | I+D Cuántico, Propulsión              | 400                | Proximidad a centros de investigación de vanguardia en propulsión y física cuántica.                                     | €250M                 |
 | Sevilla     | Manufactura Composites                | 600                | Centro especializado en la producción de aeroestructuras de materiales compuestos a gran escala.                       | €350M                 |
+| Napoli      | Quantum Tech Hub                      | 300                | Polo de investigación cuántica emergente, acceso a talento científico y colaboración con universidades de vanguardia.  | €200M                 |
+| Barcelona   | Blockchain Tech Hub                   | 250                | Ecosistema tecnológico dinámico, líder en innovación blockchain y comunidad emprendedora digital.                      | €180M                 |
+| Bolonia     | Space Hub                             | 350                | Centro de excelencia aeroespacial, proximidad a la industria espacial italiana y red de investigación avanzada.        | €220M                 |
+| Getafe      | Robotics Fabric Center                | 400                | Base industrial consolidada, experiencia en fabricación automatizada y robótica aplicada a la industria aeroespacial.  | €250M                 |
 
 # 4. SISTEMA DE GOBERNANZA
 

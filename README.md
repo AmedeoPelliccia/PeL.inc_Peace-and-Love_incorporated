@@ -173,6 +173,10 @@ GAIA-QAO ADVENT se organiza como una estructura ideal pensada para la integraci�
 | Hamburgo    | Diseño Fuselaje, Cabina               | 800                | Centro de excelencia histórico en diseño de cabinas y fuselajes, con una fuerte base industrial.                         | €300M                 |
 | Múnich      | I+D Cuántico, Propulsión              | 400                | Proximidad a centros de investigación de vanguardia en propulsión y física cuántica.                                     | €250M                 |
 | Sevilla     | Manufactura Composites                | 600                | Centro especializado en la producción de aeroestructuras de materiales compuestos a gran escala.                       | €350M                 |
+| Napoli      | Quantum Tech Hub                      | 300                | Polo de investigación cuántica emergente, acceso a talento científico y colaboración con universidades de vanguardia.  | €200M                 |
+| Barcelona   | Blockchain Tech Hub                   | 250                | Ecosistema tecnológico dinámico, líder en innovación blockchain y comunidad emprendedora digital.                      | €180M                 |
+| Bolonia     | Space Hub                             | 350                | Centro de excelencia aeroespacial, proximidad a la industria espacial italiana y red de investigación avanzada.        | €220M                 |
+| Getafe      | Robotics Fabric Center                | 400                | Base industrial consolidada, experiencia en fabricación automatizada y robótica aplicada a la industria aeroespacial.  | €250M                 |
 
 # 4. SISTEMA DE GOBERNANZA
 
@@ -8347,6 +8351,30 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 - [🤖 Automated Assembly](#automated-assembly)
 - [🏆 Quality Control](#quality-control)
 - [⛓️ Supply Chain](#supply-chain-seville)
+
+### [⚛️ Napoli Quantum Tech Hub](#napoli-quantum-tech-hub)
+- [🔬 Quantum Computing Lab](#quantum-computing-lab-napoli)
+- [🧪 Quantum Sensors R&D](#quantum-sensors-rd)
+- [🎓 University Partnerships](#university-partnerships-napoli)
+- [📡 Quantum Communications](#quantum-communications)
+
+### [🔗 Barcelona Blockchain Tech Hub](#barcelona-blockchain-tech-hub)
+- [💻 Blockchain Development](#blockchain-development)
+- [🔐 Distributed Ledger Systems](#distributed-ledger-systems)
+- [📊 Smart Contracts Lab](#smart-contracts-lab)
+- [🌐 Digital Innovation Center](#digital-innovation-center)
+
+### [🚀 Bolonia Space Hub](#bolonia-space-hub)
+- [🛰️ Satellite Systems](#satellite-systems)
+- [🔭 Space Research Lab](#space-research-lab)
+- [🧪 Space Materials Testing](#space-materials-testing)
+- [🤝 Space Industry Partnerships](#space-industry-partnerships)
+
+### [🤖 Getafe Robotics Fabric Center](#getafe-robotics-fabric-center)
+- [🦾 Industrial Robotics](#industrial-robotics)
+- [🏭 Automated Fabrication](#automated-fabrication)
+- [🔧 Robotic Assembly Lines](#robotic-assembly-lines)
+- [🧪 Robotics Testing Lab](#robotics-testing-lab)
 
 ---
 
