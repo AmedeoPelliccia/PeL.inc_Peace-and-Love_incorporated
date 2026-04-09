@@ -97,12 +97,12 @@ class TestChainManager:
         chain = Chain(name="blocking")
         chain.add_link(bell_pair(), label="Bell")
         chain.add_link(Circuit(2).x(0),
-                       interlock=majority_outcome("11"),
+                       interlock=lambda _result: False,
                        label="Should block")
         mgr.register_chain(chain)
         mgr.execute_chain("blocking")
         link1 = chain.links[1]
-        assert link1.status in (LinkStatus.BLOCKED, LinkStatus.EXECUTED)
+        assert link1.status is LinkStatus.BLOCKED
 
     def test_chain_proceeds_with_always(self, sim):
         mgr = ChainManager(simulator=sim)
