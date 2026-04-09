@@ -10,9 +10,9 @@ from __future__ import annotations
 
 from copy import deepcopy
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
-from .gates import Gate, get_gate, H, X, Y, Z, CNOT
+from .gates import Gate, H, X, Y, Z, CNOT
 
 
 @dataclass
