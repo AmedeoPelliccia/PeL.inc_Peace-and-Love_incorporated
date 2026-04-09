@@ -31,6 +31,11 @@ class TestInterlockPredicates:
         pred = majority_outcome("00")
         assert pred(make_dummy_result({"11": 90, "00": 10})) is False
 
+    def test_majority_outcome_empty_counts(self):
+        pred = majority_outcome("00")
+        # majority_outcome should treat empty counts as a failing interlock
+        assert pred(make_dummy_result({})) is False
+
     def test_fidelity_threshold_pass(self):
         ref = basis_state(2, 0)
         pred = fidelity_threshold(0.99, ref)
