@@ -147,7 +147,6 @@ class Simulator:
         This generalises cleanly to arbitrary qubit positions.
         """
         control, target = gate.target_qubits
-        dim = 1 << n_qubits
 
         # Projectors for the control qubit
         p0 = np.array([[1, 0], [0, 0]], dtype=complex)  # |0><0|
