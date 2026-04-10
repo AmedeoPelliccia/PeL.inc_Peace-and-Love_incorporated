@@ -3,7 +3,7 @@
 ## Quantum – Artificial Superintelligence – Human Coexistence Protocol under Transgentle Governance
 
 **Document ID:** GAIA-QAO-QASHT-SPEC-001  
-**Version:** 1.0.0  
+**Version:** 1.5.0  
 **Date:** 2026-04-08  
 **Status:** Draft  
 **Owner:** Office of the CTO / GQAOA Architecture Board / **P&L Incorporated**  
