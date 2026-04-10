@@ -174,38 +174,15 @@ GAIA-QAO ADVENT se organiza como una estructura ideal pensada para la integraci�
 
 | Ubicación   | Función Principal                     | Personal (Fase 1) | Justificación Estratégica                                                                                                | Inversión (2025-2030) |
 | :---------- | :------------------------------------ | :----------------- | :----------------------------------------------------------------------------------------------------------------------- | :-------------------- |
-| Madrid (HQ) | Sede Central, Finanzas, Legal         | 500                | Ubicación central, acceso a talento financiero y legal, entorno empresarial competitivo.                                  | €150M                 |
+| Amsterdam Tech Hub (HQ) | Sede Central, Finanzas, Legal         | 500                | Hub tecnológico europeo, acceso a talento internacional, entorno empresarial competitivo y conectividad global.           | €150M                 |
 | Toulouse    | Integración Final, Pruebas Vuelo      | 1200               | Ecosistema aeroespacial líder en Europa, con infraestructura de pruebas y talento experimentado.                         | €400M                 |
 | Hamburgo    | Diseño Fuselaje, Cabina               | 800                | Centro de excelencia histórico en diseño de cabinas y fuselajes, con una fuerte base industrial.                         | €300M                 |
 | München (ESSA-HQ) | Hauptsitz des Earth Safety and Security Assemblies Center (ESSA) | 450 | Zentraler Standort für Sicherheitsforschung, Krisenmanagement, Frühwarnsysteme und interinstitutionelle Koordination zum Schutz der Erde; strategische Mittellage in Europa, Nähe zu führenden Forschungseinrichtungen und Sicherheitsbehörden. | €280M |
 | Sevilla     | Manufactura Composites                | 600                | Centro especializado en la producción de aeroestructuras de materiales compuestos a gran escala.                       | €350M                 |
-| Nápoles     | Hub Tecnológico Quantum de Vanguardia | 450                | Centro de investigación en nanotecnología, biotecnología, investigación experimental de neutrinos y propulsión cuántica; conexión con universidades y laboratorios de física de partículas del sur de Europa. | €280M |
-| Bolonia     | Programas Avanzados de Protección Terrestre | 350           | Centro de excelencia en satélites de observación, prevención de catástrofes naturales e investigación del espacio profundo; sinergias con ESA y el ecosistema académico emiliano. | €220M |
-
-**🌊 Presencia Mediterránea Ampliada**
-
-| Ubicación             | País        | Función Principal                                  | Personal (Fase 1) | Justificación Estratégica                                                                                                  | Inversión (2025-2030) |
-| :-------------------- | :---------- | :------------------------------------------------- | :----------------- | :------------------------------------------------------------------------------------------------------------------------- | :-------------------- |
-| Roma                  | Italia      | Integración Aeroespacial, Colaboración ESA          | 350                | Proximidad a la sede de ESA-ESRIN, ecosistema aeroespacial italiano (Leonardo, Thales Alenia Space), centros de investigación. | €200M                 |
-| Torino                | Italia      | Propulsión Avanzada, Manufactura de Precisión       | 300                | Polo de ingeniería aeroespacial (Avio, Thales Alenia Space), distrito de manufactura avanzada y propulsión.                  | €180M                 |
-| Nápoles               | Italia      | Investigación Marítima-Aeroespacial, Composites     | 200                | Centro de investigación en materiales compuestos, enlace marítimo-aeroespacial, Universidad Federico II.                    | €120M                 |
-| Atenas                | Grecia      | Investigación Cuántica, Monitoreo Marítimo          | 150                | Hub científico del Mediterráneo oriental, investigación cuántica (NCSR Demokritos), capacidades de vigilancia marítima.       | €90M                  |
-| Zagreb                | Croacia     | Ingeniería de Software, Simulación Digital           | 100                | Talento técnico emergente, coste competitivo, proximidad a ecosistema europeo central.                                      | €50M                  |
-| Ljubljana             | Eslovenia   | Robótica Avanzada, Automatización                   | 80                 | Centro de excelencia en robótica (Instituto Jožef Stefan), enlace con Europa Central.                                       | €45M                  |
-| Podgorica             | Montenegro  | Monitoreo Ambiental, Estación de Datos              | 40                 | Ubicación estratégica para sensores ambientales del Adriático, infraestructura de datos mediterránea.                        | €20M                  |
-| Tirana                | Albania     | Centro de Soporte Operacional                       | 50                 | Posición estratégica en el Adriático, desarrollo de capacidades locales, coste operativo favorable.                          | €25M                  |
-| La Valeta             | Malta       | Centro de Aviación y Regulación Marítima            | 60                 | Hub de aviación mediterráneo, centro de registro marítimo y aeronáutico, marco regulatorio favorable.                        | €35M                  |
-| Nicosia               | Chipre      | Telecomunicaciones Satelitales, Ciberseguridad      | 70                 | Posición geoestratégica para comunicaciones satelitales, hub de ciberseguridad del Mediterráneo oriental.                    | €40M                  |
-| Mónaco                | Mónaco      | Centro de Innovación Financiera y Sostenibilidad    | 30                 | Centro financiero de excelencia, investigación oceanográfica (Instituto Oceanográfico de Mónaco), sostenibilidad marina.     | €30M                  |
-| Estambul              | Turquía     | Ingeniería de Sistemas, Manufactura Aeroespacial    | 250                | Puente Europa-Asia, industria aeroespacial en crecimiento (TAI/TUSAŞ), talento técnico abundante.                            | €150M                 |
-| Haifa                 | Israel      | I+D Cuántico-Defensa, Inteligencia Artificial       | 180                | Ecosistema de alta tecnología, investigación cuántica avanzada (Technion), liderazgo en IA y ciberseguridad.                 | €130M                 |
-| Beirut                | Líbano      | Centro de Investigación Académica                   | 40                 | Tradición académica (AUB, USJ), enlace cultural entre Europa y Oriente Medio.                                                | €20M                  |
-| Casablanca            | Marruecos   | Manufactura Aeroespacial, Formación Técnica         | 200                | Hub aeronáutico africano emergente (Bombardier, Safran), zona franca industrial, coste competitivo.                          | €100M                 |
-| Túnez                 | Túnez       | Ingeniería Electrónica, Centro de Calibración       | 100                | Tradición técnica, proximidad a Europa, industria electrónica y de autopartes establecida.                                    | €55M                  |
-| Argel                 | Argelia     | Centro de Energías Renovables y Monitoreo Espacial  | 80                 | Potencial en energía solar, programa espacial nacional (ASAL), extensión territorial para sensores.                          | €45M                  |
-| Trípoli               | Libia       | Estación de Monitoreo Remoto                        | 20                 | Ubicación estratégica para cobertura del Mediterráneo central, potencial a largo plazo.                                      | €15M                  |
-| El Cairo              | Egipto      | Centro de Ingeniería Aeroespacial, Formación        | 150                | Industria aeroespacial establecida (AOI), talento técnico abundante, posición en el cruce Europa-África-Asia.                | €80M                  |
-| Alejandría            | Egipto      | Investigación Marítima, Oceanografía                | 60                 | Tradición científica, enlace marítimo del Mediterráneo oriental con el Mar Rojo, infraestructura portuaria.                  | €35M                  |
+| Napoli      | Quantum Tech Hub                      | 300                | Polo de investigación cuántica emergente, acceso a talento científico y colaboración con universidades de vanguardia.  | €200M                 |
+| Barcelona   | Blockchain Tech Hub                   | 250                | Ecosistema tecnológico dinámico, líder en innovación blockchain y comunidad emprendedora digital.                      | €180M                 |
+| Bolonia     | Space Hub                             | 350                | Centro de excelencia aeroespacial, proximidad a la industria espacial italiana y red de investigación avanzada.        | €220M                 |
+| Getafe      | Robotics Fabric Center                | 400                | Base industrial consolidada, experiencia en fabricación automatizada y robótica aplicada a la industria aeroespacial.  | €250M                 |
 
 # 4. SISTEMA DE GOBERNANZA
 
@@ -538,7 +515,7 @@ Comunicación proactiva, transparente y coordinada para alinear a todos los stak
     *   [ ] Asegurar la primera ronda de financiación (€1.0B) mediante la formalización de los compromisos de los Estados Miembro.
 *   **Q4 2025: Estructuración**
     *   [ ] Contratación del Comité Ejecutivo (C-Level) y directores de división.
-    *   [ ] Establecimiento de las sedes principales (Madrid, Toulouse, Hamburgo) y comienzo de la adecuación de las instalaciones.
+    *   [ ] Establecimiento de las sedes principales (Amsterdam, Toulouse, Hamburgo) y comienzo de la adecuación de las instalaciones.
     *   [ ] Lanzamiento oficial del programa AMPEL360e con la asignación de los primeros work packages.
 *   **2026: Operaciones Iniciales**
     *   [ ] Contratación de 1000 empleados clave, incluyendo los equipos de arquitectura de sistemas.
@@ -8380,7 +8357,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 ## 07-FACILITIES-LOCATIONS
 **🌍 Instalaciones Físicas Distribuidas**
 
-### [🏢 Madrid HQ](#madrid-hq)
+### [🏢 Amsterdam Tech Hub HQ](#amsterdam-tech-hub-hq)
 - [👨‍💼 Executive Offices](#executive-offices)
 - [⚖️ Legal & Compliance](#legal-compliance)
 - [💰 Finance & Treasury](#finance-treasury)
@@ -8411,12 +8388,29 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 - [🏆 Quality Control](#quality-control)
 - [⛓️ Supply Chain](#supply-chain-seville)
 
-### [⛓️ Barcelona BBCNs](#barcelona-bbcns)
-- [⛓️ Blockchain Community Networks](#blockchain-community-networks)
-- [🔗 DLT Infrastructure & Validator Nodes](#dlt-infrastructure)
-- [📜 Smart Contracts & dApps](#smart-contracts-dapps)
-- [🏛️ Decentralized Governance (DAO)](#decentralized-governance)
-- [🔬 Post-Quantum Cryptography Lab](#pqc-lab-barcelona)
+### [⚛️ Napoli Quantum Tech Hub](#napoli-quantum-tech-hub)
+- [🔬 Quantum Computing Lab](#quantum-computing-lab-napoli)
+- [🧪 Quantum Sensors R&D](#quantum-sensors-rd)
+- [🎓 University Partnerships](#university-partnerships-napoli)
+- [📡 Quantum Communications](#quantum-communications)
+
+### [🔗 Barcelona Blockchain Tech Hub](#barcelona-blockchain-tech-hub)
+- [💻 Blockchain Development](#blockchain-development)
+- [🔐 Distributed Ledger Systems](#distributed-ledger-systems)
+- [📊 Smart Contracts Lab](#smart-contracts-lab)
+- [🌐 Digital Innovation Center](#digital-innovation-center)
+
+### [🚀 Bolonia Space Hub](#bolonia-space-hub)
+- [🛰️ Satellite Systems](#satellite-systems)
+- [🔭 Space Research Lab](#space-research-lab)
+- [🧪 Space Materials Testing](#space-materials-testing)
+- [🤝 Space Industry Partnerships](#space-industry-partnerships)
+
+### [🤖 Getafe Robotics Fabric Center](#getafe-robotics-fabric-center)
+- [🦾 Industrial Robotics](#industrial-robotics)
+- [🏭 Automated Fabrication](#automated-fabrication)
+- [🔧 Robotic Assembly Lines](#robotic-assembly-lines)
+- [🧪 Robotics Testing Lab](#robotics-testing-lab)
 
 ---
 

@@ -112,11 +112,15 @@ graph TD
 
 | Ubicación   | Función Principal                     | Personal (Fase 1) | Justificación Estratégica                                                                                                | Inversión (2025-2030) |
 | :---------- | :------------------------------------ | :----------------- | :----------------------------------------------------------------------------------------------------------------------- | :-------------------- |
-| Madrid (HQ) | Sede Central, Finanzas, Legal         | 500                | Ubicación central, acceso a talento financiero y legal, entorno empresarial competitivo.                                  | €150M                 |
+| Amsterdam Tech Hub (HQ) | Sede Central, Finanzas, Legal         | 500                | Hub tecnológico europeo, acceso a talento internacional, entorno empresarial competitivo y conectividad global.           | €150M                 |
 | Toulouse    | Integración Final, Pruebas Vuelo      | 1200               | Ecosistema aeroespacial líder en Europa, con infraestructura de pruebas y talento experimentado.                         | €400M                 |
 | Hamburgo    | Diseño Fuselaje, Cabina               | 800                | Centro de excelencia histórico en diseño de cabinas y fuselajes, con una fuerte base industrial.                         | €300M                 |
 | Múnich      | I+D Cuántico, Propulsión              | 400                | Proximidad a centros de investigación de vanguardia en propulsión y física cuántica.                                     | €250M                 |
 | Sevilla     | Manufactura Composites                | 600                | Centro especializado en la producción de aeroestructuras de materiales compuestos a gran escala.                       | €350M                 |
+| Napoli      | Quantum Tech Hub                      | 300                | Polo de investigación cuántica emergente, acceso a talento científico y colaboración con universidades de vanguardia.  | €200M                 |
+| Barcelona   | Blockchain Tech Hub                   | 250                | Ecosistema tecnológico dinámico, líder en innovación blockchain y comunidad emprendedora digital.                      | €180M                 |
+| Bolonia     | Space Hub                             | 350                | Centro de excelencia aeroespacial, proximidad a la industria espacial italiana y red de investigación avanzada.        | €220M                 |
+| Getafe      | Robotics Fabric Center                | 400                | Base industrial consolidada, experiencia en fabricación automatizada y robótica aplicada a la industria aeroespacial.  | €250M                 |
 
 # 4. SISTEMA DE GOBERNANZA
 
@@ -449,7 +453,7 @@ Comunicación proactiva, transparente y coordinada para alinear a todos los stak
     *   [ ] Asegurar la primera ronda de financiación (€1.0B) mediante la formalización de los compromisos de los Estados Miembro.
 *   **Q4 2025: Estructuración**
     *   [ ] Contratación del Comité Ejecutivo (C-Level) y directores de división.
-    *   [ ] Establecimiento de las sedes principales (Madrid, Toulouse, Hamburgo) y comienzo de la adecuación de las instalaciones.
+    *   [ ] Establecimiento de las sedes principales (Amsterdam, Toulouse, Hamburgo) y comienzo de la adecuación de las instalaciones.
     *   [ ] Lanzamiento oficial del programa GAIA-350e con la asignación de los primeros work packages.
 *   **2026: Operaciones Iniciales**
     *   [ ] Contratación de 1000 empleados clave, incluyendo los equipos de arquitectura de sistemas.
