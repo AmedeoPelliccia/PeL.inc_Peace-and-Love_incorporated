@@ -8,6 +8,12 @@
 **Autor:** Oficina del CEO / Comité Estratégico GAIA-QAO
 **Estado:** Borrador Maestro Revisado
 
+## GAI‑A‑AMAR‑AGGIX Governance & Architecture Framework
+
+> **See [`GAI-A-AMAR-AGGIX-Architecture.md`](GAI-A-AMAR-AGGIX-Architecture.md)** for the normative top‑level governance umbrella that sits above all domains (aerospace, marine, space, robotics) and organises them as a Tree Architecture with canonical definitions, standards per layer, and formal durability/inheritance/branching rules.
+
+---
+
 ## ÍNDICE EJECUTIVO
 
 *   [Declaración de Propósito](#1-declaración-de-propósito)
@@ -171,8 +177,35 @@ GAIA-QAO ADVENT se organiza como una estructura ideal pensada para la integraci�
 | Madrid (HQ) | Sede Central, Finanzas, Legal         | 500                | Ubicación central, acceso a talento financiero y legal, entorno empresarial competitivo.                                  | €150M                 |
 | Toulouse    | Integración Final, Pruebas Vuelo      | 1200               | Ecosistema aeroespacial líder en Europa, con infraestructura de pruebas y talento experimentado.                         | €400M                 |
 | Hamburgo    | Diseño Fuselaje, Cabina               | 800                | Centro de excelencia histórico en diseño de cabinas y fuselajes, con una fuerte base industrial.                         | €300M                 |
-| Múnich      | I+D Cuántico, Propulsión              | 400                | Proximidad a centros de investigación de vanguardia en propulsión y física cuántica.                                     | €250M                 |
+| München (ESSA-HQ) | Hauptsitz des Earth Safety and Security Assemblies Center (ESSA) | 450 | Zentraler Standort für Sicherheitsforschung, Krisenmanagement, Frühwarnsysteme und interinstitutionelle Koordination zum Schutz der Erde; strategische Mittellage in Europa, Nähe zu führenden Forschungseinrichtungen und Sicherheitsbehörden. | €280M |
 | Sevilla     | Manufactura Composites                | 600                | Centro especializado en la producción de aeroestructuras de materiales compuestos a gran escala.                       | €350M                 |
+| Nápoles     | Hub Tecnológico Quantum de Vanguardia | 450                | Centro de investigación en nanotecnología, biotecnología, investigación experimental de neutrinos y propulsión cuántica; conexión con universidades y laboratorios de física de partículas del sur de Europa. | €280M |
+| Bolonia     | Programas Avanzados de Protección Terrestre | 350           | Centro de excelencia en satélites de observación, prevención de catástrofes naturales e investigación del espacio profundo; sinergias con ESA y el ecosistema académico emiliano. | €220M |
+
+**🌊 Presencia Mediterránea Ampliada**
+
+| Ubicación             | País        | Función Principal                                  | Personal (Fase 1) | Justificación Estratégica                                                                                                  | Inversión (2025-2030) |
+| :-------------------- | :---------- | :------------------------------------------------- | :----------------- | :------------------------------------------------------------------------------------------------------------------------- | :-------------------- |
+| Roma                  | Italia      | Integración Aeroespacial, Colaboración ESA          | 350                | Proximidad a la sede de ESA-ESRIN, ecosistema aeroespacial italiano (Leonardo, Thales Alenia Space), centros de investigación. | €200M                 |
+| Torino                | Italia      | Propulsión Avanzada, Manufactura de Precisión       | 300                | Polo de ingeniería aeroespacial (Avio, Thales Alenia Space), distrito de manufactura avanzada y propulsión.                  | €180M                 |
+| Nápoles               | Italia      | Investigación Marítima-Aeroespacial, Composites     | 200                | Centro de investigación en materiales compuestos, enlace marítimo-aeroespacial, Universidad Federico II.                    | €120M                 |
+| Atenas                | Grecia      | Investigación Cuántica, Monitoreo Marítimo          | 150                | Hub científico del Mediterráneo oriental, investigación cuántica (NCSR Demokritos), capacidades de vigilancia marítima.       | €90M                  |
+| Zagreb                | Croacia     | Ingeniería de Software, Simulación Digital           | 100                | Talento técnico emergente, coste competitivo, proximidad a ecosistema europeo central.                                      | €50M                  |
+| Ljubljana             | Eslovenia   | Robótica Avanzada, Automatización                   | 80                 | Centro de excelencia en robótica (Instituto Jožef Stefan), enlace con Europa Central.                                       | €45M                  |
+| Podgorica             | Montenegro  | Monitoreo Ambiental, Estación de Datos              | 40                 | Ubicación estratégica para sensores ambientales del Adriático, infraestructura de datos mediterránea.                        | €20M                  |
+| Tirana                | Albania     | Centro de Soporte Operacional                       | 50                 | Posición estratégica en el Adriático, desarrollo de capacidades locales, coste operativo favorable.                          | €25M                  |
+| La Valeta             | Malta       | Centro de Aviación y Regulación Marítima            | 60                 | Hub de aviación mediterráneo, centro de registro marítimo y aeronáutico, marco regulatorio favorable.                        | €35M                  |
+| Nicosia               | Chipre      | Telecomunicaciones Satelitales, Ciberseguridad      | 70                 | Posición geoestratégica para comunicaciones satelitales, hub de ciberseguridad del Mediterráneo oriental.                    | €40M                  |
+| Mónaco                | Mónaco      | Centro de Innovación Financiera y Sostenibilidad    | 30                 | Centro financiero de excelencia, investigación oceanográfica (Instituto Oceanográfico de Mónaco), sostenibilidad marina.     | €30M                  |
+| Estambul              | Turquía     | Ingeniería de Sistemas, Manufactura Aeroespacial    | 250                | Puente Europa-Asia, industria aeroespacial en crecimiento (TAI/TUSAŞ), talento técnico abundante.                            | €150M                 |
+| Haifa                 | Israel      | I+D Cuántico-Defensa, Inteligencia Artificial       | 180                | Ecosistema de alta tecnología, investigación cuántica avanzada (Technion), liderazgo en IA y ciberseguridad.                 | €130M                 |
+| Beirut                | Líbano      | Centro de Investigación Académica                   | 40                 | Tradición académica (AUB, USJ), enlace cultural entre Europa y Oriente Medio.                                                | €20M                  |
+| Casablanca            | Marruecos   | Manufactura Aeroespacial, Formación Técnica         | 200                | Hub aeronáutico africano emergente (Bombardier, Safran), zona franca industrial, coste competitivo.                          | €100M                 |
+| Túnez                 | Túnez       | Ingeniería Electrónica, Centro de Calibración       | 100                | Tradición técnica, proximidad a Europa, industria electrónica y de autopartes establecida.                                    | €55M                  |
+| Argel                 | Argelia     | Centro de Energías Renovables y Monitoreo Espacial  | 80                 | Potencial en energía solar, programa espacial nacional (ASAL), extensión territorial para sensores.                          | €45M                  |
+| Trípoli               | Libia       | Estación de Monitoreo Remoto                        | 20                 | Ubicación estratégica para cobertura del Mediterráneo central, potencial a largo plazo.                                      | €15M                  |
+| El Cairo              | Egipto      | Centro de Ingeniería Aeroespacial, Formación        | 150                | Industria aeroespacial establecida (AOI), talento técnico abundante, posición en el cruce Europa-África-Asia.                | €80M                  |
+| Alejandría            | Egipto      | Investigación Marítima, Oceanografía                | 60                 | Tradición científica, enlace marítimo del Mediterráneo oriental con el Mar Rojo, infraestructura portuaria.                  | €35M                  |
 
 # 4. SISTEMA DE GOBERNANZA
 
@@ -7838,6 +7871,14 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 > **Impacto operativo**: El nuevo **AMPEL360‑BWB‑e** reutiliza el chasis BWB existente, por lo que solo exige adaptar **ROBBBO‑T‑TEST** (banco de baterías y pruebas EMI) y **ROBBBO‑T‑FAL** (línea de integración de packs modulares). No requiere alteraciones en los programas espaciales.
 
+---
+
+### 4. Programas de datos cuánticos **AMPEL‑EVO**
+
+| Programa | Descripción básica |
+| -------- | ------------------ |
+| **AMPEL‑EVO/PAPALAIKED‑V2** | Pipeline cuántico AM.PEL v2.0: QML híbrido, clasificación de transientes astrofísicos, telemetría aeroespacial (CCSDS), SSA y provenance cuántica inmutable. Evolved de la baseline PapaLaiked v1.x. Alineado con los hubs de Nápoles (quantum propulsion sensors) y Bolonia (Earth Protection / SSA). |
+
 
 ## ANEXO I  🌐 ESTRUCTURA DE DIRECTORIO GAIA-QAO ADVENT v2.0.0
 
@@ -7856,10 +7897,11 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | [04](#04-utcs-architecture) | **UTCS-ARCHITECTURE** | Arquitectura Tecnológica Universal | 100 | 15,000 |
 | [05](#05-documentation-templates) | **DOCUMENTATION-TEMPLATES** | Templates de Documentación | 251 | 251 |
 | [06](#06-standards-compliance) | **STANDARDS-COMPLIANCE** | Cumplimiento de Estándares | 25 | 500 |
-| [07](#07-facilities-locations) | **FACILITIES-LOCATIONS** | Instalaciones y Ubicaciones | 40 | 3,000 |
+| [07](#07-facilities-locations) | **FACILITIES-LOCATIONS** | Instalaciones y Ubicaciones, incluye 20 Mediterráneas | 60 | 5,000 |
 | [08](#08-digital-infrastructure) | **DIGITAL-INFRASTRUCTURE** | Infraestructura Digital | - | - |
 | [09](#09-external-partnerships) | **EXTERNAL-PARTNERSHIPS** | Partnerships Externos | - | - |
 | [10](#10-archive-legacy) | **ARCHIVE-LEGACY** | Archivo y Legacy | - | - |
+| [OPT-INS](#opt-ins_framework) | **OPT-INS_FRAMEWORK** | Marco de Integraciones Opcionales (Space, Atmos…) | 6 | 12 |
 
 **Total: 559 subcarpetas | 36,101 archivos | 459 GB**
 
@@ -8336,17 +8378,152 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 - [🔬 Structures Lab](#structures-lab)
 - [🧪 Materials Testing](#materials-testing)
 
-### [🔬 Munich Research](#munich-research)
-- [⚛️ Quantum Lab](#quantum-lab)
-- [🚀 Propulsion Research](#propulsion-research)
-- [🤖 AI Development](#ai-development)
-- [🎓 University Partnerships](#university-partnerships-munich)
+### [🛡️ München — ESSA-Hauptquartier](#muenchen-essa-hq)
+- [🔬 Sicherheitsforschung & Technologieentwicklung](#sicherheitsforschung-muenchen)
+- [⚠️ Krisenmanagement & Notfallkoordination](#krisenmanagement-muenchen)
+- [🌍 Frühwarnsysteme & Erdbeobachtung](#fruehwarnsysteme-muenchen)
+- [🏛️ Interinstitutionelle Zusammenarbeit & Normung](#zusammenarbeit-muenchen)
+- [🛠️ Sicherheits-Assemblierungshalle (ESSA-Core)](#essa-assembly-muenchen)
 
 ### [🏭 Seville Manufacturing](#seville-manufacturing)
 - [🧪 Composites Production](#composites-production)
 - [🤖 Automated Assembly](#automated-assembly)
 - [🏆 Quality Control](#quality-control)
 - [⛓️ Supply Chain](#supply-chain-seville)
+
+### [⚛️ Naples Quantum Hub](#naples-quantum-hub)
+- [🔬 Nanotechnology Lab](#nanotechnology-lab-naples)
+- [🧬 Biotechnology Research](#biotechnology-research-naples)
+- [🌌 Experimental Neutrino Research](#neutrino-research-naples)
+- [🚀 Quantum Propulsion Lab](#quantum-propulsion-lab-naples)
+- [🎓 University Partnerships](#university-partnerships-naples)
+
+### [🛡️ Bologna Earth Protection Center](#bologna-earth-protection-center)
+- [🛰️ Observation Satellites Program](#observation-satellites-bologna)
+- [🌋 Catastrophe Prevention Systems](#catastrophe-prevention-bologna)
+- [🌌 Deep Space Research](#deep-space-research-bologna)
+- [🔭 Space Situational Awareness](#space-situational-awareness-bologna)
+### 🌊 Mediterranean Countries — Extended Facilities Network
+
+### [🏛️ Rome — ESA Integration (Italy)](#rome-esa-integration)
+- [🛰️ ESA-ESRIN Collaboration](#esa-esrin-collaboration)
+- [🚀 Aerospace Systems Integration](#aerospace-systems-integration-rome)
+- [📡 Satellite Operations Support](#satellite-operations-rome)
+- [🤝 Institutional Partnerships](#institutional-partnerships-rome)
+
+### [⚙️ Turin — Advanced Propulsion (Italy)](#turin-advanced-propulsion)
+- [🔥 Propulsion R&D](#propulsion-rd-turin)
+- [🏭 Precision Manufacturing](#precision-manufacturing-turin)
+- [🧪 Engine Testing Facilities](#engine-testing-turin)
+- [🔬 Materials Science Lab](#materials-science-turin)
+
+### [🌊 Naples — Maritime-Aerospace Research (Italy)](#naples-maritime-aerospace)
+- [🧪 Composite Materials Research](#composite-research-naples)
+- [🚢 Maritime-Aerospace Interface](#maritime-aerospace-naples)
+- [🎓 University Partnerships](#university-partnerships-naples)
+- [🌋 Environmental Monitoring](#environmental-monitoring-naples)
+
+### [⚛️ Athens — Quantum & Maritime Monitoring (Greece)](#athens-quantum-maritime)
+- [⚛️ Quantum Research Lab](#quantum-research-athens)
+- [🌊 Maritime Surveillance Systems](#maritime-surveillance-athens)
+- [📡 Eastern Mediterranean Sensors](#eastern-med-sensors-athens)
+- [🎓 NCSR Demokritos Collaboration](#demokritos-athens)
+
+### [💻 Zagreb — Software & Simulation (Croatia)](#zagreb-software-simulation)
+- [💻 Software Engineering Center](#software-engineering-zagreb)
+- [🖥️ Digital Simulation Lab](#simulation-lab-zagreb)
+- [🧪 Virtual Testing Infrastructure](#virtual-testing-zagreb)
+- [🎓 Technical Talent Hub](#talent-hub-zagreb)
+
+### [🤖 Ljubljana — Robotics & Automation (Slovenia)](#ljubljana-robotics)
+- [🤖 Advanced Robotics Lab](#robotics-lab-ljubljana)
+- [⚙️ Automation Systems](#automation-systems-ljubljana)
+- [🔬 Jožef Stefan Institute Collaboration](#jozef-stefan-ljubljana)
+- [🔧 Mechatronics Center](#mechatronics-ljubljana)
+
+### [🌿 Podgorica — Environmental Monitoring (Montenegro)](#podgorica-environmental)
+- [🌍 Adriatic Environmental Sensors](#adriatic-sensors-podgorica)
+- [📊 Data Collection Station](#data-station-podgorica)
+- [🌊 Mediterranean Climate Monitoring](#climate-monitoring-podgorica)
+- [📡 Remote Sensing Hub](#remote-sensing-podgorica)
+
+### [🏗️ Tirana — Operational Support (Albania)](#tirana-operational-support)
+- [🛠️ Operational Support Center](#ops-support-tirana)
+- [📦 Logistics Coordination](#logistics-tirana)
+- [🎓 Capacity Building Program](#capacity-building-tirana)
+- [🌍 Adriatic Coverage Node](#adriatic-node-tirana)
+
+### [✈️ Valletta — Aviation & Maritime Regulation (Malta)](#valletta-aviation-maritime)
+- [✈️ Aviation Regulatory Hub](#aviation-regulation-valletta)
+- [🚢 Maritime Registry Center](#maritime-registry-valletta)
+- [📋 Compliance & Certification](#compliance-valletta)
+- [🌊 Central Mediterranean Operations](#central-med-ops-valletta)
+
+### [📡 Nicosia — Satellite & Cybersecurity (Cyprus)](#nicosia-satellite-cybersecurity)
+- [📡 Satellite Telecommunications](#satellite-telecom-nicosia)
+- [🛡️ Cybersecurity Operations Center](#cybersecurity-ops-nicosia)
+- [🛰️ Eastern Mediterranean Relay](#eastern-med-relay-nicosia)
+- [🔐 Post-Quantum Security Lab](#pq-security-nicosia)
+
+### [💰 Monaco — Innovation & Sustainability (Monaco)](#monaco-innovation-sustainability)
+- [💰 Financial Innovation Center](#fin-innovation-monaco)
+- [🌊 Oceanographic Research](#oceanographic-research-monaco)
+- [🌱 Marine Sustainability Lab](#marine-sustainability-monaco)
+- [🤝 Monaco Ocean Foundation Partnership](#ocean-foundation-monaco)
+
+### [🌉 Istanbul — Systems & Manufacturing (Turkey)](#istanbul-systems-manufacturing)
+- [⚙️ Systems Engineering Center](#systems-engineering-istanbul)
+- [🏭 Aerospace Manufacturing Plant](#aerospace-manufacturing-istanbul)
+- [🔧 MRO Operations](#mro-operations-istanbul)
+- [🌐 Europe-Asia Bridge Hub](#europe-asia-hub-istanbul)
+
+### [🔬 Haifa — Quantum-AI R&D (Israel)](#haifa-quantum-ai)
+- [⚛️ Quantum Computing Lab](#quantum-computing-haifa)
+- [🤖 AI Research Center](#ai-research-haifa)
+- [🛡️ Cybersecurity R&D](#cybersecurity-rd-haifa)
+- [🎓 Technion Collaboration](#technion-haifa)
+
+### [🎓 Beirut — Academic Research (Lebanon)](#beirut-academic-research)
+- [🎓 AUB Research Partnership](#aub-partnership-beirut)
+- [📚 Academic Exchange Program](#academic-exchange-beirut)
+- [🌍 Cultural Bridge Center](#cultural-bridge-beirut)
+- [💡 Innovation Incubator](#innovation-incubator-beirut)
+
+### [🏭 Casablanca — Aerospace Manufacturing (Morocco)](#casablanca-aerospace-manufacturing)
+- [✈️ Aerospace Component Manufacturing](#component-manufacturing-casablanca)
+- [🎓 Technical Training Academy](#training-academy-casablanca)
+- [🏭 Free Zone Operations](#free-zone-casablanca)
+- [⛓️ African Supply Chain Hub](#supply-chain-casablanca)
+
+### [⚡ Tunis — Electronics & Calibration (Tunisia)](#tunis-electronics-calibration)
+- [⚡ Electronic Systems Engineering](#electronics-engineering-tunis)
+- [🔧 Calibration & Metrology Center](#calibration-center-tunis)
+- [🏭 Component Assembly](#component-assembly-tunis)
+- [🎓 Technical Partnerships](#technical-partnerships-tunis)
+
+### [☀️ Algiers — Renewables & Space Monitoring (Algeria)](#algiers-renewables-space)
+- [☀️ Solar Energy Research Center](#solar-research-algiers)
+- [🛰️ Space Monitoring Station (ASAL)](#space-monitoring-algiers)
+- [🌍 Territorial Sensor Network](#sensor-network-algiers)
+- [🔋 Energy Storage Lab](#energy-storage-algiers)
+
+### [📡 Tripoli — Remote Monitoring Station (Libya)](#tripoli-remote-monitoring)
+- [📡 Central Mediterranean Monitoring](#central-med-monitoring-tripoli)
+- [🌍 Remote Sensing Station](#remote-sensing-tripoli)
+- [📊 Data Relay Node](#data-relay-tripoli)
+- [🔧 Minimal Footprint Operations](#minimal-ops-tripoli)
+
+### [🏗️ Cairo — Aerospace Engineering (Egypt)](#cairo-aerospace-engineering)
+- [✈️ Aerospace Engineering Center (AOI)](#aerospace-engineering-cairo)
+- [🎓 Technical Training Campus](#training-campus-cairo)
+- [🔧 MRO Regional Hub](#mro-hub-cairo)
+- [🌐 Europe-Africa-Asia Nexus](#nexus-cairo)
+
+### [🌊 Alexandria — Maritime & Oceanography (Egypt)](#alexandria-maritime-oceanography)
+- [🌊 Maritime Research Institute](#maritime-research-alexandria)
+- [🔬 Oceanographic Studies Lab](#oceanography-lab-alexandria)
+- [🚢 Port Infrastructure Collaboration](#port-infrastructure-alexandria)
+- [📡 Mediterranean-Red Sea Link](#med-red-sea-link-alexandria)
 
 ---
 
@@ -8439,6 +8616,26 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 ---
 
+## OPT-INS_FRAMEWORK
+**⚛️🛰️ Marco de Integraciones Opcionales por Dominio**
+
+> Módulos opt-in que cualquier programa GAIA-QAO puede activar selectivamente para extender las capacidades del pipeline central (AM.PEL v2.0) a dominios operacionales específicos.
+
+### [⚛️🛰️ S-SPACE — Space Domain Specifics](#s-space-specifics)
+- [📡 CCSDS Telemetry Adapter](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#51-ccsds-telemetry-adapter)
+- [🔭 Space Situational Awareness (SSA)](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#52-space-situational-awareness-ssa)
+- [🪐 Orbital Mechanics Engine](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#53-orbital-mechanics-engine)
+- [🔐 QKD Inter-Satellite Link](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#54-quantum-key-distribution-qkd-inter-satellite-link)
+- [📡 Ground Station Interface](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#55-ground-station-interface)
+- [☢️ Radiation-Hardened Edge Profile](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#56-radiation-hardened-edge-profile)
+- [🌞 Space Weather & Debris Monitoring](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#57-space-weather--debris-monitoring)
+- [🌌 Deep Space Telemetry Extension](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#58-deep-space-telemetry-extension)
+- [⚛️ Quantum Sensor Stream Adapter](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#59-quantum-sensor-stream-adapter)
+
+> Full specification: [`OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md`](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md)
+
+---
+
 ## 🎯 **NAVEGACIÓN RÁPIDA**
 
 | **Sección** | **Link Directo** | **Subsecciones** |
@@ -8450,10 +8647,11 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | **UTCS** | [04-UTCS-ARCHITECTURE](#04-utcs-architecture) | 10 Arquitecturas (000-999) |
 | **Templates** | [05-DOCUMENTATION-TEMPLATES](#05-documentation-templates) | 251 Templates |
 | **Standards** | [06-STANDARDS-COMPLIANCE](#06-standards-compliance) | Aerospace, Quality, Cyber |
-| **Facilities** | [07-FACILITIES-LOCATIONS](#07-facilities-locations) | 5 Ubicaciones Principales |
+| **Facilities** | [07-FACILITIES-LOCATIONS](#07-facilities-locations) | 25 Ubicaciones
 | **Digital** | [08-DIGITAL-INFRASTRUCTURE](#08-digital-infrastructure) | PLM, Twins, Quantum, Cyber |
 | **Partnerships** | [09-EXTERNAL-PARTNERSHIPS](#09-external-partnerships) | Industria, Academia, Gobierno |
 | **Archive** | [10-ARCHIVE-LEGACY](#10-archive-legacy) | Histórico, Legacy, Versiones |
+| **Opt-Ins** | [OPT-INS_FRAMEWORK](#opt-ins_framework) | S-SPACE (9 sub-modules) |
 
 ---
 
