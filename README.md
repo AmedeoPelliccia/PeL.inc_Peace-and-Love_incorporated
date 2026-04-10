@@ -8497,7 +8497,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 |---------|-----------|-----------------------------------|-----------------|
 | 1.0.0   | 23/07/2025| Documento inicial completo        | A. Pelliccia    |
 | 2.0.0   | 23/07/2025| Corrección nomenclatura y autoría  | A. Pelliccia    |
-| 2.1.0   | 08/04/2026| Revisión de PRs pendientes, notas de integración, recomendaciones de merge | Copilot    |
+| 2.1.0   | 08/04/2026| Revisión de PRs pendientes, notas de integración y recomendaciones de merge; asistido por GitHub Copilot | A. Pelliccia    |
 
 ---
 
