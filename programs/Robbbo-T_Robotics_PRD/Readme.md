@@ -60,7 +60,7 @@ Coerentemente con l'architettura GQAOA, la triade MACCHIN-AR-IA opera attraverso
 | **ROBOT.INC-D** (Diagnostica) | OGATA 604-xx | Robot per manutenzione, diagnosi e ispezione | Robbbo‑T/Extended\_Maintenance |
 | **ROBOT.INC-G** (Veicoli Autonomi) | OGATA 610-xx | AGV, trattori autonomi, sistemi di pushback | Robbbo‑T/Factory |
 | **ROBOT.INC-S** (Servizio) | OGATA 670-xx | Robot di servizio autonomi per logistica e assistenza | Tutti |
-| **ROBOT.INC-Q** (Quantistici) | QCSAA 960-xx | Robot con ottimizzazione quantistica, nanorobotica, manipolazione materiali quantistici | Robbbo‑T/Factory (avanzato) |
+| **ROBOT.INC-Q** (Quantistici) | QCSAA 960-xx | Robot con ottimizzazione quantistica, nanorobotica, manipolazione di materiali quantistici | Robbbo‑T/Factory (avanzato) |
 
 ### 3.2 Ciclo di Vita ROBOT.INCs
 
