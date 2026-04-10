@@ -8468,7 +8468,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | #1 | Add Naples, Bologna hubs & AM.PEL v2.0 | 🟡 Draft | Añade 2 ubicaciones, programa AMPEL-EVO |
 
 > **Notas de revisión:**
-> - PRs #1 y #5 se solapan en ubicaciones Napoli/Bologna — coordinar merge.
+> - PRs #1 y #5 se solapan en ubicaciones Naples/Bologna — coordinar merge.
 > - PR #3 debe aplicarse temprano para estandarizar nomenclatura canónica "GAIA QUANTUM AMPEL OPT-INS ARCHITECTURE, INC."
 > - PR #2 es el más autocontenido (SICOCA + CI) — candidato a merge primero.
 > - Considerar extraer Anexo G (UTCS ~3000 líneas) a archivo separado para reducir tamaño del README.
