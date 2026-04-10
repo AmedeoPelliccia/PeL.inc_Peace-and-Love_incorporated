@@ -8548,6 +8548,27 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 ---
 
+## 📝 **REVISIÓN DE PRs PENDIENTES**
+
+> Ver estado actualizado en: [PRs abiertos](https://github.com/AmedeoPelliccia/GQAOA/pulls?q=is%3Apr+is%3Aopen)
+> Última revisión de coordinación: Abril 2026.
+
+| # | Título | Link | Impacto en README |
+|---|--------|------|-------------------|
+| #5 | Transfer HQ to Amsterdam Tech Hub + 4 new hubs | [PR #5](https://github.com/AmedeoPelliccia/GQAOA/pull/5) | Actualiza 07-FACILITIES-LOCATIONS (tabla de ubicaciones), HQ Madrid→Amsterdam |
+| #4 | Add BBCNs (Barcelona BlockChains Community Networks) | [PR #4](https://github.com/AmedeoPelliccia/GQAOA/pull/4) | Añade programa Barcelona, actualiza DTCEC y estadísticas |
+| #3 | S1000D validator, estandarizar nombre GQAOA, BOB DA→CHARLIE_T | [PR #3](https://github.com/AmedeoPelliccia/GQAOA/pull/3) | Estandariza nomenclatura a "GQAOA, INC." |
+| #2 | Port SICOCA package & restructure test suite | [PR #2](https://github.com/AmedeoPelliccia/GQAOA/pull/2) | Añade referencia a GAI-A-AMAR-AGGIX Architecture |
+| #1 | Add Naples, Bologna hubs & AM.PEL v2.0 | [PR #1](https://github.com/AmedeoPelliccia/GQAOA/pull/1) | Añade 2 ubicaciones, programa AMPEL-EVO |
+
+> **Notas de coordinación de merge:**
+> - PRs #1 y #5 se solapan en ubicaciones Naples/Bologna — coordinar merge.
+> - PR #3 debe aplicarse temprano para estandarizar nomenclatura canónica "GAIA QUANTUM AMPEL OPT-INS ARCHITECTURE, INC."
+> - PR #2 es el más autocontenido (SICOCA + CI) — candidato a merge primero.
+> - Considerar extraer Anexo G (UTCS ~3000 líneas) a archivo separado para reducir tamaño del README.
+
+---
+
 ## 📊 **ESTADÍSTICAS FINALES**
 
 | **Métrica** | **Valor** |
@@ -8570,7 +8591,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 |---------|-----------|-----------------------------------|-----------------|
 | 1.0.0   | 23/07/2025| Documento inicial completo        | A. Pelliccia    |
 | 2.0.0   | 23/07/2025| Corrección nomenclatura y autoría  | A. Pelliccia    |
-| 2.1.0   | 08/04/2026| Añadido programa BBCNs (Barcelona BlockChains Community Networks) y ubicación Barcelona | A. Pelliccia    |
+| 2.1.0   | 08/04/2026| Revisión de PRs pendientes, notas de integración y recomendaciones de merge; asistido por GitHub Copilot | A. Pelliccia    |
 
 ---
 
