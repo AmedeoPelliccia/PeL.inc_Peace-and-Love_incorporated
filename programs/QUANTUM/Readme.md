@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **QUANTUM** program folder contains the quantum computing resource management subsystems for the GAIA-QAO ecosystem. It provides the foundational infrastructure for QPU (Quantum Processing Unit) allocation, circuit scheduling, hybrid orchestration, and resource monitoring across all AMPEL360 platform variants.
+The **QUANTUM** program folder contains the quantum computing resource management subsystems for the GQAOA, INC. ecosystem. It provides the foundational infrastructure for QPU (Quantum Processing Unit) allocation, circuit scheduling, hybrid orchestration, and resource monitoring across all AMPEL360 platform variants.
 
 ## Structure
 
