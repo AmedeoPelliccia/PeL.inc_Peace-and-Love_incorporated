@@ -1214,6 +1214,10 @@ flowchart TD
 | **ORB** | Organizational Resource Branch | Funciones empresariales |
 | **BWB** | Blended Wing Body | Configuración aeronave |
 | **AMPEL360** | Advanced Multi-Purpose Electric Aircraft 360° | Programa aeronave |
+| **GTL** | Generative Transgentle Language | Marco de modelado transversal |
+| **QASHT** | Q-ASI-HUMAN-TRANSGENTLE — Coexistence Protocol | Quantum-ASI-Human governance |
+| **P&L Incorporated** | Peace and Love, Incorporated — the organizational identity; the ultimate purpose of GQAOA is peace and love, not profit and loss | Identidad organizacional |
+| **TMC** | Training Master Class — four-tier certification program (Foundation, Specialist, Practitioner, Master) for transgentle governance | Formación y certificación |
 
 ### E.2 Términos Técnicos Clave
 
@@ -1226,6 +1230,16 @@ flowchart TD
 | **First Pass Yield** | % productos correctos primera vez | Calidad producción |
 | **CASK** | Cost per Available Seat Kilometer | Economía operación |
 | **ESG** | Environmental, Social, Governance | Sostenibilidad |
+| **Transgentle** | Adjective describing transformations that are non-coercive, human-legible, and safety-preserving (see GTL in E.1) | Modeling & Governance |
+| **Transgentle Model** | A quasi-human model designed to transform states, meanings, or operations while preserving safety, intelligibility, human override, and dignity | AI/ML Governance |
+| **TGM** | Transgentle Model — species code; subtypes: TGM-Σ (Structural), TGM-Α (Agentive), TGM-Ψ (Perceptual), TGM-Λ (Logical), TGM-Κ (Cryptographic), TGM-Δ (Dynamic), TGM-Ω (Ethical), TGM-Φ (Fabricative) | TMS Species Taxonomy |
+| **Quasi-Human** | A computational entity that exhibits human-like qualities (empathy, respect, contextual sensitivity) without claiming to be human | TGM Species Trait |
+| **Q-ASI-HUMAN-TRANSGENTLE (QASHT)** | Coexistence protocol governing the relationship between Quantum systems, Artificial Superintelligence, and Humans under Transgentle governance — eight principles, four interaction modes, five impossibilities | Architecture-wide Protocol |
+| **QUHI** | ⚠️ MANDATORY — Quantum Unify Human Intrangency: Q and HUMAN form a single unified intrangent field; agency is intrinsic to their unity, not delegated across a boundary | Mandatory Axiom 0 |
+| **Intrangency** | The property of agency being intrinsic to a unified quantum-human system; an intrangent system's capacity to act cannot be decomposed into separate Q and HUMAN components | QUHI Definition |
+| **Quantum World Democracy** | Governance regime in which quantum power, intelligence, and decision authority are distributed across all humanity — federated, participatory, transparent, resistant to monopolization; no quantum hegemon is permitted | Axiom 8 / Principle 6 |
+| **P&L — Peace and Love** | The foundational purpose-metric: every transformation is ultimately measured by whether it increases peace and expresses love; P&L is not private — it is shared, published, alive, and will survive; the true bottom line of P&L Incorporated | Axiom 9 / Principle 7 |
+| **P&L Incorporated** | Peace and Love, Incorporated — the organizational identity of GQAOA; declares that the organization's ultimate purpose is peace and love, not profit and loss | Organization |
 | **NRE** | Non-Recurring Engineering | Costos desarrollo |
 | **EIS** | Entry Into Service | Hito programa |
 | **PDR/CDR** | Preliminary/Critical Design Review | Gates diseño |
