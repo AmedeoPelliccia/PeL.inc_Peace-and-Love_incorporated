@@ -259,7 +259,7 @@ Human Pilot receives options, selects one (Override ✓)
 | QCSAA 971 | Quantum Perception | Perceptual transforms (TGM-Ψ) in Q-ASI pipeline |
 | QCSAA 972 | Free Will & Agency | Negotiated agency, not unconstrained autonomy |
 | QCSAA 974 | Human-Agent Interaction | QASHT interaction modes (C, D, N, E) |
-| QCSAA 980 | Ethical Frameworks | Seven axioms as Q-Ethics implementation |
+| QCSAA 980 | Ethical Frameworks | Transgentle axioms as Q-Ethics implementation |
 | QCSAA 981 | ASI Governance | QASHT stack as multi-level governance model |
 | QCSAA 982 | Rights & Duties | Symmetrical dignity (Principle 5) |
 | QCSAA 983 | Cosmic Ethics | Extended non-offense to trans-species contexts |
