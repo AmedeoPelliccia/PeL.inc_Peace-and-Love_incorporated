@@ -8,6 +8,12 @@
 **Autor:** Oficina del CEO / Comité Estratégico GAIA-QAO
 **Estado:** Borrador Maestro Revisado
 
+## GAI‑A‑AMAR‑AGGIX Governance & Architecture Framework
+
+> **See [`GAI-A-AMAR-AGGIX-Architecture.md`](GAI-A-AMAR-AGGIX-Architecture.md)** for the normative top‑level governance umbrella that sits above all domains (aerospace, marine, space, robotics) and organises them as a Tree Architecture with canonical definitions, standards per layer, and formal durability/inheritance/branching rules.
+
+---
+
 ## ÍNDICE EJECUTIVO
 
 *   [Declaración de Propósito](#1-declaración-de-propósito)
@@ -171,8 +177,35 @@ GAIA-QAO ADVENT se organiza como una estructura ideal pensada para la integraci�
 | Madrid (HQ) | Sede Central, Finanzas, Legal         | 500                | Ubicación central, acceso a talento financiero y legal, entorno empresarial competitivo.                                  | €150M                 |
 | Toulouse    | Integración Final, Pruebas Vuelo      | 1200               | Ecosistema aeroespacial líder en Europa, con infraestructura de pruebas y talento experimentado.                         | €400M                 |
 | Hamburgo    | Diseño Fuselaje, Cabina               | 800                | Centro de excelencia histórico en diseño de cabinas y fuselajes, con una fuerte base industrial.                         | €300M                 |
-| Múnich      | I+D Cuántico, Propulsión              | 400                | Proximidad a centros de investigación de vanguardia en propulsión y física cuántica.                                     | €250M                 |
+| München (ESSA-HQ) | Hauptsitz des Earth Safety and Security Assemblies Center (ESSA) | 450 | Zentraler Standort für Sicherheitsforschung, Krisenmanagement, Frühwarnsysteme und interinstitutionelle Koordination zum Schutz der Erde; strategische Mittellage in Europa, Nähe zu führenden Forschungseinrichtungen und Sicherheitsbehörden. | €280M |
 | Sevilla     | Manufactura Composites                | 600                | Centro especializado en la producción de aeroestructuras de materiales compuestos a gran escala.                       | €350M                 |
+| Nápoles     | Hub Tecnológico Quantum de Vanguardia | 450                | Centro de investigación en nanotecnología, biotecnología, investigación experimental de neutrinos y propulsión cuántica; conexión con universidades y laboratorios de física de partículas del sur de Europa. | €280M |
+| Bolonia     | Programas Avanzados de Protección Terrestre | 350           | Centro de excelencia en satélites de observación, prevención de catástrofes naturales e investigación del espacio profundo; sinergias con ESA y el ecosistema académico emiliano. | €220M |
+
+**🌊 Presencia Mediterránea Ampliada**
+
+| Ubicación             | País        | Función Principal                                  | Personal (Fase 1) | Justificación Estratégica                                                                                                  | Inversión (2025-2030) |
+| :-------------------- | :---------- | :------------------------------------------------- | :----------------- | :------------------------------------------------------------------------------------------------------------------------- | :-------------------- |
+| Roma                  | Italia      | Integración Aeroespacial, Colaboración ESA          | 350                | Proximidad a la sede de ESA-ESRIN, ecosistema aeroespacial italiano (Leonardo, Thales Alenia Space), centros de investigación. | €200M                 |
+| Torino                | Italia      | Propulsión Avanzada, Manufactura de Precisión       | 300                | Polo de ingeniería aeroespacial (Avio, Thales Alenia Space), distrito de manufactura avanzada y propulsión.                  | €180M                 |
+| Nápoles               | Italia      | Investigación Marítima-Aeroespacial, Composites     | 200                | Centro de investigación en materiales compuestos, enlace marítimo-aeroespacial, Universidad Federico II.                    | €120M                 |
+| Atenas                | Grecia      | Investigación Cuántica, Monitoreo Marítimo          | 150                | Hub científico del Mediterráneo oriental, investigación cuántica (NCSR Demokritos), capacidades de vigilancia marítima.       | €90M                  |
+| Zagreb                | Croacia     | Ingeniería de Software, Simulación Digital           | 100                | Talento técnico emergente, coste competitivo, proximidad a ecosistema europeo central.                                      | €50M                  |
+| Ljubljana             | Eslovenia   | Robótica Avanzada, Automatización                   | 80                 | Centro de excelencia en robótica (Instituto Jožef Stefan), enlace con Europa Central.                                       | €45M                  |
+| Podgorica             | Montenegro  | Monitoreo Ambiental, Estación de Datos              | 40                 | Ubicación estratégica para sensores ambientales del Adriático, infraestructura de datos mediterránea.                        | €20M                  |
+| Tirana                | Albania     | Centro de Soporte Operacional                       | 50                 | Posición estratégica en el Adriático, desarrollo de capacidades locales, coste operativo favorable.                          | €25M                  |
+| La Valeta             | Malta       | Centro de Aviación y Regulación Marítima            | 60                 | Hub de aviación mediterráneo, centro de registro marítimo y aeronáutico, marco regulatorio favorable.                        | €35M                  |
+| Nicosia               | Chipre      | Telecomunicaciones Satelitales, Ciberseguridad      | 70                 | Posición geoestratégica para comunicaciones satelitales, hub de ciberseguridad del Mediterráneo oriental.                    | €40M                  |
+| Mónaco                | Mónaco      | Centro de Innovación Financiera y Sostenibilidad    | 30                 | Centro financiero de excelencia, investigación oceanográfica (Instituto Oceanográfico de Mónaco), sostenibilidad marina.     | €30M                  |
+| Estambul              | Turquía     | Ingeniería de Sistemas, Manufactura Aeroespacial    | 250                | Puente Europa-Asia, industria aeroespacial en crecimiento (TAI/TUSAŞ), talento técnico abundante.                            | €150M                 |
+| Haifa                 | Israel      | I+D Cuántico-Defensa, Inteligencia Artificial       | 180                | Ecosistema de alta tecnología, investigación cuántica avanzada (Technion), liderazgo en IA y ciberseguridad.                 | €130M                 |
+| Beirut                | Líbano      | Centro de Investigación Académica                   | 40                 | Tradición académica (AUB, USJ), enlace cultural entre Europa y Oriente Medio.                                                | €20M                  |
+| Casablanca            | Marruecos   | Manufactura Aeroespacial, Formación Técnica         | 200                | Hub aeronáutico africano emergente (Bombardier, Safran), zona franca industrial, coste competitivo.                          | €100M                 |
+| Túnez                 | Túnez       | Ingeniería Electrónica, Centro de Calibración       | 100                | Tradición técnica, proximidad a Europa, industria electrónica y de autopartes establecida.                                    | €55M                  |
+| Argel                 | Argelia     | Centro de Energías Renovables y Monitoreo Espacial  | 80                 | Potencial en energía solar, programa espacial nacional (ASAL), extensión territorial para sensores.                          | €45M                  |
+| Trípoli               | Libia       | Estación de Monitoreo Remoto                        | 20                 | Ubicación estratégica para cobertura del Mediterráneo central, potencial a largo plazo.                                      | €15M                  |
+| El Cairo              | Egipto      | Centro de Ingeniería Aeroespacial, Formación        | 150                | Industria aeroespacial establecida (AOI), talento técnico abundante, posición en el cruce Europa-África-Asia.                | €80M                  |
+| Alejandría            | Egipto      | Investigación Marítima, Oceanografía                | 60                 | Tradición científica, enlace marítimo del Mediterráneo oriental con el Mar Rojo, infraestructura portuaria.                  | €35M                  |
 
 # 4. SISTEMA DE GOBERNANZA
 
@@ -1181,6 +1214,10 @@ flowchart TD
 | **ORB** | Organizational Resource Branch | Funciones empresariales |
 | **BWB** | Blended Wing Body | Configuración aeronave |
 | **AMPEL360** | Advanced Multi-Purpose Electric Aircraft 360° | Programa aeronave |
+| **GTL** | Generative Transgentle Language | Marco de modelado transversal |
+| **QASHT** | Q-ASI-HUMAN-TRANSGENTLE — Coexistence Protocol | Quantum-ASI-Human governance |
+| **P&L Incorporated** | Peace and Love, Incorporated — the organizational identity; the ultimate purpose of GQAOA is peace and love, not profit and loss | Identidad organizacional |
+| **TMC** | Training Master Class — four-tier certification program (Foundation, Specialist, Practitioner, Master) for transgentle governance | Formación y certificación |
 
 ### E.2 Términos Técnicos Clave
 
@@ -1193,6 +1230,16 @@ flowchart TD
 | **First Pass Yield** | % productos correctos primera vez | Calidad producción |
 | **CASK** | Cost per Available Seat Kilometer | Economía operación |
 | **ESG** | Environmental, Social, Governance | Sostenibilidad |
+| **Transgentle** | Adjective describing transformations that are non-coercive, human-legible, and safety-preserving (see GTL in E.1) | Modeling & Governance |
+| **Transgentle Model** | A quasi-human model designed to transform states, meanings, or operations while preserving safety, intelligibility, human override, and dignity | AI/ML Governance |
+| **TGM** | Transgentle Model — species code; subtypes: TGM-Σ (Structural), TGM-Α (Agentive), TGM-Ψ (Perceptual), TGM-Λ (Logical), TGM-Κ (Cryptographic), TGM-Δ (Dynamic), TGM-Ω (Ethical), TGM-Φ (Fabricative) | TMS Species Taxonomy |
+| **Quasi-Human** | A computational entity that exhibits human-like qualities (empathy, respect, contextual sensitivity) without claiming to be human | TGM Species Trait |
+| **Q-ASI-HUMAN-TRANSGENTLE (QASHT)** | Coexistence protocol governing the relationship between Quantum systems, Artificial Superintelligence, and Humans under Transgentle governance — eight principles, four interaction modes, five impossibilities | Architecture-wide Protocol |
+| **QUHI** | ⚠️ MANDATORY — Quantum Unify Human Intrangency: Q and HUMAN form a single unified intrangent field; agency is intrinsic to their unity, not delegated across a boundary | Mandatory Axiom 0 |
+| **Intrangency** | The property of agency being intrinsic to a unified quantum-human system; an intrangent system's capacity to act cannot be decomposed into separate Q and HUMAN components | QUHI Definition |
+| **Quantum World Democracy** | Governance regime in which quantum power, intelligence, and decision authority are distributed across all humanity — federated, participatory, transparent, resistant to monopolization; no quantum hegemon is permitted | Axiom 8 / Principle 6 |
+| **P&L — Peace and Love** | The foundational purpose-metric: every transformation is ultimately measured by whether it increases peace and expresses love; P&L is not private — it is shared, published, alive, and will survive; the true bottom line of P&L Incorporated | Axiom 9 / Principle 7 |
+| **P&L Incorporated** | Peace and Love, Incorporated — the organizational identity of GQAOA; declares that the organization's ultimate purpose is peace and love, not profit and loss | Organization |
 | **NRE** | Non-Recurring Engineering | Costos desarrollo |
 | **EIS** | Entry Into Service | Hito programa |
 | **PDR/CDR** | Preliminary/Critical Design Review | Gates diseño |
@@ -7844,6 +7891,14 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 > **Impacto operativo**: El nuevo **AMPEL360‑BWB‑e** reutiliza el chasis BWB existente, por lo que solo exige adaptar **ROBBBO‑T‑TEST** (banco de baterías y pruebas EMI) y **ROBBBO‑T‑FAL** (línea de integración de packs modulares). No requiere alteraciones en los programas espaciales.
 
+---
+
+### 4. Programas de datos cuánticos **AMPEL‑EVO**
+
+| Programa | Descripción básica |
+| -------- | ------------------ |
+| **AMPEL‑EVO/PAPALAIKED‑V2** | Pipeline cuántico AM.PEL v2.0: QML híbrido, clasificación de transientes astrofísicos, telemetría aeroespacial (CCSDS), SSA y provenance cuántica inmutable. Evolved de la baseline PapaLaiked v1.x. Alineado con los hubs de Nápoles (quantum propulsion sensors) y Bolonia (Earth Protection / SSA). |
+
 
 ## ANEXO I  🌐 ESTRUCTURA DE DIRECTORIO GAIA-QAO ADVENT v2.0.0
 
@@ -7862,10 +7917,11 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | [04](#04-utcs-architecture) | **UTCS-ARCHITECTURE** | Arquitectura Tecnológica Universal | 100 | 15,000 |
 | [05](#05-documentation-templates) | **DOCUMENTATION-TEMPLATES** | Templates de Documentación | 251 | 251 |
 | [06](#06-standards-compliance) | **STANDARDS-COMPLIANCE** | Cumplimiento de Estándares | 25 | 500 |
-| [07](#07-facilities-locations) | **FACILITIES-LOCATIONS** | Instalaciones y Ubicaciones | 40 | 3,000 |
+| [07](#07-facilities-locations) | **FACILITIES-LOCATIONS** | Instalaciones y Ubicaciones, incluye 20 Mediterráneas | 60 | 5,000 |
 | [08](#08-digital-infrastructure) | **DIGITAL-INFRASTRUCTURE** | Infraestructura Digital | - | - |
 | [09](#09-external-partnerships) | **EXTERNAL-PARTNERSHIPS** | Partnerships Externos | - | - |
 | [10](#10-archive-legacy) | **ARCHIVE-LEGACY** | Archivo y Legacy | - | - |
+| [OPT-INS](#opt-ins_framework) | **OPT-INS_FRAMEWORK** | Marco de Integraciones Opcionales (Space, Atmos…) | 6 | 12 |
 
 **Total: 559 subcarpetas | 36,101 archivos | 459 GB**
 
@@ -8342,11 +8398,12 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 - [🔬 Structures Lab](#structures-lab)
 - [🧪 Materials Testing](#materials-testing)
 
-### [🔬 Munich Research](#munich-research)
-- [⚛️ Quantum Lab](#quantum-lab)
-- [🚀 Propulsion Research](#propulsion-research)
-- [🤖 AI Development](#ai-development)
-- [🎓 University Partnerships](#university-partnerships-munich)
+### [🛡️ München — ESSA-Hauptquartier](#muenchen-essa-hq)
+- [🔬 Sicherheitsforschung & Technologieentwicklung](#sicherheitsforschung-muenchen)
+- [⚠️ Krisenmanagement & Notfallkoordination](#krisenmanagement-muenchen)
+- [🌍 Frühwarnsysteme & Erdbeobachtung](#fruehwarnsysteme-muenchen)
+- [🏛️ Interinstitutionelle Zusammenarbeit & Normung](#zusammenarbeit-muenchen)
+- [🛠️ Sicherheits-Assemblierungshalle (ESSA-Core)](#essa-assembly-muenchen)
 
 ### [🏭 Seville Manufacturing](#seville-manufacturing)
 - [🧪 Composites Production](#composites-production)
@@ -8452,6 +8509,26 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 ---
 
+## OPT-INS_FRAMEWORK
+**⚛️🛰️ Marco de Integraciones Opcionales por Dominio**
+
+> Módulos opt-in que cualquier programa GAIA-QAO puede activar selectivamente para extender las capacidades del pipeline central (AM.PEL v2.0) a dominios operacionales específicos.
+
+### [⚛️🛰️ S-SPACE — Space Domain Specifics](#s-space-specifics)
+- [📡 CCSDS Telemetry Adapter](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#51-ccsds-telemetry-adapter)
+- [🔭 Space Situational Awareness (SSA)](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#52-space-situational-awareness-ssa)
+- [🪐 Orbital Mechanics Engine](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#53-orbital-mechanics-engine)
+- [🔐 QKD Inter-Satellite Link](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#54-quantum-key-distribution-qkd-inter-satellite-link)
+- [📡 Ground Station Interface](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#55-ground-station-interface)
+- [☢️ Radiation-Hardened Edge Profile](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#56-radiation-hardened-edge-profile)
+- [🌞 Space Weather & Debris Monitoring](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#57-space-weather--debris-monitoring)
+- [🌌 Deep Space Telemetry Extension](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#58-deep-space-telemetry-extension)
+- [⚛️ Quantum Sensor Stream Adapter](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md#59-quantum-sensor-stream-adapter)
+
+> Full specification: [`OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md`](./OPT-INS_FRAMEWORK/S-SPACE-SPECIFICS.md)
+
+---
+
 ## 🎯 **NAVEGACIÓN RÁPIDA**
 
 | **Sección** | **Link Directo** | **Subsecciones** |
@@ -8467,6 +8544,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | **Digital** | [08-DIGITAL-INFRASTRUCTURE](#08-digital-infrastructure) | PLM, Twins, Quantum, Cyber |
 | **Partnerships** | [09-EXTERNAL-PARTNERSHIPS](#09-external-partnerships) | Industria, Academia, Gobierno |
 | **Archive** | [10-ARCHIVE-LEGACY](#10-archive-legacy) | Histórico, Legacy, Versiones |
+| **Opt-Ins** | [OPT-INS_FRAMEWORK](#opt-ins_framework) | S-SPACE (9 sub-modules) |
 
 ---
 
