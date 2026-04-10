@@ -434,7 +434,10 @@ class CircuitQueue:
                 return False
             prev = job.status
             job.status = CircuitStatus.CANCELLED
-            if prev == CircuitStatus.SCHEDULED and job.assigned_qpu:
+            if prev == CircuitStatus.QUEUED:
+                self._heap = [queued_job for queued_job in self._heap if queued_job is not job]
+                heapq.heapify(self._heap)
+            elif prev == CircuitStatus.SCHEDULED and job.assigned_qpu:
                 self._allocator.release(job.assigned_qpu)
             logger.info("Circuit %s cancelled (was %s)", circuit_id, prev.name)
             return True
