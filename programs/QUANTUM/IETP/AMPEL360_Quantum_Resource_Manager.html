@@ -573,10 +573,11 @@ retry loop back to QUEUED, limited by <code>max_retries</code>.</p>
 <h3>3.3 &nbsp; Alerting Mechanisms</h3>
 
 <div class="alert alert-info">
-  <strong>ℹ NOTE — Alert Suppression</strong>
-  To prevent alert storms during mass QPU degradation events, alerts with
-  the same <code>metric_name</code> and <code>qpu_id</code> are
-  deduplicated within a 60-second sliding window.
+  <strong>ℹ NOTE — Current Alert Emission Behavior</strong>
+  The current <code>ResourceMonitor</code> emits an <code>Alert</code> for
+  each out-of-bounds sample. Operators should therefore expect repeated
+  notifications during sustained threshold violations unless downstream
+  alert suppression or deduplication is configured separately.
 </div>
 
 <p>Alerts are triggered when any metric sample falls outside the
