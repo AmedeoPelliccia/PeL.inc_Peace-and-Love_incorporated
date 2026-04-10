@@ -208,7 +208,7 @@ TMC-COMPLIANCE:
   expiry_date: <ISO-8601>
   axioms_examined: [quhi, non-coercion, legibility, override, non-destruction, traceability, non-offense, quasi-humanity, quantum-world-democracy, peace-and-love]
   domain_specializations: [<UTCS-domain-codes>]
-  pal_assessment: <pass|conditional|pending>
+  pl_assessment: <pass|conditional|pending>
   issuing_authority: "P&L Incorporated / GQAOA Architecture Board"
 ```
 
