@@ -629,7 +629,7 @@ retired_technologies:
 
 | Acronimo | Espansione | Definizione |
 |----------|-----------|-------------|
-| **LUTNDR** | Libro Unico delle Tecnologie: Nuova progettazione, Disuso, Riassetti | Registro centralizzato dello stato di tutte le tecnologie |
+| **LUTNDR** | Libro Unico delle Tecnologie: in uso, Nuova progettazione, Disuso, Riassetti | Registro centralizzato dello stato di tutte le tecnologie nelle quattro ere |
 | **RICICLATI** | Registro Integrato delle Configurazioni Industriali per il Ciclo di vita, Lineage, Aggiornamento Tecnologico e Innovazione | Qualificatore del paradigma circolare |
 | **DPP** | Digital Product Passport | Passaporto digitale del prodotto |
 | **SBOM** | Software/Hardware Bill of Materials | Distinta componenti software e hardware |
