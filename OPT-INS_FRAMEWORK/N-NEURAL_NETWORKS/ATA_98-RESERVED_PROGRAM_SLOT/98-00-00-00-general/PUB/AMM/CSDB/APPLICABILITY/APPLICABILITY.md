@@ -111,7 +111,7 @@ La CCT definisce condizioni operative, ambientali e di stato che influenzano l'a
 | `msn` | Manufacturer Serial Number | string | Pattern: `SN-NNN` | `applicPropertyIdent="msn"` |
 | `modStatus` | Stato di modifica applicato | string | Codice SB/ECO (es. `SB-028-001`) | `applicPropertyIdent="modStatus"` |
 | `operator` | Operatore / cliente | string | Codice ICAO o nome | `applicPropertyIdent="operator"` |
-| `environment` | Condizione ambientale | enum | `STANDARD`, `COLD`, `HOT`, `HUMID`, `SALT`, `ALTITUDE` | `applicPropertyIdent="env"` |
+| `environment` | Condizione ambientale | enum | `STANDARD`, `COLD`, `HOT`, `HUMID`, `SALT`, `ALTITUDE` | `applicPropertyIdent="environment"` |
 | `lutState` | Stato tecnologico LUTNDR | enum | `USO`, `DIS`, `NPR`, `RIC` | `applicPropertyIdent="lutState"` |
 | `lcPhase` | Fase del ciclo di vita | enum | `LC01`–`LC14` | `applicPropertyIdent="lcPhase"` |
 | `optAxis` | Asse OPT-INS | enum | `O`, `P`, `T`, `I`, `N`, `S` | `applicPropertyIdent="optAxis"` |
