@@ -1,0 +1,56 @@
+name: Render ATA 03 General Diagrams
+
+on:
+  push:
+    paths:
+      - "OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_03-SUPPORT_INFRA/assets/diagrams/*.mmd"
+      - ".github/workflows/validate_ata03_general.yml"
+  pull_request:
+    paths:
+      - "OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_03-SUPPORT_INFRA/assets/diagrams/*.mmd"
+      - ".github/workflows/validate_ata03_general.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Mermaid CLI
+        run: npm install -g @mermaid-js/mermaid-cli
+
+      - name: Create output directories
+        run: |
+          mkdir -p OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_03-SUPPORT_INFRA/assets/diagrams
+          mkdir -p OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_03-SUPPORT_INFRA/assets/images
+
+      - name: Render SVG (transparent background)
+        run: |
+          mmdc \
+            -i OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_03-SUPPORT_INFRA/assets/diagrams/03-I-00-00-00-general.mmd \
+            -o OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_03-SUPPORT_INFRA/assets/diagrams/03-I-00-00-00-general.svg \
+            -b transparent
+
+      - name: Render PNG (white background)
+        run: |
+          mmdc \
+            -i OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_03-SUPPORT_INFRA/assets/diagrams/03-I-00-00-00-general.mmd \
+            -o OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_03-SUPPORT_INFRA/assets/images/03-I-00-00-00-general.png \
+            -b white
+
+      - name: Auto-commit rendered assets
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "ci: render ATA 03 general diagrams (SVG + PNG)"
+          file_pattern: |
+            OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_03-SUPPORT_INFRA/assets/diagrams/*.svg
+            OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_03-SUPPORT_INFRA/assets/images/*.png

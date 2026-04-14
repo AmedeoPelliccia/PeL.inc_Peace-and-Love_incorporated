@@ -1,0 +1,73 @@
+# =============================================================================
+# SSOT — 03-I-00-00-00-general
+# Single Source of Truth for the ATA 03 Support Infrastructure general node
+# =============================================================================
+
+meta:
+  id: "03-I-00-00-00"
+  title: "general"
+  domain: "I-INFRASTRUCTURES"
+  chapter: "ATA_03-SUPPORT_INFRA"
+  version: "1.0.0"
+  date: "2026-04-14"
+  status: "active"
+  programmes:
+    - "AMPEL360-Q100"
+    - "GAIA-SPACE-LAUNCHER"
+    - "SPACET-Q10"
+
+render:
+  mermaid_source: "assets/diagrams/03-I-00-00-00-general.mmd"
+  svg_asset: "assets/diagrams/03-I-00-00-00-general.svg"
+  png_asset: "assets/images/03-I-00-00-00-general.png"
+  video_asset: "assets/media/03-I-00-00-00-general.mp4"
+  thumbnail_asset: "assets/images/03-I-00-00-00-general-thumb.png"
+  svg_background: "transparent"
+  png_background: "white"
+  renderer: "@mermaid-js/mermaid-cli"
+
+node:
+  code: "03-I-00-00-00"
+  name: "general"
+  type: "root"
+  parent: null
+  children:
+    - code: "03-I-00-01-00"
+      name: "purpose_scope"
+      description: "Purpose and scope of the support infrastructure chapter"
+    - code: "03-I-00-02-00"
+      name: "reference_baseline"
+      description: "Reference documents, standards, and baseline configurations"
+    - code: "03-I-00-03-00"
+      name: "operational_concept"
+      description: "Operational concept for infrastructure usage and logistics"
+    - code: "03-I-00-04-00"
+      name: "site_facility_framework"
+      description: "Site layout, facility definitions, and physical framework"
+    - code: "03-I-00-05-00"
+      name: "common_utilities_services"
+      description: "Shared utilities and services (power, water, HVAC, networks)"
+    - code: "03-I-00-06-00"
+      name: "safety_emergency_framework"
+      description: "Safety protocols, emergency procedures, and risk mitigation"
+    - code: "03-I-00-07-00"
+      name: "security_access_control"
+      description: "Physical and logical security, access management"
+    - code: "03-I-00-08-00"
+      name: "data_digital_interoperability"
+      description: "Data standards, digital integration, and interoperability layers"
+    - code: "03-I-00-09-00"
+      name: "human_factors_documentation"
+      description: "Human factors engineering and documentation standards"
+    - code: "03-I-00-10-00"
+      name: "maintenance_supportability"
+      description: "Maintenance planning and supportability framework"
+    - code: "03-I-00-11-00"
+      name: "environmental_sustainability"
+      description: "Environmental impact management and sustainability practices"
+    - code: "03-I-00-12-00"
+      name: "compliance_certification"
+      description: "Regulatory compliance and certification processes"
+    - code: "03-I-00-13-00"
+      name: "configuration_governance_performance"
+      description: "Configuration management, governance, and performance monitoring"
