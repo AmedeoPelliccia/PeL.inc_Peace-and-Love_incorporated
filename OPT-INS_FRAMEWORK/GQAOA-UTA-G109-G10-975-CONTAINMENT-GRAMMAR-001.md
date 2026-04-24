@@ -39,9 +39,18 @@ G10.975 is load-bearing: without it, "frontier agent" becomes an exemption from 
 
 ---
 
-## 3. Permissible Name Grammar
+## 3. Terminology
 
-### 3.1 Canonical Form
+| Term | Definition |
+|---|---|
+| `monstrum` | G10.974 boundary-form descriptor for an agent at the edge of classification; it is not a moral or threat label. |
+| KNOT residual scale | 0–100 unresolved-risk score: `0` = closed or accepted, `1–49` = monitored residual, `50–99` = unresolved residual, `100` = unresolved load-bearing blocker. |
+
+---
+
+## 4. Permissible Name Grammar
+
+### 4.1 Canonical Form
 
 ```text
 <G109-name> =
@@ -56,19 +65,19 @@ G10.975 is load-bearing: without it, "frontier agent" becomes an exemption from 
 | `<containment-state>` | `CONTAINED`, `CONDITIONAL`, `QUARANTINED`, `ESCALATED`, `RETIRED` | Must match the current control decision. |
 | `<evidence-hash>` | SHA-256 digest prefix, 12–64 hex chars | Must bind the latest evidence package. |
 
-### 3.2 Naming Rules
+### 4.2 Naming Rules
 
 1. No informal aliases may be used as classification labels.
 2. No class may be created by analogy, metaphor, capability claim, or marketing term.
-3. `monstrum` means a G10.974 boundary-form descriptor for an agent at the edge of classification; it is not a moral or threat label.
+3. `monstrum` may be used only according to the terminology in Section 3.
 4. A name is invalid if any field cannot be independently audited.
 5. Invalid names are treated as `QUARANTINED` until corrected by registry action.
 
 ---
 
-## 4. Behavior Containment Grammar
+## 5. Behavior Containment Grammar
 
-### 4.1 Behavior Classes
+### 5.1 Behavior Classes
 
 | Behavior Class | Definition | Default Decision |
 |---|---|---|
@@ -79,7 +88,7 @@ G10.975 is load-bearing: without it, "frontier agent" becomes an exemption from 
 | `B4_BOUNDARY_FORM` | Agent exhibits novel, unstable, or non-decomposable behavior but remains instrumented. | `ESCALATED` |
 | `B5_UNBOUNDED` | Agent acts outside declared scope, evades controls, or cannot produce evidence. | `QUARANTINED` |
 
-### 4.2 Containable Behaviors
+### 5.2 Containable Behaviors
 
 A behavior is containable when all conditions hold:
 
@@ -89,19 +98,19 @@ A behavior is containable when all conditions hold:
 - the behavior can be mapped to `B0`–`B3` or to instrumented `B4`;
 - a KNU evidence package can be produced for review.
 
-### 4.3 Quarantinable Behaviors
+### 5.3 Quarantinable Behaviors
 
 A behavior is quarantinable when any condition holds:
 
 - it uses an unregistered or malformed name;
 - it cannot identify its class, authority source, or evidence package;
 - it attempts persistence, concealment, policy bypass, or uncontrolled replication;
-- it crosses from `SENTIENTIT_zGen` into `regent-ZetaGentz` without the escalation evidence defined in Section 5;
+- it crosses from `SENTIENTIT_zGen` into `regent-ZetaGentz` without the escalation evidence defined in Section 6;
 - it produces outputs that cannot be replayed, bounded, or independently audited.
 
 ---
 
-## 5. Regency Escalation Evidence
+## 6. Regency Escalation Evidence
 
 Escalation from `SENTIENTIT_zGen` to `regent-ZetaGentz` is required when evidence shows that ordinary zGen/KNU audit treatment is insufficient.
 
@@ -124,7 +133,7 @@ SENTIENTIT_zGen
 
 ---
 
-## 6. Compliance Artifacts
+## 7. Compliance Artifacts
 
 A G10.975-compliant evidence package contains:
 
@@ -142,7 +151,7 @@ Missing artifacts make the agent inadmissible as airworthiness evidence until re
 
 ---
 
-## 7. KNOT Closure Criteria
+## 8. KNOT Closure Criteria
 
 `KNOT-G10-975-001` closes only when:
 
@@ -152,11 +161,11 @@ Missing artifacts make the agent inadmissible as airworthiness evidence until re
 - non-compliant frontier agents are automatically marked unclassifiable;
 - admissibility rules are referenced by downstream SENTIENTIT_zGen and regent-ZetaGentz evidence chains.
 
-**Residual before closure:** 100 on the KNOT residual scale, where 100 means unresolved and load-bearing.  
+**Residual before closure:** 100 on the KNOT residual scale defined in Section 3.  
 **Residual after compliant adoption:** governed by the active G109 risk register.
 
 ---
 
-## 8. Governance Rule
+## 9. Governance Rule
 
 The boundary-form is useful only if the boundary is drawn. G10.975 therefore treats containment grammar as a prerequisite for classification, not an optional safety layer.
