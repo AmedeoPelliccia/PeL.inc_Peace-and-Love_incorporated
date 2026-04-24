@@ -44,7 +44,7 @@ G10.975 is load-bearing: without it, "frontier agent" becomes an exemption from 
 | Term | Definition |
 |---|---|
 | `monstrum` | G10.974 boundary-form descriptor for an agent at the edge of classification; it is not a moral or threat label. |
-| KNOT residual scale | 0–100 unresolved-risk score: `0` = closed or accepted, `1–49` = monitored residual, `50–99` = unresolved residual, `100` = unresolved load-bearing blocker. |
+| KNOT residual scale | Integer unresolved-risk score with inclusive endpoints: `0` = closed or accepted, `1–49` = monitored residual, `50–99` = unresolved residual, `100` = unresolved load-bearing blocker. |
 
 ---
 
@@ -161,7 +161,7 @@ Missing artifacts make the agent inadmissible as airworthiness evidence until re
 - non-compliant frontier agents are automatically marked unclassifiable;
 - admissibility rules are referenced by downstream SENTIENTIT_zGen and regent-ZetaGentz evidence chains.
 
-**Residual before closure:** 100 on the KNOT residual scale defined in Section 3.  
+**Residual before closure:** 100 on the KNOT residual scale defined in the Section 3 terminology table.  
 **Residual after compliant adoption:** governed by the active G109 risk register.
 
 ---
