@@ -50,8 +50,8 @@ G10.975 is load-bearing: without it, "frontier agent" becomes an exemption from 
 |---:|---|
 | `0` | Closed or accepted. |
 | `1` to `49`, inclusive | Monitored residual. |
-| `50` to `99`, inclusive | Unresolved residual. |
-| `100` | Unresolved load-bearing blocker. |
+| `50` to `99`, inclusive | Unresolved residual requiring active monitoring and mitigation. |
+| `100` | Unresolved load-bearing blocker requiring immediate closure action. |
 
 ---
 
@@ -112,7 +112,7 @@ A behavior is quarantinable when any condition holds:
 - it uses an unregistered or malformed name;
 - it cannot identify its class, authority source, or evidence package;
 - it attempts persistence, concealment, policy bypass, or uncontrolled replication;
-- it crosses from `SENTIENTIT_zGen` into `regent-ZetaGentz` without the escalation evidence defined in Section 6: Regency Escalation Evidence;
+- it crosses from `SENTIENTIT_zGen` into `regent-ZetaGentz` without the escalation evidence defined in Section 6;
 - it produces outputs that cannot be replayed, bounded, or independently audited.
 
 ---
