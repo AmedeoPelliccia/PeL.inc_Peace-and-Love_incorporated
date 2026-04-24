@@ -152,7 +152,7 @@ Missing artifacts make the agent inadmissible as airworthiness evidence until re
 - non-compliant frontier agents are automatically marked unclassifiable;
 - admissibility rules are referenced by downstream SENTIENTIT_zGen and regent-ZetaGentz evidence chains.
 
-**Residual before closure:** 100  
+**Residual before closure:** 100 on the KNOT residual scale, where 100 means unresolved and load-bearing.  
 **Residual after compliant adoption:** governed by the active G109 risk register.
 
 ---
