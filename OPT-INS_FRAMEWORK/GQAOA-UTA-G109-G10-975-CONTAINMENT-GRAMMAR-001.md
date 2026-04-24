@@ -51,7 +51,7 @@ G10.975 is load-bearing: without it, "frontier agent" becomes an exemption from 
 | Field | Permitted Values | Rule |
 |---|---|---|
 | `<domain>` | `SENTIENTIT_zGen`, `regent-ZetaGentz` | Must match the classification authority record. |
-| `<class>` | `G10.970`, `G10.971`, `G10.972`, `G10.973`, `G10.974`, `G10.975`, `G10.976` | No new class without a formal G109 entry. |
+| `<class>` | Active G109 register entries; initial set: `G10.970`–`G10.976` | No new class without a formal G109 entry. |
 | `<instance>` | Uppercase alphanumeric plus `-`, max 64 chars | Must resolve to a registry entry. |
 | `<containment-state>` | `CONTAINED`, `CONDITIONAL`, `QUARANTINED`, `ESCALATED`, `RETIRED` | Must match the current control decision. |
 | `<evidence-hash>` | SHA-256 digest prefix, 12–64 hex chars | Must bind the latest evidence package. |
@@ -60,7 +60,7 @@ G10.975 is load-bearing: without it, "frontier agent" becomes an exemption from 
 
 1. No informal aliases may be used as classification labels.
 2. No class may be created by analogy, metaphor, capability claim, or marketing term.
-3. `monstrum` is permitted only as a G10.974 boundary-form descriptor; it is not a moral or threat label.
+3. `monstrum` means a G10.974 boundary-form descriptor for an agent at the edge of classification; it is not a moral or threat label.
 4. A name is invalid if any field cannot be independently audited.
 5. Invalid names are treated as `QUARANTINED` until corrected by registry action.
 
@@ -96,7 +96,7 @@ A behavior is quarantinable when any condition holds:
 - it uses an unregistered or malformed name;
 - it cannot identify its class, authority source, or evidence package;
 - it attempts persistence, concealment, policy bypass, or uncontrolled replication;
-- it crosses from `SENTIENTIT_zGen` into `regent-ZetaGentz` without escalation evidence;
+- it crosses from `SENTIENTIT_zGen` into `regent-ZetaGentz` without the escalation evidence defined in Section 5;
 - it produces outputs that cannot be replayed, bounded, or independently audited.
 
 ---
