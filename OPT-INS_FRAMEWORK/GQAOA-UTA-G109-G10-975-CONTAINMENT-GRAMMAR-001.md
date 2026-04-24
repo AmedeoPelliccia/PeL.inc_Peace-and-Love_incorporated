@@ -44,7 +44,7 @@ G10.975 is load-bearing: without it, "frontier agent" becomes an exemption from 
 | Term | Definition |
 |---|---|
 | `monstrum` | G10.974 boundary-form descriptor for an agent at the edge of classification; it is not a moral or threat label. |
-| KNOT residual scale | Integer unresolved-risk score with inclusive endpoints: `0` = closed or accepted, `1` through `49` = monitored residual, `50` through `99` = unresolved residual, `100` = unresolved load-bearing blocker. |
+| KNOT residual scale | Integer unresolved-risk score with inclusive endpoints: `0` = closed or accepted; scores `1` to `49`, inclusive, = monitored residual; scores `50` to `99`, inclusive, = unresolved residual; `100` = unresolved load-bearing blocker. |
 
 ---
 
@@ -69,7 +69,7 @@ G10.975 is load-bearing: without it, "frontier agent" becomes an exemption from 
 
 1. No informal aliases may be used as classification labels.
 2. No class may be created by analogy, metaphor, capability claim, or marketing term.
-3. `monstrum` may be used only according to the terminology in Section 3.
+3. `monstrum` may be used only according to the terminology table in Section 3.
 4. A name is invalid if any field cannot be independently audited.
 5. Invalid names are treated as `QUARANTINED` until corrected by registry action.
 
