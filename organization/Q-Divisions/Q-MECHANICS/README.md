@@ -1,3 +1,28 @@
+---
+title: "Q-MECHANICS — Hidráulica, Actuadores y Sistemas Mecánicos"
+id: GQAOA-ORG-QDIV-Q-MECHANICS-001
+version: "1.0.0"
+date: 2026-04-25
+classification: Confidencial del Consorcio
+author: "Q-MECHANICS Division Lead / CTO Office"
+status: α
+type: division-readme
+program: GQAOA
+division: Q-MECHANICS
+domain: "Hidráulica, Actuadores, Sistemas Mecánicos"
+language: es
+tags:
+  - Q-MECHANICS
+  - hydraulics
+  - actuators
+  - EHA
+  - EMA
+  - landing-gear
+  - FCS
+  - CS-25
+parent: "../Readme.md"
+---
+
 # Q-MECHANICS — Hidráulica, Actuadores y Sistemas Mecánicos
 > *El músculo de la aeronave: actuadores de alta precisión, sistemas hidráulicos y mecánica de misión crítica.*
 

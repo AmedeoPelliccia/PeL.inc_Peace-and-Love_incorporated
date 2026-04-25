@@ -1,3 +1,27 @@
+---
+title: "Q-GREENTECH — Sistemas de Energía, Baterías y Sostenibilidad"
+id: GQAOA-ORG-QDIV-Q-GREENTECH-001
+version: "1.0.0"
+date: 2026-04-25
+classification: Confidencial del Consorcio
+author: "Q-GREENTECH Division Lead / CTO Office"
+status: α
+type: division-readme
+program: GQAOA
+division: Q-GREENTECH
+domain: "Sistemas de Energía, Baterías, Sostenibilidad"
+language: es
+tags:
+  - Q-GREENTECH
+  - energy-systems
+  - batteries
+  - hydrogen
+  - sustainability
+  - LCA
+  - ESG
+parent: "../Readme.md"
+---
+
 # Q-GREENTECH — Sistemas de Energía, Baterías y Sostenibilidad
 > *La división que alimenta el futuro: energía limpia, almacenamiento avanzado y responsabilidad con el planeta.*
 

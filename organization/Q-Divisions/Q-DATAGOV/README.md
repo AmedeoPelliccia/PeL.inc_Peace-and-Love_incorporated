@@ -1,3 +1,28 @@
+---
+title: "Q-DATAGOV — Gobierno del Dato, Normas, Documentación y CSDB"
+id: GQAOA-ORG-QDIV-Q-DATAGOV-001
+version: "1.0.0"
+date: 2026-04-25
+classification: Confidencial del Consorcio
+author: "Q-DATAGOV Division Lead / CTO Office"
+status: α
+type: division-readme
+program: GQAOA
+division: Q-DATAGOV
+domain: "Gobierno del Dato, Normas, Documentación, CSDB"
+language: es
+tags:
+  - Q-DATAGOV
+  - data-governance
+  - S1000D
+  - CSDB
+  - BREX
+  - SNS
+  - LUTNDR
+  - configuration-management
+parent: "../Readme.md"
+---
+
 # Q-DATAGOV — Gobierno del Dato, Normas, Documentación y CSDB
 > *El sistema nervioso documental del programa: datos, estándares y trazabilidad desde el concepto hasta el retiro.*
 

@@ -1,3 +1,28 @@
+---
+title: "Q-SCIRES — Investigación Científica, Ensayos y Certificación"
+id: GQAOA-ORG-QDIV-Q-SCIRES-001
+version: "1.0.0"
+date: 2026-04-25
+classification: Confidencial del Consorcio
+author: "Q-SCIRES Division Lead / CTO Office"
+status: α
+type: division-readme
+program: GQAOA
+division: Q-SCIRES
+domain: "Investigación Científica, Ensayos, Certificación"
+language: es
+tags:
+  - Q-SCIRES
+  - research
+  - testing
+  - certification
+  - Part-21J
+  - EASA
+  - MTP
+  - compliance
+parent: "../Readme.md"
+---
+
 # Q-SCIRES — Investigación Científica, Ensayos y Certificación
 > *La conciencia técnica del programa: de la investigación fundamental a la certificación regulatoria.*
 

@@ -1,3 +1,24 @@
+---
+title: "Q-Divisions — Matriz RACI Maestra"
+id: GQAOA-ORG-QDIV-RACI-MASTER-001
+version: "1.0.0"
+date: 2026-04-25
+classification: Confidencial del Consorcio
+author: "Comité de Gobernanza Técnica — Q-Divisions Council"
+status: α
+type: master-raci
+program: GQAOA
+layer: Q-Divisions
+language: es
+tags:
+  - RACI
+  - Q-Divisions
+  - governance
+  - organizational
+  - GQAOA
+parent: "../../README.md"
+---
+
 # Q-Divisions — Matriz RACI Maestra
 ## GAIA QUANTUM AMPEL OPT-INS ARCHITECTURE, INC. (GQAOA, INC.)
 

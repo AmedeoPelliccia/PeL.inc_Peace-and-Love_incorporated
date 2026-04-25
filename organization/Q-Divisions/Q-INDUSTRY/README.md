@@ -1,3 +1,27 @@
+---
+title: "Q-INDUSTRY — Fabricación, Ensamblaje y Producción"
+id: GQAOA-ORG-QDIV-Q-INDUSTRY-001
+version: "1.0.0"
+date: 2026-04-25
+classification: Confidencial del Consorcio
+author: "Q-INDUSTRY Division Lead / CTO Office"
+status: α
+type: division-readme
+program: GQAOA
+division: Q-INDUSTRY
+domain: "Fabricación, Ensamblaje, Producción"
+language: es
+tags:
+  - Q-INDUSTRY
+  - manufacturing
+  - assembly
+  - FAL
+  - Part-21G
+  - quality-control
+  - supply-chain
+parent: "../Readme.md"
+---
+
 # Q-INDUSTRY — Fabricación, Ensamblaje y Producción
 > *De la materia prima al avión certificado: excelencia en manufactura avanzada y cadena de valor europea.*
 

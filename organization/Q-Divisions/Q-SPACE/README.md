@@ -1,3 +1,28 @@
+---
+title: "Q-SPACE — Sistemas Satelitales, Espacio y Comunicaciones"
+id: GQAOA-ORG-QDIV-Q-SPACE-001
+version: "1.0.0"
+date: 2026-04-25
+classification: Confidencial del Consorcio
+author: "Q-SPACE Division Lead / CTO Office"
+status: α
+type: division-readme
+program: GQAOA
+division: Q-SPACE
+domain: "Sistemas Satelitales, Espacio, Comunicaciones"
+language: es
+tags:
+  - Q-SPACE
+  - satellite
+  - SATCOM
+  - GNSS
+  - QKD
+  - EMC
+  - ATM
+  - communications
+parent: "../Readme.md"
+---
+
 # Q-SPACE — Sistemas Satelitales, Espacio y Comunicaciones
 > *El nexo entre el cielo y el espacio: comunicaciones de misión crítica, satélites y conectividad cuántica.*
 

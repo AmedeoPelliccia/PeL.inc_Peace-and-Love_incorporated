@@ -1,3 +1,27 @@
+---
+title: "Q-STRUCTURES — Célula, Materiales e Integridad Estructural"
+id: GQAOA-ORG-QDIV-Q-STRUCTURES-001
+version: "1.0.0"
+date: 2026-04-25
+classification: Confidencial del Consorcio
+author: "Q-STRUCTURES Division Lead / CTO Office"
+status: α
+type: division-readme
+program: GQAOA
+division: Q-STRUCTURES
+domain: "Célula, Materiales, Integridad Estructural"
+language: es
+tags:
+  - Q-STRUCTURES
+  - airframe
+  - materials
+  - structural-integrity
+  - FEM
+  - CFRP
+  - damage-tolerance
+parent: "../Readme.md"
+---
+
 # Q-STRUCTURES — Célula, Materiales e Integridad Estructural
 > *La columna vertebral de la aeronave: estructuras ligeras, materiales avanzados e integridad certificable.*
 

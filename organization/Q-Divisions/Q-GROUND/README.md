@@ -1,3 +1,28 @@
+---
+title: "Q-GROUND — Soporte Terrestre, Mantenimiento y GSE"
+id: GQAOA-ORG-QDIV-Q-GROUND-001
+version: "1.0.0"
+date: 2026-04-25
+classification: Confidencial del Consorcio
+author: "Q-GROUND Division Lead / CTO Office"
+status: α
+type: division-readme
+program: GQAOA
+division: Q-GROUND
+domain: "Soporte Terrestre, Mantenimiento, GSE"
+language: es
+tags:
+  - Q-GROUND
+  - MRO
+  - GSE
+  - maintenance
+  - MPD
+  - Part-145
+  - AMM
+  - ILS
+parent: "../Readme.md"
+---
+
 # Q-GROUND — Soporte Terrestre, Mantenimiento y GSE
 > *La red de apoyo que mantiene la aeronave en el aire: mantenimiento, infraestructura terrestre y excelencia operacional.*
 

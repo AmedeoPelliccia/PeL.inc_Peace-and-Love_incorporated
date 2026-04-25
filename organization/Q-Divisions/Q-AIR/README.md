@@ -1,3 +1,26 @@
+---
+title: "Q-AIR — Aerodinámica y Control de Vuelo"
+id: GQAOA-ORG-QDIV-Q-AIR-001
+version: "1.0.0"
+date: 2026-04-25
+classification: Confidencial del Consorcio
+author: "Q-AIR Division Lead / CTO Office"
+status: α
+type: division-readme
+program: GQAOA
+division: Q-AIR
+domain: "Aerodinámica, Control de Vuelo"
+language: es
+tags:
+  - Q-AIR
+  - aerodynamics
+  - flight-control
+  - FCS
+  - CFD
+  - BWB
+parent: "../Readme.md"
+---
+
 # Q-AIR — Aerodinámica y Control de Vuelo
 > *El dominio que da forma al aire: perfiles, cargas y sistemas de vuelo inteligentes para la aeronave del futuro.*
 

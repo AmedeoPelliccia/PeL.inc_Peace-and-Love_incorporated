@@ -1,3 +1,28 @@
+---
+title: "Q-HPC — Computación de Alto Rendimiento, Cuántica e IA/ML"
+id: GQAOA-ORG-QDIV-Q-HPC-001
+version: "1.0.0"
+date: 2026-04-25
+classification: Confidencial del Consorcio
+author: "Q-HPC Division Lead / CTO Office"
+status: α
+type: division-readme
+program: GQAOA
+division: Q-HPC
+domain: "Computación de Alto Rendimiento, Cuántica, IA/ML"
+language: es
+tags:
+  - Q-HPC
+  - quantum-computing
+  - HPC
+  - AI-ML
+  - QPU
+  - QAOA
+  - DO-178C
+  - cybersecurity
+parent: "../Readme.md"
+---
+
 # Q-HPC — Computación de Alto Rendimiento, Cuántica e IA/ML
 > *El cerebro cuántico del programa: simulación, optimización y aprendizaje automático al servicio de la ingeniería.*
 
