@@ -1,12 +1,50 @@
+---
+id: OGATA-600-10-10
+title: "Robots de 6 y 7 Ejes para Tareas de Ensamblaje y Soldadura"
+utcs:
+  domain_group: G7
+  domain: OGATA
+  code: "600-10-10"
+  parent: "600-10-00"
+  parent_title: "Robots de Brazo Articulado y Cartesianos"
+robot_inc_classes:
+  - ROBOT.INC-M
+  - ROBOT.INC-A
+version: "1.1"
+status: DRAFT
+date: "2026-04-25"
+author: "GQAOA, INC. — Robbbo-T Robotics PRD"
+classification: "UTCS OGATA 600-10-10"
+primary_deployment_site: "Airbus Getafe Final Assembly Line (FAL), Madrid, España"
+jurisdiction:
+  - EU
+  - ES
+sector: aeronautical
+sector_authority: EASA
+s1000d_applicability:
+  product: GQAOA
+  variant: OGATA
+  optAxis: "600-10-10"
+  environment: GETAFE-FAL
+companion: "600-10-10-Six-Seven-Axis-Robots-Assembly-Welding.yaml"
+review_required:
+  - Safety Engineering
+  - Welding Engineering
+  - Robotics Integration
+  - Airbus EHS Getafe
+  - EASA POA Office
+---
+
 # OGATA 600-10-10: Robots de 6 y 7 Ejes para Tareas de Ensamblaje y Soldadura
 
 > **UTCS Classification:** OGATA 600-10-10
 > **Parent:** 600-10-00 — Robots de Brazo Articulado y Cartesianos
 > **Domain:** G7 — OGATA · Ground Automation (600–699)
 > **ROBOT.INCs Classes:** ROBOT.INC-M (Manipuladores), ROBOT.INC-A (Assemblaggio)
-> **Version:** 1.0 | **Status:** DRAFT
-> **Date:** 2026-04-17
+> **Version:** 1.1 | **Status:** DRAFT
+> **Date:** 2026-04-25
 > **Author:** GQAOA, INC. — Robbbo-T Robotics PRD
+> **Companion file:** [`600-10-10-Six-Seven-Axis-Robots-Assembly-Welding.yaml`](./600-10-10-Six-Seven-Axis-Robots-Assembly-Welding.yaml)
 
 ---
 
