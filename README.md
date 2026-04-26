@@ -1723,7 +1723,7 @@ Proveer un marco modular y extensible para clasificar cualquier tecnología —d
 
 **DESGLOSE DETALLADO**
 
-## Annex G1 ✈️ ATA 000-099: Aerospace Technology Architecture
+## ANNEX G1 ✈️ ATA 000-099: Aerospace Technology Architecture
 
 La clasificación ATA (Air Transport Association) constituye la **columna vertebral** de la documentación aeronáutica. Aporta un marco modular para todos los sistemas, subsistemas y componentes, y continúa siendo extensible hacia arquitecturas disruptivas como **BWB, UAM, eVTOL** y los futuros dominios **Q‑aviónica/Q‑sensores**.
 
@@ -5118,7 +5118,7 @@ La **Digital Twin, Cloud & Edge Computing Architecture (DTCEC)** abarca todas la
 
 </details>
 
-## ANNEX G5⚡ EPTA 400-499: Energy & Propulsion Technology Architecture
+## ANNEX G5 ⚡ EPTA 400-499: Energy & Propulsion Technology Architecture
 
 La **Energy & Propulsion Technology Architecture (EPTA)** cubre la generación, almacenamiento, conversión y sistemas de propulsión para diversas aplicaciones, con un enfoque en la sostenibilidad y la eficiencia energética. Este framework está diseñado para clasificar tecnologías desde fuentes de energía convencionales hasta propulsores cuánticos avanzados, anticipando la convergencia entre sostenibilidad, eficiencia y la innovación más disruptiva.
 
@@ -5639,7 +5639,7 @@ La **Energy & Propulsion Technology Architecture (EPTA)** cubre la generación, 
 </details>
 
 
-### ANNEX G6 🧬 AMTA 500-599: Advanced Material, Bio & Nanotechnology Architecture
+## ANNEX G6 🧬 AMTA 500-599: Advanced Material, Bio & Nanotechnology Architecture
 
 La **Advanced Material, Bio & Nanotechnology Architecture (AMTA)** se dedica a la investigación, desarrollo y aplicación de materiales de vanguardia, sistemas biológicos y estructuras a escala nanométrica. Este framework es crucial para impulsar la innovación en sectores como el aeroespacial, la medicina, la energía y la defensa, a través de la manipulación de la materia a nivel fundamental.
 
@@ -7376,7 +7376,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 </details>
 
-## ANNEX G10 🌐 Quantum Computing and Sentient Agency Architecture (QCSAA) 900-999
+## ANNEX G10 ⚛️ QCSAA 900-999: Quantum Computing and Sentient Agency Architecture
 
 <details><summary><strong>QCSAA 900-909: Fundamentos de Computación Cuántica</strong></summary>
 
