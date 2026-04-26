@@ -23,10 +23,11 @@ parent: "../Readme.md"
 
 # Q-HUESCORT-SCIRES-OPEN — Horizon / SCIRES / OPEN Interface Layer
 
-> Interface and positioning layer for **Horizon UE Calling Orders in Resilient Touch** (stable human-in-the-loop research intake and routing) with advanced scientific contexts and incoming research from OPEN frameworks.
+> Interface and positioning layer for **Horizon UE Calling Orders in Resilient Touch** with advanced scientific contexts and incoming research from OPEN frameworks.
 
 **Identifier:** GQAOA-ORG-QDIV-Q-HUESCORT-SCIRES-OPEN-001  
-**Version:** 1.0.0 · **Date:** 2026-04-26 · **Status:** α
+**Version:** 1.0.0 · **Date:** 2026-04-26 · **Status:** α  
+**Resilient Touch:** Stable human-in-the-loop research intake and routing across Horizon positioning, SCIRES evidence and OPEN-framework inputs.
 
 ---
 

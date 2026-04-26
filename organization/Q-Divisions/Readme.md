@@ -216,7 +216,7 @@ graph LR
     QGROUND["Q-GROUND\nSoporte Terrestre"]
     QMECH["Q-MECHANICS\nHidráulica/Act."]
     QSCIRES["Q-SCIRES\nI+D/Certificación"]
-    QHORIZON["Q-HORIZON\nHorizon UE/TRL 1-4"]
+    QHORIZON["Q-HORIZON\nHorizon UE/TRL 1–4"]
     QHUESCORT["Q-HUESCORT-SCIRES-OPEN\nInterface/OPEN"]
 
     QAIR -- "Cargas aero → FEM" --> QSTRUCT
