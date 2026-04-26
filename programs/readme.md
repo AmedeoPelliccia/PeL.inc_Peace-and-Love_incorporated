@@ -4,6 +4,11 @@
 
 Este repositorio central alberga la matriz maestra de ALICES (sistemas físicos reales) y sus gemelos digitales asociados (BOB DT, CHARLIE_T, GENTLE y BOOST) dentro del ecosistema **GAIA QUANTUM AMPEL OPT-INS ARCHITECTURE, INC. (GQAOA, INC.)**. Su propósito es organizar y trazar los entregables de cada sistema a lo largo de su ciclo de vida, garantizando la coherencia y la trazabilidad 360° que exige el **GAIA-QAO Universal Technology Classification System (UTCS)**.
 
+> **Business Rules Exchange (BREX).** Cada programa expone sus reglas de
+> intercambio de datos en `programs/<PROGRAMA>/BREX/`. La convención
+> canónica (layout, nombres, gobernanza) está definida en
+> [`BREX-CONVENTION.md`](./BREX-CONVENTION.md).
+
 ## 🎯 Propósito del Repositorio
 ---
 
