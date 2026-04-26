@@ -7,7 +7,7 @@ parent_baseline_doc: ../../organization/Q+ATLANTIDE.md
 architecture_code: ATLAS
 architecture_name: "Aircraft Top-Level Architecture System"
 master_range: "000–099"
-subrange_count: 9
+subrange_count: 10
 governance_class: baseline
 structural_interface_rule: N-005
 primary_q_divisions: [Q-AIR, Q-DATAGOV, Q-GREENTECH, Q-GROUND, Q-HORIZON, Q-MECHANICS, Q-STRUCTURES]
@@ -52,24 +52,25 @@ Cross-reference the full Q+ATLANTIDE acronym set at [`organization/Q+ATLANTIDE.m
 
 Sub-ranges within this band, sourced from the Q+ATLANTIDE controlled baseline[^baseline] §3 *Consolidated Architecture Table*[^table].
 
-| Sub-range | Block | Primary focus | Primary Q-Division | Support Q-Divisions | ORB support |
-|---:|---|---|---|---|---|
-| 000–009 | Información General y Servicio | Identificación, configuración, documentación general, operaciones básicas | Q-DATAGOV | Q-GROUND, Q-AIR | ORB-PMO, ORB-LEG |
-| 010–019 | Manejo en Tierra & Servicio | Ground handling, servicing, acceso, remolque, parking, GSE | Q-GROUND | Q-MECHANICS, Q-INDUSTRY | ORB-PMO, ORB-FIN |
-| 020–029 | Sistemas Core de Aeronave | Aviónica base, eléctrica, hidráulica, ECS, fuel, flight control | Q-AIR | Q-MECHANICS, Q-DATAGOV, Q-GREENTECH | ORB-PMO, ORB-LEG |
-| 030–039 | Protección & Sistemas Mecánicos | Ice/rain protection, fire protection, tren, actuadores | Q-MECHANICS | Q-AIR, Q-STRUCTURES | ORB-PMO, ORB-LEG |
-| 040–049 | Aviónica, Información & APU | IMA, redes de datos, CMS, APU, onboard information systems | Q-DATAGOV | Q-AIR, Q-SPACE, Q-HPC | ORB-PMO, ORB-LEG |
-| 050–059 | Estructuras Primarias e Interfaces de Programa / Q-Division | Fuselaje, alas, BWB, WTW, zonas estructurales, interfaces técnicas | Q-STRUCTURES | Q-AIR, Q-INDUSTRY, Q-HPC | ORB-PMO, ORB-FIN, ORB-LEG |
-| 060–079 | Propulsión Tradicional & Eco-Tech | Turbofan, híbrido-eléctrico, thermal management, nacelles | Q-GREENTECH | Q-MECHANICS, Q-AIR, Q-INDUSTRY | ORB-PMO, ORB-FIN |
-| 080–089 | Propulsión Alternativa & Cuántica | LH₂, fuel cells, HVDC, superconductores, Q-sensing | Q-GREENTECH | Q-HORIZON, Q-HPC, Q-STRUCTURES | ORB-PMO, ORB-LEG, ORB-FIN |
-| 090–099 | Tipos Específicos & Expansión | Variantes BWB/WTW, demostradores, clases especiales de aeronaves | Q-HORIZON | Q-AIR, Q-STRUCTURES, Q-GREENTECH | ORB-PMO, ORB-MKTG |
+| Code range | Section | Section title | Subject | Subject title | Primary focus | Primary Q-Division | Support Q-Divisions | ORB support |
+|---:|---:|---|---:|---|---|---|---|---|
+| 000–009 | 00 | Información General y Servicio | 00 | General Information | Identificación, configuración, documentación general, operaciones básicas | Q-DATAGOV | Q-GROUND, Q-AIR | ORB-PMO, ORB-LEG |
+| 010–019 | 01 | Manejo en Tierra & Servicio | 00 | General Information | Ground handling, servicing, acceso, remolque, parking, GSE | Q-GROUND | Q-MECHANICS, Q-INDUSTRY | ORB-PMO, ORB-FIN |
+| 020–029 | 02 | Sistemas Core de Aeronave | 00 | General Information | Aviónica base, eléctrica, hidráulica, ECS, fuel, flight control | Q-AIR | Q-MECHANICS, Q-DATAGOV, Q-GREENTECH | ORB-PMO, ORB-LEG |
+| 030–039 | 03 | Protección & Sistemas Mecánicos | 00 | General Information | Ice/rain protection, fire protection, tren, actuadores | Q-MECHANICS | Q-AIR, Q-STRUCTURES | ORB-PMO, ORB-LEG |
+| 040–049 | 04 | Aviónica, Información & APU | 00 | General Information | IMA, redes de datos, CMS, APU, onboard information systems | Q-DATAGOV | Q-AIR, Q-SPACE, Q-HPC | ORB-PMO, ORB-LEG |
+| 050–059 | 05 | Estructuras Primarias e Interfaces de Programa / Q-Division | 00 | General Information | Fuselaje, alas, BWB, WTW, zonas estructurales, interfaces técnicas | Q-STRUCTURES | Q-AIR, Q-INDUSTRY, Q-HPC | ORB-PMO, ORB-FIN, ORB-LEG |
+| 060–069 | 06 | Propulsión Tradicional | 00 | General Information | Turbofan, nacelles, thrust reversers, engine installation, fire zones | Q-GREENTECH | Q-MECHANICS, Q-AIR, Q-INDUSTRY | ORB-PMO, ORB-FIN |
+| 070–079 | 07 | Propulsión Eco-Tech e Híbrido-Eléctrica | 00 | General Information | Hybrid-electric propulsion, thermal management, power conversion, battery-assisted propulsion | Q-GREENTECH | Q-HPC, Q-MECHANICS, Q-AIR, Q-INDUSTRY | ORB-PMO, ORB-FIN, ORB-CSR |
+| 080–089 | 08 | Propulsión Alternativa & Cuántica | 00 | General Information | LH₂, fuel cells, HVDC, superconductores, Q-sensing | Q-GREENTECH | Q-HORIZON, Q-HPC, Q-STRUCTURES | ORB-PMO, ORB-LEG, ORB-FIN |
+| 090–099 | 09 | Tipos Específicos & Expansión | 00 | General Information | Variantes BWB/WTW, demostradores, clases especiales de aeronaves | Q-HORIZON | Q-AIR, Q-STRUCTURES, Q-GREENTECH | ORB-PMO, ORB-MKTG |
 
 ## 4. Footprint
 
 | Metric | Value |
 |---|---|
 | Master range | `000–099` |
-| Sub-ranges | 9 |
+| Sub-ranges | 10 |
 | Architecture code | `ATLAS` |
 | Governance class | `baseline` |
 | Restricted band | No |
