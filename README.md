@@ -461,6 +461,25 @@ It is designed to distribute authority while preserving non-negotiable constrain
 | Transparency by Default | Non-classified financials, KPIs, risk registers and governance records are visible to approved stakeholders. |
 | Subsidiarity | Decisions are made at the lowest competent level within controlled baselines. |
 | Amendment Discipline | Constitutional amendments require stakeholder approval, division ratification and compliance review. |
+| Kindness (Mandatory Inheritance) | Every entity, role, process, model and artefact inherits a non-waivable duty of kindness — humane, respectful and non-harmful conduct toward people, ecosystems and machines. |
+| Determinism (Mandatory Inheritance) | Every entity, role, process, model and artefact inherits a non-waivable duty of determinism — reproducible inputs, versioned configurations, declared seeds/parameters and auditable, repeatable outputs. |
+
+### 5.2.1 Mandatory Inheritance — Kindness & Determinism
+
+Kindness and Determinism are declared as **mandatory inheritance form**: they are inherited by default by every node of the enterprise (branches, crossing powers, divisions, programmes, ORBs, Q-Divisions, ATA chapters, OPT-INS axes, automations, models and artefacts) and cannot be opted out of, overridden or weakened by any descendant.
+
+| Inherited Trait | Definition | Enforcement | Override |
+|---|---|---|---|
+| Kindness | Humane, respectful, non-harmful conduct toward people, ecosystems and machines; preference for de-escalation, dignity and care; refusal to produce or execute outputs that demean, endanger or exploit. | Charter & ethics certification under CP-1 (Education & Training); ethics review under Q-DATAGOV / ORB-LEG; pre-deployment evaluation under CP-2 (Automation) blocks releases that fail kindness checks. | None. May be made stricter by descendants; never weakened. |
+| Determinism | Reproducible behaviour: declared inputs, pinned versions, recorded seeds and parameters, content-addressed artefacts, repeatable evaluation; non-deterministic components must be explicitly marked, bounded and logged. | UTCS/S1000D evidence chain, CSDB applicability, signed manifests (e.g. .finex packages), CI reproducibility checks under CP-2; audit trail under the Auditorial / Control branch. | None. May be made stricter by descendants; never weakened. |
+
+**Inheritance rules**
+
+- **Default-on, non-waivable** — every new entity inherits both traits at creation; no charter, policy, contract or automation may disable them.
+- **Strengthen-only** — descendants may impose stricter kindness or determinism requirements, but never relax the inherited baseline.
+- **Coupled with crossing powers** — CP-1 certifies operators and supervisors on these duties; CP-2 enforces them in automated workflows (kindness/safety/bias evaluations and reproducibility gates).
+- **Evidence-based** — adherence is recorded as auditable artefacts (training records, evaluation reports, reproducibility logs, signed manifests) available to the Auditorial / Control branch.
+- **Breach handling** — a verified breach of kindness or determinism suspends the offending authority or automation until remediated; repeated or wilful breaches trigger Judicial / Oversight review.
 
 ## 5.3 Separation of Powers
 
