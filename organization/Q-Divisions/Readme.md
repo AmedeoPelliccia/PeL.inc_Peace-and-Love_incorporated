@@ -249,7 +249,7 @@ graph LR
 
 | Foro | Frecuencia | Presidente | Participantes | Outputs |
 |------|------------|------------|---------------|---------|
-| Q-Council (Consejo de Q-Divisions) | Quincenal | CTO | Directores de las 10 Q-Divisions RACI + 2 capas de interfaz | Decisiones técnicas cross-division, resolución de conflictos RACI |
+| Q-Council (Consejo de Q-Divisions) | Quincenal | CTO | Directores de Q-Divisions #1–#12 | Decisiones técnicas cross-division, resolución de conflictos RACI |
 | Q-HUESCORT-SCIRES-OPEN Interface Review | Mensual | CTO / Q-HORIZON Lead | Q-HORIZON, Q-SCIRES, Q-DATAGOV, ORB-PMO | Posicionamiento Horizon UE, intake OPEN frameworks, rutas de contexto científico |
 | IPT Review (Integrated Product Team) | Semanal | Director Q propietario | Q-Divisions afectadas + ORB-PMO | Avance de entregables, gestión de riesgos técnicos |
 | Program Management Review (PMR) | Mensual | CEO / COO | Todos los Directores Q + ORB-Functions | Estado del programa, presupuesto, KPIs |
