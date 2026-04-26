@@ -497,7 +497,7 @@ Q-Divisions are **technical authority units**. They are not architecture bands.
 | Q-GROUND | [`organization/Q-Divisions/Q-GROUND/`](organization/Q-Divisions/Q-GROUND/) | Ground operations, GSE, maintenance procedures, technician training |
 | Q-SPACE | [`organization/Q-Divisions/Q-SPACE/`](organization/Q-Divisions/Q-SPACE/) | Space systems, communication, navigation, satcom, payload integration |
 | Q-HORIZON | [`organization/Q-Divisions/Q-HORIZON/`](organization/Q-Divisions/Q-HORIZON/) | TRL 1–4 research, disruptive technologies, BWB future concepts, quantum onboard computing |
-| Q-HUESCORT-SCIRES-OPEN | [`organization/Q-Divisions/Q-HUESCORT-SCIRES-OPEN/`](organization/Q-Divisions/Q-HUESCORT-SCIRES-OPEN/) | Interface and positioning layer embedding Q-HORIZON with retained Q-SCIRES scientific/certification evidence capability for Horizon UE calling orders, resilient touch, scientific contexts and OPEN frameworks |
+| Q-HUESCORT-SCIRES-OPEN | [`organization/Q-Divisions/Q-HUESCORT-SCIRES-OPEN/`](organization/Q-Divisions/Q-HUESCORT-SCIRES-OPEN/) | Horizon/SCIRES/OPEN interface layer for research positioning, scientific validation and open-framework intake |
 
 ---
 
