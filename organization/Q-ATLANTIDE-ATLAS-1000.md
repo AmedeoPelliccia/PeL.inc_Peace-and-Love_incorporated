@@ -1,6 +1,8 @@
-# Q-ATLANTIDE / ATLAS-1000
+# Q+ATLANTIDE
 
-**Quantum and Aerospace Top-Level Architectures and Novel Technologies Identification Data Ecosystem**
+**Quantum + Aerospace Top-Level Architectures. Novel Technologies Identification Data Ecosystem**
+
+> Umbrella register: **ATLAS-1000** (the controlled `000-999` architecture-band registry).
 
 **Document ID:** QATL-ATLAS1000-README  
 **Baseline:** v1.0.0  
