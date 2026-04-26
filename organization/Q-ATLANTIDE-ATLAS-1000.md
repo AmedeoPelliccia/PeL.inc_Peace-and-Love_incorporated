@@ -1,31 +1,27 @@
----
-title: "Q-ATLANTIDE / ATLAS-1000"
-subtitle: "Quantum and Aerospace Top-Level Architectures and Novel Technologies Identification Data Ecosystem"
-document_id: "QATL-ATLAS1000-README"
-baseline: "v1.0.0"
-status: "controlled-baseline"
-classification: "open-technical-taxonomy"
-scope: "000-999 architecture-band registry"
-language: "es-ES"
-owner: "GAIA-QAO / IDEALE-ESG"
-maintainer: "Q-DATAGOV"
-primary_governance_layer: "Architecture Taxonomy"
-organizational_layers:
-  - "Q-Divisions"
-  - "ORB-Functions"
-invariants:
-  code_range: "000-999"
-  no_aaa_domain: true
-  architecture_is_not_department: true
-  q_divisions_are_technical_centres: true
-  orb_functions_are_enterprise_support: true
-created: "2026-04-26"
-last_updated: "2026-04-26"
----
-
 # Q-ATLANTIDE / ATLAS-1000
 
 **Quantum and Aerospace Top-Level Architectures and Novel Technologies Identification Data Ecosystem**
+
+**Document ID:** QATL-ATLAS1000-README  
+**Baseline:** v1.0.0  
+**Status:** controlled-baseline  
+**Classification:** open-technical-taxonomy  
+**Scope:** `000-999` architecture-band registry  
+**Language:** en-US  
+**Owner:** GAIA-QAO / IDEALE-ESG  
+**Maintainer:** Q-DATAGOV  
+**Primary governance layer:** Architecture Taxonomy  
+**Organizational layers:** Q-Divisions, ORB-Functions  
+**Created:** 2026-04-26  
+**Last updated:** 2026-04-26
+
+**Invariants:**
+
+- **Code range:** `000-999`
+- **No AAA domain:** true
+- **Architecture is not department:** true
+- **Q-Divisions are technical centres:** true
+- **ORB-Functions are enterprise support:** true
 
 Q-ATLANTIDE / ATLAS-1000 is a controlled `000-999` taxonomy and traceability ecosystem for classifying aerospace, space, defence, digital, energy, materials, ground automation, urban air mobility, cybersecurity, and quantum / sentient-agency technologies.
 
@@ -206,3 +202,45 @@ Q-ATLANTIDE / ATLAS-1000 is a controlled `000-999` taxonomy and traceability eco
 | N-004 | "AAA" is not a valid domain, division, architecture, interface or function in this baseline. |
 | N-005 | `ATLAS 050-059` shall use "Estructuras Primarias e Interfaces de Programa / Q-Division". |
 | N-006 | Defence-related, cybersecurity-related and quantum-related bands (DTTA, CYB, QCSAA) require additional governance, evidence packages and access controls beyond the baseline trace record. |
+
+---
+
+## 5. Templates System
+
+The repository's templates catalogue (Anexo F in `README.md` and `organization/README.md`, plus all `*-XXX` template families: `CON`, `DES`, `TST`, `CRT`, `PRD`, `MNT`, `OPS`, `SUP`, `REP`, `RET`, `MAN`, `IPL/MF/IPC/SPC`, `ORB`) operates under this baseline. Every template — existing or new — must satisfy the rules below.
+
+### 5.1 Mandatory template header
+
+Every template instance shall carry, at minimum, the following header fields:
+
+| Field | Required value | Rule reference |
+|---|---|---|
+| `template_id` | `<FAMILY>-<NNN>` (e.g. `DES-001`, `ORB-014`). | N-001 |
+| `template_name` | Human-readable title in the document language. | — |
+| `architecture_band` | One of the 100 controlled `XX0–XX9` sub-ranges from §3, or `N/A` for cross-band ORB templates. | N-001, N-003 |
+| `architecture_code` | Matching code from §3 (`ATLAS`, `STA`, `DTTA`, `DTCEC`, `EPTA`, `AMTA`, `OGATA`, `ACV`, `CYB`, `QCSAA`) or `ORB` for enterprise-support templates. | N-002, N-003, N-004 |
+| `q_division_owner` | The single primary Q-Division responsible (technical authority). | N-002 |
+| `orb_function_support` | Zero or more ORB-Functions providing enterprise support. | N-002 |
+| `lifecycle_phase` | Phase 1–10 identifier from Anexo F.2, or `MAN` / `ORB` for catalogue-only families. | — |
+| `standard_reference` | Underlying standard (e.g. `S1000D DM`, `ARP4754A`, `ISO 31000`). | — |
+| `governance_class` | `baseline` for general bands; `restricted` for DTTA, CYB, QCSAA bands. | N-006 |
+
+### 5.2 Naming and column rules
+
+- Template owners shall be expressed as Q-Divisions (e.g. `Q-DATAGOV`, `Q-AIR`, `Q-STRUCTURES`) and never as "AAA", "AAA owner", "AAA division" or any equivalent term. (N-002, N-004)
+- Template tables shall use the column header **"División Responsable"** (Spanish docs) or **"Responsible Q-Division"** (English docs); the legacy header **"AAA Responsable"** is prohibited. (N-004)
+- Architecture references inside a template body shall use the canonical `<ACRONYM> <range>` form (e.g. `DTCEC 320–329`, `OGATA 600–609`) and not `AAA-XXX`. (N-004)
+- ATLAS 050–059 templates (structural / program-interface) shall use the title fragment **"Estructuras Primarias e Interfaces de Programa / Q-Division"**. (N-005)
+
+### 5.3 Restricted-band templates (N-006)
+
+Templates whose `architecture_band` falls inside `200–299` (DTTA), `800–899` (CYB) or `900–999` (QCSAA) shall additionally carry:
+
+- `governance_class: restricted`
+- `evidence_package_id` linking to the corresponding governance / audit record
+- `access_control_profile` selecting the applicable Q-DATAGOV access tier
+
+### 5.4 Lifecycle integration
+
+- Templates remain organised by the 10 lifecycle phases of Anexo F.2; this baseline does not change phase IDs, counts or codes.
+- New template families introduced after this baseline shall first be registered against an architecture band in §3 before being added to Anexo F.

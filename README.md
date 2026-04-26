@@ -1267,6 +1267,8 @@ flowchart TD
 
 ## ANEXO F: LISTA COMPLETA DE TEMPLATES DE DOCUMENTACIÓN TÉCNICA
 
+> **Q-ATLANTIDE / ATLAS-1000 governance.** Todas las plantillas de este anexo se rigen por el baseline controlado [`organization/Q-ATLANTIDE-ATLAS-1000.md`](organization/Q-ATLANTIDE-ATLAS-1000.md), §5 *Templates System*. Cada plantilla debe declarar `architecture_band` (uno de los sub-rangos `XX0–XX9` del registro `000-999`), `architecture_code` (`ATLAS`/`STA`/`DTTA`/`DTCEC`/`EPTA`/`AMTA`/`OGATA`/`ACV`/`CYB`/`QCSAA` o `ORB`), `q_division_owner` (autoridad técnica) y `orb_function_support` (soporte empresarial). La columna **"División Responsable"** sustituye cualquier uso heredado de "AAA Responsable" (regla **N-004**). Las plantillas con `architecture_band` en `200-299` (DTTA), `800-899` (CYB) o `900-999` (QCSAA) son **restricted** y requieren `evidence_package_id` y `access_control_profile` (regla **N-006**).
+
 ### F.1 Resumen de Templates por Categoría
 
 | Categoría | Cantidad | Código Base |
