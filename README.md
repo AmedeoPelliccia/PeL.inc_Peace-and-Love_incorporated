@@ -469,6 +469,7 @@ It is designed to distribute authority while preserving non-negotiable constrain
 | Legislative | Stakeholder Assembly | Strategy, budget oversight, executive confirmation, charter amendments |
 | Executive | Executive Committee | Programme execution, operations, resource allocation |
 | Judicial / Oversight | Independent Tribunal of Safety, Ethics & Compliance | Compliance disputes, safety halts, whistleblower protection, ethical breaches |
+| Auditorial / Control | Independent Audit Board (Office of the Auditor General) | Independent financial, operational, performance and compliance audits; internal control assurance; attestation of accounts and KPIs; fraud and waste investigations; reporting to the Stakeholder Assembly |
 
 ## 5.4 Safety and Certification Guardrails
 
