@@ -33,7 +33,7 @@ parent: "../Readme.md"
 
 Q-HORIZON coordinates low-TRL research positioning, Horizon Europe calling-order alignment, disruptive aerospace concepts and future technology roadmaps. It acts as the forward-looking research interface for proposals, consortium positioning and TRL 1-4 maturation before transfer into accountable Q-Division baselines.
 
-Q-HORIZON is embedded in **[Q-HUESCORT-SCIRES-OPEN](../Q-HUESCORT-SCIRES-OPEN/)** together with **[Q-SCIRES](../Q-SCIRES/)** for integrated interface control between horizon positioning, scientific research, incoming open-framework research and certification evidence.
+Q-HORIZON is embedded in **[Q-HUESCORT-SCIRES-OPEN](../Q-HUESCORT-SCIRES-OPEN/)** together with the retained **[Q-SCIRES](../Q-SCIRES/)** scientific/certification evidence capability for integrated interface control between horizon positioning, scientific research, incoming open-framework research and certification evidence.
 
 ---
 

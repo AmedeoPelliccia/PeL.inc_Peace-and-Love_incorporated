@@ -32,9 +32,9 @@ parent: "../Readme.md"
 
 ## 1. Purpose
 
-Q-HUESCORT-SCIRES-OPEN embeds **[Q-HORIZON](../Q-HORIZON/)** and **[Q-SCIRES](../Q-SCIRES/)** into a single interface layer for research positioning, Horizon Europe calling-order alignment, resilient-touch interface coordination and advanced scientific context intake from OPEN frameworks.
+Q-HUESCORT-SCIRES-OPEN embeds **[Q-HORIZON](../Q-HORIZON/)** with the retained **[Q-SCIRES](../Q-SCIRES/)** scientific/certification evidence capability into a single interface layer for research positioning, Horizon Europe calling-order alignment, resilient-touch interface coordination and advanced scientific context intake from OPEN frameworks.
 
-This layer does not replace Q-SCIRES certification accountability or Q-HORIZON horizon-scanning ownership. It provides the shared positioning and interface-control surface between both units and the wider Q-Division ecosystem.
+This layer does not reverse the current Q-HORIZON naming baseline or replace the retained Q-SCIRES certification-evidence accountability. It provides the shared positioning and interface-control surface between both units and the wider Q-Division ecosystem.
 
 ---
 

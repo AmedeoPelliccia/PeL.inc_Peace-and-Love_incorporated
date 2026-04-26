@@ -88,7 +88,7 @@ Las **Q-Divisions** constituyen el **brazo de ejecución técnica** del programa
 
 Cada Q-Division es responsable de un dominio tecnológico específico y actúa como propietaria (*Accountable*) de los entregables técnicos de su dominio en la matriz RACI[^3], colaborando estrechamente con otras Q-Divisions y recibiendo soporte de las ORB-Functions para asuntos empresariales, regulatorios y de recursos.
 
-La estructura mantiene 10 Q-Divisions RACI principales y añade capas de interfaz para horizonte, posicionamiento e investigación abierta, cubriendo el espectro completo del ciclo de vida del programa desde la investigación conceptual hasta el retiro y la economía circular. El gemelo digital BOB DA[^4] y el registro LUTNDR[^5] son herramientas transversales que atraviesan todas las Q-Divisions.
+La estructura mantiene 10 Q-Divisions RACI principales (#1–#10) y añade 2 capas de interfaz/posicionamiento (#11–#12) para horizonte, posicionamiento e investigación abierta, cubriendo el espectro completo del ciclo de vida del programa desde la investigación conceptual hasta el retiro y la economía circular. El gemelo digital BOB DA[^4] y el registro LUTNDR[^5] son herramientas transversales que atraviesan todas las Q-Divisions.
 
 ---
 
