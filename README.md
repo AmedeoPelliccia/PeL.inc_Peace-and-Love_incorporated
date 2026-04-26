@@ -12,6 +12,8 @@
 
 > **See [`GAI-A-AMAR-AGGIX-Architecture.md`](GAI-A-AMAR-AGGIX-Architecture.md)** for the normative top‑level governance umbrella that sits above all domains (aerospace, marine, space, robotics) and organises them as a Tree Architecture with canonical definitions, standards per layer, and formal durability/inheritance/branching rules.
 
+> **See [`organization/Q-ATLANTIDE-ATLAS-1000.md`](organization/Q-ATLANTIDE-ATLAS-1000.md)** — **Q-ATLANTIDE / ATLAS-1000** controlled `000-999` architecture-band registry (v1.0.0 baseline). Defines the canonical taxonomy (ATLAS, STA, DTTA, DTCEC, EPTA, AMTA, OGATA, ACV, CYB, QCSAA), Q-Division technical authority, ORB-Function enterprise support, and the **No-AAA Rule** (N-004): "AAA" is **not** a valid domain, division, architecture, interface or function in this baseline — use "Programme / Q-Division Interface" instead.
+
 ---
 
 ## ÍNDICE EJECUTIVO
@@ -1706,7 +1708,7 @@ Proveer un marco modular y extensible para clasificar cualquier tecnología —d
 
 🌐 **Arquitecturas Base v1.1**
 
-| Código AAA  | Nombre completo                                    | Rango de capítulos | Enfoque primario                                     | Ejemplos / dominios                                         |
+| Código Arquitectura | Nombre completo                                    | Rango de capítulos | Enfoque primario                                     | Ejemplos / dominios                                         |
 | :---------- | :------------------------------------------------- | :---------------- | :--------------------------------------------------- | :---------------------------------------------------------- |
 | ATA         | Aerospace Technology Architecture                  | 000‑099           | Sistemas aeronáuticos tradicionales, BWB, UAM, eVTOL | Flight controls, estructuras, aviónica                      |
 | STA         | Space Technology Architecture                      | 100‑199           | Operaciones y exploración espacial                   | Propulsión deep‑space, hábitats, ISRU                       |
@@ -2122,7 +2124,7 @@ La clasificación ATA (Air Transport Association) constituye la **columna verteb
         *   049-10-50: Emission Minimization (Eco-Tech)
 </details>
 
-<details><summary><strong>ATA 050‑059: Estructuras Primarias e Interfaces AAA</strong></summary>
+<details><summary><strong>ATA 050‑059: Estructuras Primarias e Interfaces de Programa / Q-Division</strong></summary>
 
 *   **050-00-00: Fuselaje y Estructuras de Aeronave**
     *   **050-10-00: Diseño Estructural Avanzado**
@@ -2205,7 +2207,7 @@ La clasificación ATA (Air Transport Association) constituye la **columna verteb
         *   059-20-10: Sistemas de Bloqueo Inteligente
         *   059-20-20: Monitoreo Ambiental (Temperatura, Humedad)
 
-*   **050-059 (Conectividad Inter-Arquitectura): Interfaces con otras AAA**
+*   **050-059 (Conectividad Inter-Arquitectura): Interfaces con otras Arquitecturas**
     *   **050-50-00: Interfaz con AMTA (Materiales, Bio y Nano)**
         *   050-50-10: Integración de Materiales Auto-Curativos
         *   050-50-20: Aplicación de Nano-recubrimientos Aero-eficientes
