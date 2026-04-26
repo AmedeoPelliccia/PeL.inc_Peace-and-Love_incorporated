@@ -471,21 +471,25 @@ It is designed to distribute authority while preserving non-negotiable constrain
 | Judicial / Oversight | Independent Tribunal of Safety, Ethics & Compliance | Compliance disputes, safety halts, whistleblower protection, ethical breaches |
 | Auditorial / Control | Independent Audit Board (Office of the Auditor General) | Independent financial, operational, performance and compliance audits; internal control assurance; attestation of accounts and KPIs; fraud and waste investigations; reporting to the Stakeholder Assembly |
 
-### 5.3.1 Crossing Power — Education & Training (Unity Function)
+### 5.3.1 Crossing Powers (Cross-Cutting Edges)
 
-Education & Training is not a fourth branch but a **crossing power** that traverses and unifies the Legislative, Executive, Judicial/Oversight and Auditorial/Control branches. It is the constitutional mechanism that keeps all powers competent, aligned and accountable to the same body of knowledge, ethics and safety doctrine.
+Crossing Powers are not branches; they are **cross-cutting edges** that traverse and unify the four branches (Legislative, Executive, Judicial/Oversight, Auditorial/Control). They are the constitutional mechanisms that keep all powers competent, aligned and accountable to the same body of knowledge, ethics, safety and operational doctrine.
 
-| Crossing Power | Corporate Equivalent | Authority | Unifies |
-|---|---|---|---|
-| Education & Training (Unity) | Corporate Academy & TMC (Training Master Class) — under Q-SCIRES / ORB-HR with Q-DATAGOV curriculum governance | Charter and ethics literacy; mandatory induction and recurrent training for all branches; certification of competencies (safety, compliance, audit, leadership); curriculum stewardship; cross-branch knowledge exchange; learning records and revocation of certifications when standards are breached | Legislative · Executive · Judicial/Oversight · Auditorial/Control |
+| # | Crossing Power | Mode | Corporate Equivalent | Authority | Unifies |
+|---|---|---|---|---|---|
+| 1 | Education & Training (Unity) | Supporting · human-led | Corporate Academy & TMC (Training Master Class) — under Q-SCIRES / ORB-HR with Q-DATAGOV curriculum governance | Charter and ethics literacy; mandatory induction and recurrent training for all branches; certification of competencies (safety, compliance, audit, leadership); curriculum stewardship; cross-branch knowledge exchange; learning records and revocation of certifications when standards are breached | Legislative · Executive · Judicial/Oversight · Auditorial/Control |
+| 2 | Automation (Supervised Execution) | Supporting · supervised | Office of Automation & Digital Operations — under Q-DATAGOV with Q-SCIRES (MLOps), Q-HPC (compute) and ORB-LEG (assurance); always under a designated human supervisor from the relevant branch | Workflow, decision-support and robotic/process automation across branches; MLOps and model lifecycle governance; human-in-the-loop and human-on-the-loop controls; explainability, bias and safety evaluations; deterministic audit trails of automated actions; emergency stop and rollback; deployment gating against Education & Training certifications | Legislative · Executive · Judicial/Oversight · Auditorial/Control |
 
 **Operating principles**
 
-- **Mandatory for all branches** — assembly members, executives, tribunal members and auditors must hold current charter, ethics and domain certifications issued through this crossing power.
-- **Independent curriculum** — content is governed jointly so that no single branch can shape its own training to its advantage.
-- **Evidence-based** — all training events, assessments and certifications are recorded as auditable artefacts available to the Auditorial branch.
-- **Continuity and unity** — common doctrine, vocabulary and safety culture are propagated across branches, divisions and programmes, preserving institutional unity across mandates and generations.
-- **No override of safety or ethics** — loss or suspension of required certification suspends the holder's authority within their branch until remediated.
+- **Supporting, not sovereign** — crossing powers serve the four branches; they do not legislate, execute, judge or audit on their own authority.
+- **Mandatory for all branches** — every branch consumes both crossing powers: members must hold current certifications (CP-1) and any automated tooling they rely on must be governed by CP-2.
+- **Independent governance** — curricula and automation policies are governed jointly so that no single branch can shape its own training or its own automation to its advantage.
+- **Supervised by design** — every automated action runs under a named human supervisor from the owning branch, with documented human-in-the-loop or human-on-the-loop controls and a working emergency stop.
+- **Evidence-based** — training events, certifications, model versions, prompts, decisions and overrides are recorded as auditable artefacts available to the Auditorial branch.
+- **Coupled controls** — CP-2 deployments are gated by CP-1 certifications: operators and supervisors must be currently certified for the workflow being automated.
+- **No override of safety or ethics** — loss or suspension of a required certification suspends the holder's authority; failed safety, bias or compliance evaluations suspend the automation until remediated.
+- **Continuity and unity** — common doctrine, vocabulary, safety culture and operational primitives are propagated across branches, divisions and programmes, preserving institutional unity across mandates and generations.
 
 ## 5.4 Safety and Certification Guardrails
 
