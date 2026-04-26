@@ -1,0 +1,28 @@
+# EPTA 460-469 · Section 06 · Subsection 40 — criogenia
+
+**Architecture:** EPTA (`400-499_EPTA`)  
+**Code range:** `460-469`  
+**Section:** `06` — Propulsión de Hidrógeno y Celdas de Combustible  
+**Subject:** `00` — General Information  
+**Subsection:** `40` — criogenia  
+**Subsubject:** `00` — Overview  
+**Primary Q-Division:** Q-GREENTECH  
+**Support Q-Divisions:** Q-STRUCTURES, Q-MECHANICS, Q-HPC  
+**ORB support:** ORB-PMO, ORB-LEG, ORB-CSR  
+
+## Purpose
+
+Overview of the *criogenia* subsection within the `460-469` code range (Section `06` — Propulsión de Hidrógeno y Celdas de Combustible) of the EPTA architecture band.
+
+This subsubject (`00 Overview`) is the entry point for all artefacts, data modules and lifecycle evidence relating to *criogenia*.
+
+## Scope
+
+- Covers the *criogenia* slice of the parent code range.
+- Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table).
+- Subsequent subsubjects (`01`–`99`) under this subsection extend the overview.
+
+## Parent
+
+- Architecture readme: [`../../README.md`](../../README.md)
+- Controlled baseline: [`../../../../organization/Q+ATLANTIDE.md`](../../../../organization/Q+ATLANTIDE.md)

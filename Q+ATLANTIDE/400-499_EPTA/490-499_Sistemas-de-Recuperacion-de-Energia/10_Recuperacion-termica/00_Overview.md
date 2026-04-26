@@ -1,0 +1,28 @@
+# EPTA 490-499 · Section 09 · Subsection 10 — Recuperación térmica
+
+**Architecture:** EPTA (`400-499_EPTA`)  
+**Code range:** `490-499`  
+**Section:** `09` — Sistemas de Recuperación de Energía  
+**Subject:** `00` — General Information  
+**Subsection:** `10` — Recuperación térmica  
+**Subsubject:** `00` — Overview  
+**Primary Q-Division:** Q-GREENTECH  
+**Support Q-Divisions:** Q-MECHANICS, Q-HPC  
+**ORB support:** ORB-CSR, ORB-FIN  
+
+## Purpose
+
+Overview of the *Recuperación térmica* subsection within the `490-499` code range (Section `09` — Sistemas de Recuperación de Energía) of the EPTA architecture band.
+
+This subsubject (`00 Overview`) is the entry point for all artefacts, data modules and lifecycle evidence relating to *Recuperación térmica*.
+
+## Scope
+
+- Covers the *Recuperación térmica* slice of the parent code range.
+- Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table).
+- Subsequent subsubjects (`01`–`99`) under this subsection extend the overview.
+
+## Parent
+
+- Architecture readme: [`../../README.md`](../../README.md)
+- Controlled baseline: [`../../../../organization/Q+ATLANTIDE.md`](../../../../organization/Q+ATLANTIDE.md)
