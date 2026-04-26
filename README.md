@@ -69,6 +69,7 @@ no_aaa_rule: true
 
 | Version | Date | Changes | Author |
 |---|---:|---|---|
+| 2.4.1 | 2026-04-26 | Embedded Q-HORIZON and Q-SCIRES into Q-HUESCORT-SCIRES-OPEN as a Q-Division interface and positioning layer for Horizon UE calling orders, resilient touch, scientific contexts and OPEN frameworks. | A. Pelliccia |
 | 2.4.0 | 2026-04-26 | Root README normalized to Q+ATLANTIDE1000 hierarchy: Architecture Bands → Master ranges → Code ranges → Sections → Subjects → Subsections → Subsubjects. Deprecated “sub-range” as controlled hierarchy term. Replaced Q-SCIRES with Q-HORIZON. Reinforced No-AAA Rule. | A. Pelliccia |
 | 2.3.0 | 2025-07-24 | Full organizational rewrite: flattened hierarchy, multi-level TOC, TRL demarcation, Annex F/G extraction, financial unit normalization, KPI/Risk/Compliance/Financial alignment, DEGF v1.0 integration. | A. Pelliccia |
 | 2.2.0 | 2026-04-26 | Aligned README with coded `organization/` and `Q+ATLANTIDE/` repository structure. | A. Pelliccia |
@@ -497,6 +498,7 @@ Q-Divisions are **technical authority units**. They are not architecture bands.
 | Q-GROUND | [`organization/Q-Divisions/Q-GROUND/`](organization/Q-Divisions/Q-GROUND/) | Ground operations, GSE, maintenance procedures, technician training |
 | Q-SPACE | [`organization/Q-Divisions/Q-SPACE/`](organization/Q-Divisions/Q-SPACE/) | Space systems, communication, navigation, satcom, payload integration |
 | Q-HORIZON | [`organization/Q-Divisions/Q-HORIZON/`](organization/Q-Divisions/Q-HORIZON/) | TRL 1–4 research, disruptive technologies, BWB future concepts, quantum onboard computing |
+| Q-HUESCORT-SCIRES-OPEN | [`organization/Q-Divisions/Q-HUESCORT-SCIRES-OPEN/`](organization/Q-Divisions/Q-HUESCORT-SCIRES-OPEN/) | Interface and positioning layer embedding Q-HORIZON and Q-SCIRES for Horizon UE calling orders, resilient touch, scientific contexts and OPEN frameworks |
 
 ---
 
