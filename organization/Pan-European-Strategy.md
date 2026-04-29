@@ -112,6 +112,7 @@ Los 5 centros fundadores constituyen el núcleo de la capacidad del consorcio:
 | 13 | **Praga** | Rep. Checa | Ingeniería de Sistemas Hidráulicos y Neumáticos | Q-MECHANICS | 180 | €80M |
 | 14 | **Helsinki** | Finlandia | Computación Cuántica (acceso a supercómputo EuroHPC LUMI), IA | Q-HPC, Q-HORIZON | 120 | €70M |
 | 15 | **Copenhague** | Dinamarca | Diseño Sostenible, Análisis de Ciclo de Vida, Economía Circular | ORB-CSR | 100 | €50M |
+|1*| **Add Barcelona** Blockchain tech HUB 
 
 falta aún el eje mediterraneo sur por incluir
 
