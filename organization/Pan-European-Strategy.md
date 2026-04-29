@@ -59,7 +59,7 @@ Europa cuenta con una base industrial aeroespacial única en el mundo, pero frag
 
 | Política / Programa de la UE | Relación con GAIA-QAO ADVENT | Impacto en la Estrategia Pan-Europea |
 | :--------------------------- | :--------------------------- | :----------------------------------- |
-| **Green Deal Europeo** | Objetivo de neutralidad climática 2050 | Alineamiento directo con los programas de aeronaves de cero emisiones netas |
+| **Green Deal Europeo** | Objetivo de neutralidad climática 2050 (de la industria aerospacial 2045) | Alineamiento directo con los programas de aeronaves de cero emisiones netas |
 | **ReFuelEU Aviation** | Mandato de combustibles sostenibles (SAF) | Compatibilidad de la flota AMPEL360e con SAF; I+D en producción de hidrógeno verde |
 | **Clean Aviation JU** | Financiación de I+D para aviación limpia | Participación como consorcio en convocatorias del CAJU para propulsión y aerodinámica |
 | **Horizon Europe — Pilar II** | Clúster 5: Clima, Energía y Movilidad | Proyectos de investigación colaborativa en materiales, propulsión y sensores cuánticos |
