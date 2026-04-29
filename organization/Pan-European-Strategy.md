@@ -42,7 +42,7 @@ La visión Pan-Europea se articula en tres ejes:
 
 ## 1.2 Contexto Estratégico
 
-Europa cuenta con una base industrial aeroespacial única en el mundo, pero fragmentada. Mientras que Estados Unidos consolida su dominio a través de gigantes integrados verticalmente, y China invierte masivamente en nuevos programas nacionales, Europa debe responder con una integración más profunda de sus capacidades distribuidas. GAIA-QAO ADVENT es el vehículo para lograr esta integración sin fricción.
+Europa cuenta con una base industrial aeroespacial única en el mundo, pero fragmentada. Mientras que Estados Unidos consolida su dominio a través de gigantes integrados verticalmente, y China invierte masivamente en nuevos programas nacionales, Europa debe responder con una integración más profunda de sus capacidades distribuidas. GAIA-QAO (cuá) ADVENT es el vehículo para lograr esta integración sin fricción.
 
 **Fortalezas clave del enfoque Pan-Europeo:**
 
