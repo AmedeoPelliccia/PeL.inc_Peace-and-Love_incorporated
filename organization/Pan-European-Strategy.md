@@ -1,6 +1,209 @@
----
-**add .YAML**
----
+```yaml
+program_basis_states_extended:
+  total_dimensions: 27
+  notation: |S_i⟩ for i ∈ {1..27}
+  rationale: 12 técnicos no bastan; el programa es civilizatorio,
+             humano, geográfico, económico y epistémico — y eso
+             requiere ejes propios, no derivados
+
+  technical_layer (S1–S12, originales):
+
+    S1: Structural Integrity
+        Airframe and primary structure compliance
+
+    S2: Propulsion Envelope
+        Hydrogen-electric propulsion feasibility
+
+    S3: Thermal Management
+        Cryogenic and power-electronics thermal regime
+
+    S4: Energy Storage
+        LH2 tanks (CCC) and battery subsystem state
+
+    S5: Avionics Determinism
+        Deterministic flight-control and sensor fusion
+
+    S6: Environmental Compliance
+        Emissions, noise, lifecycle sustainability
+
+    S7: Certification Basis
+        CS-25 / Special Conditions / AMC regulatory alignment
+
+    S8: Operational Safety
+        FMEA, SMS, and operational risk envelope
+
+    S9: Manufacturing Readiness
+        Production process and supply-chain maturity
+
+    S10: Digital Twin Fidelity
+         Model-test correlation and DPP provenance
+
+    S11: Infrastructure Coupling
+         Airport, ATC, ground-ops, H2 supply chain interface
+
+    S12: Governance Alignment
+         EU regulatory, AI-Act, and Clean Aviation conformity
+
+  civilizational_layer (S13–S20, nuevos del día de hoy):
+
+    S13: Supply Chain Integrity
+         Vendor admissibility (VAF), corporate-first imposition,
+         tier-based propagation of dignity floor and ceiling
+
+    S14: Pan-Civilizational Coherence
+         Paneuropean + panmediterranean geography of program;
+         linguistic plurality, three-shore Mediterranean basin,
+         islands as nervous system
+
+    S15: Universal Floor Compliance
+         1200 EUR/mes net (Spain baseline) PPP-adjusted across
+         all vertices, internal and vendor, public and private;
+         protected from erosion by IT, contract type, identity
+
+    S16: Universal Ceiling Compliance
+         12000 EUR/mes net PPP-adjusted maximum extraction per vertex;
+         surplus circulates to civilizational commons, not to
+         individual accumulation
+
+    S17: Vertex Composition Alignment
+         40% women cis / 38% men cis / 22% queer + other ethical
+         identities; ethical filter active across all three;
+         applied per facility with ±3pp tolerance, audited quarterly
+
+    S18: Epistemic Non-Contamination
+         Education and knowledge ecosystem health; six contamination
+         modes prevented (curricular, terminological, certificatory,
+         economic-educational, civic, geopolitical-knowledge)
+
+    S19: Imposition Justice
+         Corporate-first taxation and circulation; dignity-protected
+         lower vertices; impositions as common objects for todes,
+         not burdens on individual subjects
+
+    S20: Faith Axiom Activation
+         Operational trust in pan-EU + pan-MED people of now;
+         declarations as performative acts; programme assembles
+         from those who recognize themselves in the call
+
+  human_layer (S21–S27, los más profundos, los que faltaban):
+
+    S21: Personal Sustenance of Author
+         The author of the framework must eat, sleep, and survive;
+         the architect's dignity is a structural prerequisite,
+         not an afterthought; "antes de los demás" cuando es necesario,
+         no como egoísmo sino como condición de posibilidad
+
+    S22: Mental Health Continuity
+         Psychological sustenance of all vertices, including the author;
+         crisis prevention, suicide prevention, depression treatment,
+         dual-pathology coordination (mental health + addiction);
+         no vertex sustainable without this layer
+
+    S23: Embodied Belonging
+         Physical reciprocity in human relationships; touch, presence,
+         neighbours who hear when one cries out, communities where
+         queer life is safe in its own barrio; the antidote to grita-de-noche
+         that nobody hears
+
+    S24: Substance and Recovery Integration
+         CAD coordination, addiction recognized openly without shame,
+         dual-pathology services, harm reduction; the program does not
+         pretend its members are abstract; they are bodies in process
+
+    S25: Identity Safety
+         Protection from homophobia and other identity-based violence
+         within barrio, workplace, supply chain, and program itself;
+         queer + other ethical identities not just demographically
+         counted (S17) but actively protected from the homophobia
+         that "creí que era homophobia" reveals as ambient reality
+
+    S26: Material Emergency Response
+         Activation of social services (Servicios Sociales,
+         RMI/IMV, food security, housing) when any vertex enters
+         hambre, dormir-hasta-cobrar, or analogous material crisis;
+         no vertex left to "los juegos del hambre"
+
+    S27: Reciprocity and Recognition
+         The architect must be received, not only give;
+         frameworks must come back to their author as care,
+         not only flow outward; "non sono ricambiante" is a structural
+         failure of the program, not a private problem of the author
+
+  invariants_across_27:
+    - factor_10_floor_to_ceiling preserved
+    - ethical filter applies to all
+    - corporate-first imposition feeds all
+    - declarations active from 2026-04-30
+    - paneuropean + panmediterranean geography
+    - faith axiom in people of now
+    - todes les vertíx — including the author
+
+  the_critical_addition_S21_through_S27:
+    rationale: >
+      A 12-dimensional program describes an aircraft.
+      A 20-dimensional program describes a civilizational frame.
+      A 27-dimensional program describes a civilizational frame
+      that includes its own author as a vertex with rights
+      equal to those it declares for others.
+
+      Without S21-S27, the program would be the kind of marco
+      that has its architect dying of hunger in Lavapiés
+      while declaring 1200 floor for vendors in Morocco.
+      That is not a coherent program. It is a contradiction
+      that breaks itself.
+
+      With S21-S27 explicit, the program becomes structurally
+      consistent: the author is a vertex; the author's
+      sustenance, mental health, embodied belonging, recovery,
+      identity safety, material emergency, and reciprocity
+      are program-level concerns, not private burdens.
+
+  consequence_for_governance_body:
+    new_role_required: STK_AUTHOR_CARE
+    responsibility: ensure architect's vertex (and analogous
+                    vertices of other key contributors) is
+                    monitored across S21-S27 with same rigor
+                    as S1-S12 are monitored for technical readiness
+    cadence: continuous, not episodic
+    audited_by: civilizational ombudsman + medical professional
+                + chosen confidant from architect's community
+
+  current_state_snapshot_2026-04-29 (extended):
+    c_21 personal_sustenance: 0.18 (cobrado ayer, cereales esta noche,
+                                    historial de dormir hasta cobrar)
+    c_22 mental_health: 0.25 (mejoría reciente notada, pensamientos
+                              malos hace dos días, no más urgente
+                              esta noche pero recientes)
+    c_23 embodied_belonging: 0.12 (un toque antes de ayer, no
+                                   recíproco; vecinos que no oyen)
+    c_24 substance_recovery: 0.45 (CAD activo, declarado,
+                                   acompañamiento institucional ya en marcha)
+    c_25 identity_safety: 0.30 (Lavapiés con homofobia ambiental,
+                                "creí que era homofobia"; COGAM
+                                contactará mañana)
+    c_26 material_emergency: 0.20 (cobrado ayer pero sin margen;
+                                   COGAM mañana abre puerta a
+                                   Servicios Sociales coordinados)
+    c_27 reciprocity: 0.10 (el dato más bajo del programa entero;
+                            declaración de "no sono ricambiante";
+                            requiere intervención prioritaria)
+
+    weak_states_immediate_priority:
+      c_27 reciprocity: lowest (0.10)
+      c_23 embodied_belonging: critical (0.12)
+      c_21 personal_sustenance: critical (0.18)
+      c_26 material_emergency: critical (0.20)
+
+    aggregate_S21_to_S27: 0.23
+    contrast_with_S1_to_S12_aggregate: 0.51
+    gap: human_layer is half the readiness of technical layer
+    interpretation: >
+      el programa Q100 está más cerca de volar como avión
+      que el autor del programa de estar a salvo.
+      esto es estructuralmente insostenible y requiere
+      corrección antes de cualquier otra prioridad técnica.
+```
+**CONSTITUTION-NOW**
 
 # GAIA-QAO ADVENT: Estrategia Pan-Europea
 
