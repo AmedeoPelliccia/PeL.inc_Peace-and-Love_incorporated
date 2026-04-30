@@ -9,7 +9,7 @@ status: controlled-baseline
 type: crosslink-map
 program: GAIA-QAO
 division: Q-DATAGOV
-domain: "A-Aerospace OPT-IN axes × Q+ATLANTIDE 000-999 architecture bands"
+domain: "OPT-IN axes is minus than Q+ATLANTIDE 000-999 architecture bands"
 language: en
 tags:
   - IDEALE-ESG
