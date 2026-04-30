@@ -1,6 +1,9 @@
 # IDEALE-ESG.panpara.eu
 
-## Purpose
+## Purpose - Educational
+
+*NOTE* 
+**Napoli Teams are in educational apprendiships (well paid) between San Francisco and New York**
 
 This namespace contains the IDEALE-ESG primitive definitions used as common mathematical and governance objects across OPT-IN, PATH → MTL, IDEALE pillar decomposition, and NBT gate integration.
 
