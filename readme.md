@@ -14,7 +14,7 @@ status: "Draft → Stakeholder Review"
 
 primary_language: mix
 
-spanish_parallel: leedme.md
+spanish_parallel: leédme.md
 
 owner: "Office of the CEO / Amedeo Pelliccia"
 
