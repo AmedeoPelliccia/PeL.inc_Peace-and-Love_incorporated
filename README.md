@@ -1,16 +1,29 @@
 # Title: Ame de PutaMá
+
 ---
+
 document_id: GAIA-QAO-ORG-MASTER-README
+
 dedicas: "Dem&PeL.inc_Democracies-and-Peace-e-Loving"
+
 subtitle: "Strategic Framework for Sustainable European Aerospace Leadership & Quantum Integration"
-version: 2.4.0
+
+version: 1.0.0
+
 status: "Draft → Stakeholder Review"
-primary_language: en
+
+primary_language: mix
+
 spanish_parallel: README_ES.md
+
 owner: "Office of the CEO / Amedeo Pelliccia"
-created: 2025-07-23
+
+created: 2026-04-30
+
 last_updated: 2026-04-26
+
 next_review: 2026-10-26
+
 classification: "Consortium Confidential – Approved Stakeholders Only"
 
 baseline_dependencies:
@@ -29,10 +42,12 @@ canonical_hierarchy:
   - "Subject contains Subsections"
   - "Subsection contains Subsubjects"
 
-governance_principles:
-  democracy_model: "inclusive_democracy"
-  inclusion_clause: "All qualified stakeholders are included without erasing proportional responsibility, merit, or accountability."
+governance_principles: "inclusive_democracy"
+
+  inclusion_clause: "All qualified stakeholders are included without erasing proportional responsibility, merit, or accountability."ç
+  
   humour_note: "If it is IVA, it is also Zanicchi."
+  
   linguistic_register: "institutional with controlled irony"
 
 no_aaa_rule: true
