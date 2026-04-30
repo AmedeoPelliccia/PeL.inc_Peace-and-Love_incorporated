@@ -29,7 +29,7 @@ tags:
 parent: "README.md"
 ---
 
-# A-Aerospace × Q+ATLANTIDE — Crosslink Map
+# Q+ATLANTIDE — Crosslink Map
 
 ## Purpose
 
