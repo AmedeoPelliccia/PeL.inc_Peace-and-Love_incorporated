@@ -246,18 +246,18 @@ Architecture → Master range → Code range → Section → Subject → Subsect
 Use:
 
 ```text
-Programme / Q-Division Interface
+Programme / Q+ATLANTIDE
 ```
 
 or:
 
 ```text
-Interfaces de Programa / Q-Division
+programme interfaces / Q+ATLAS1000
 ```
 
 ---
 
-# 3. Q+ATLANTIDE Architecture Bands
+# 3. Q+ATLANTIDE programme 
 
 ## 3.1 Master Architecture Table
 
