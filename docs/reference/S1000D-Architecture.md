@@ -123,6 +123,44 @@ This layout is reproduced for every leaf node in the OPT-INS_FRAMEWORK and
 Q+ATLANTIDE registers; programme-specific CSDBs federate these per-leaf stores
 into a single logical CSDB at publication time.
 
+### 3.3 CSDB logical model (diagram)
+
+```mermaid
+flowchart LR
+    subgraph CSDB["Common Source DataBase (CSDB)"]
+        DM["DM<br/>Data Modules"]
+        PM["PM<br/>Publication Modules"]
+        DML["DML<br/>Data Management Lists"]
+        BREX["BREX<br/>Business Rules"]
+        ICN["ICN<br/>Illustrations & Media"]
+        COMMON["COMMON<br/>Warnings/Parts/Tools"]
+        APPL["APPLICABILITY<br/>ACT / PCT / CCT"]
+    end
+
+    AUTH["Authoring tools"] -->|check-in| DM
+    AUTH -->|check-in| ICN
+    DM -->|reference| COMMON
+    DM -->|filter by| APPL
+    PM -->|dmRef| DM
+    PM -->|filter by| APPL
+    BREX -->|validates| DM
+    BREX -->|validates| PM
+    DML -->|inventory of| DM
+    DML -->|inventory of| PM
+    DML -->|inventory of| ICN
+
+    PM --> BUILD["PM build / IETP"]
+    BUILD --> AMM["AMM"]
+    BUILD --> SRM["SRM"]
+    BUILD --> CMM["CMM"]
+    BUILD --> IPC["IPC"]
+    BUILD --> WDM["WDM"]
+    BUILD --> TSM["TSM"]
+    BUILD --> SB["SB"]
+    BUILD --> AFM["AFM"]
+    BUILD --> FCOM["FCOM"]
+```
+
 ### 3.3 Object identity & versioning
 
 - Every CSDB object has a stable identifier (DMC, PMC, ICN).
@@ -152,6 +190,23 @@ DMC-<modelIdentCode>-<systemDiffCode>-<systemCode>-<subSystemCode>-<subSubSystem
 | `infoCode` | Information type (descriptive `040`, operation `200`, servicing `300`, fault `400`, scheduled `500`, removal/installation `520`, repair `600`, IPD `941`, wiring `057`, etc.). |
 | `infoCodeVariant` | Variant within the info type. |
 | `itemLocationCode` | `A` (installed), `B` (on major assy), `C` (on bench), `D` (not applicable). |
+
+#### 4.1.1 DMC anatomy (diagram)
+
+```mermaid
+flowchart LR
+    DMC["DMC"] --> MIC["modelIdentCode<br/>(programme)"]
+    DMC --> SDC["systemDiffCode"]
+    DMC --> SC["systemCode<br/>(ATA chapter)"]
+    DMC --> SSC["subSystemCode<br/>(ATA section)"]
+    DMC --> SSSC["subSubSystemCode<br/>(ATA subject)"]
+    DMC --> AC["assyCode"]
+    DMC --> DC["disassyCode<br/>+ variant"]
+    DMC --> IC["infoCode<br/>(040/200/300/400/500/600/941/057…)"]
+    DMC --> ICV["infoCodeVariant"]
+    DMC --> ILC["itemLocationCode<br/>(A/B/C/D)"]
+    DMC -.optional.-> LC["learnCode + learnEventCode"]
+```
 
 ### 4.2 Data module schemas in use
 
@@ -266,6 +321,30 @@ Each `PUB/AMM/CSDB/APPLICABILITY/` directory carries an `APPLICABILITY.md`
 specification that documents the local ACT/PCT/CCT, the nine attributes and
 the EXPORT/IETP filtering policy.
 
+### 6.4 Applicability resolution (diagram)
+
+```mermaid
+flowchart LR
+    CTX["Target context<br/>(product, variant, msn,<br/>modStatus, operator, environment,<br/>lutState, lcPhase, optAxis)"]
+    ACT["ACT"]
+    PCT["PCT"]
+    CCT["CCT"]
+    EXPR["DM / PM<br/>&lt;applic&gt; expression<br/>(AND / OR / NOT)"]
+    RESOLVER["Applicability resolver"]
+    OUT{Effective?}
+    INC["Include in publication"]
+    EXC["Exclude / suppress"]
+
+    ACT --> RESOLVER
+    PCT --> RESOLVER
+    CCT --> RESOLVER
+    CTX --> RESOLVER
+    EXPR --> RESOLVER
+    RESOLVER --> OUT
+    OUT -- true --> INC
+    OUT -- false --> EXC
+```
+
 ---
 
 ## 7. BREX (Business Rules Exchange)
@@ -294,6 +373,20 @@ that supplement the S1000D base schema.
 4. Validation results are stored as evidence in the LC02 / LC07 stage of the
    lifecycle (UTCS evidence chain).
 
+```mermaid
+flowchart TD
+    A["Author check-in<br/>(DM / PM / ICN)"] --> B["S1000D XSD<br/>schema validation"]
+    B -- fail --> R["Reject + report"]
+    B -- pass --> C["BREX (Schematron)<br/>validation"]
+    C -- violation --> D{Deviation<br/>signed by Q-DATAGOV?}
+    D -- no --> R
+    D -- yes --> E["Record deviation"]
+    C -- pass --> E
+    E --> F["Hash + sign object"]
+    F --> G["Update DML"]
+    G --> H["Store evidence<br/>(LC02 / LC07 — UTCS chain)"]
+```
+
 ### 7.3 BREX inheritance
 
 A programme MAY chain BREX rules:
@@ -303,6 +396,13 @@ S1000D base BREX
   → Q-DATAGOV master BREX (organisation-wide)
     → Programme BREX (e.g. AMPEL360)
       → Variant BREX (e.g. AMPEL360e cargo)
+```
+
+```mermaid
+flowchart LR
+    S1["S1000D base BREX"] --> QD["Q-DATAGOV master BREX<br/>(organisation-wide)"]
+    QD --> PR["Programme BREX<br/>(e.g. AMPEL360)"]
+    PR --> VA["Variant BREX<br/>(e.g. AMPEL360e cargo)"]
 ```
 
 The most specific BREX prevails when rules conflict, except where the master
@@ -391,6 +491,35 @@ consumes specific S1000D artefacts:
 | **LC12** Modification | SBs + `modStatus` updates | Configuration evolution. |
 | **LC13** Retirement | Decommissioning DMs | End-of-life procedures. |
 | **LC14** Circularity | Disposal/recycling DMs | LUTNDR `RIC` integration. |
+
+```mermaid
+flowchart LR
+    LC01["LC01<br/>Problem"] --> LC02["LC02<br/>Requirements"]
+    LC02 --> LC03["LC03<br/>Architecture"]
+    LC03 --> LC04["LC04<br/>Design"]
+    LC04 --> LC05["LC05<br/>V&amp;V Plan"]
+    LC05 --> LC06["LC06<br/>Implementation"]
+    LC06 --> LC07["LC07<br/>Verification"]
+    LC07 --> LC08["LC08<br/>Certification"]
+    LC08 --> LC09["LC09<br/>Production"]
+    LC09 --> LC10["LC10<br/>Operations"]
+    LC10 --> LC11["LC11<br/>Maintenance"]
+    LC11 --> LC12["LC12<br/>Modification"]
+    LC12 --> LC13["LC13<br/>Retirement"]
+    LC13 --> LC14["LC14<br/>Circularity"]
+
+    LC02 -. descript + applicability .-> CSDB[(CSDB)]
+    LC04 -. descript / proced / ipd .-> CSDB
+    LC06 -. DM check-in .-> CSDB
+    LC07 -. validation logs .-> CSDB
+    LC08 -. AFM / FCOM PMs .-> CSDB
+    LC09 -. IPC / AMM PMs .-> CSDB
+    LC10 -. TSM / SB updates .-> CSDB
+    LC12 -. modStatus updates .-> CSDB
+    LC14 -. LUTNDR RIC DMs .-> CSDB
+
+    CSDB --> UTCS["UTCS evidence chain<br/>(hash + signature)"]
+```
 
 All check-ins are content-addressed; the resulting hash and signature feed the
 UTCS evidence chain.
