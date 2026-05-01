@@ -58,7 +58,190 @@ Definitions are maintained in:
 
 ---
 
-## Article V — Change Control
+## Article V — Glossary of Terms and Acronyms
+
+The canonical, machine-readable glossaries remain those listed in Article IV (`00_META/glossary/`). This article reproduces the in-document working glossary covering terms and acronyms used in this constitution and in Appendix A (DEGF v1.0).
+
+### V.1 Terms
+
+| Term | Definition |
+|------|------------|
+| AEROSPACEMODEL | The governed digital environment defined and bound by this constitution. |
+| Controlled Vocabulary | The closed set of folder names, status codes, acronyms and field values authorized for use in the repository. |
+| Crossing Power | A cross-cutting edge (not a branch) that traverses and unifies the four governance branches; supporting, never sovereign. |
+| Evidence | Auditable artefact (record, report, manifest, log, signed package) addressable via a controlled identifier and registered in the evidence register. |
+| Lifecycle (LC01–LC14) | The canonical 14-phase product lifecycle phase model under which all lifecycle states are governed. |
+| Mandatory Inheritance | Default-on, non-waivable duties (Kindness, Determinism, Legality, Loyalty, Fairness, Justice, Empathic Impartiality, Invulnerability, Activist Rights, Workers' Rights, Rights of People with Addictions) inherited by every entity at creation; strengthen-only, never weakened. |
+| Nonconformance | A deviation from a controlled obligation, including broken traceability chains and unauthorized modifications to controlled objects. |
+| Product Primacy | The principle that the product is the primary governed object; all lifecycle, compliance and traceability logic resolves to a product or variant. |
+| Separation of Powers | Division of authority across the Legislative, Executive, Judicial/Oversight and Auditorial/Control branches. |
+| Single Source of Truth | The rule that each controlled datum has exactly one authoritative location; duplication without controlled reference is prohibited. |
+| Standard Binding | The treatment of standards as executable compliance subsystems bound to the lifecycle, not as narrative references. |
+| Supersession | Recording a correction by issuing a new immutable record that references and supersedes the prior one. |
+| Traceability Completeness | The requirement that every obligation be traceable from requirement through evidence to signoff. |
+
+### V.2 Acronyms
+
+| Acronym | Expansion |
+|---------|-----------|
+| AR | Activist Rights (Civic Mark — Mandatory Inheritance) |
+| AS9100D | Aerospace quality management system standard |
+| ASIT | Authority for Structural and Integrity Traceability |
+| CCT | Conditions Cross-Reference Table (S1000D) |
+| CI | Continuous Integration |
+| COI | Conflict Of Interest |
+| CP-1 | Crossing Power 1 — Education & Training (Unity) |
+| CP-2 | Crossing Power 2 — Automation (Supervised Execution) |
+| CR | Change Request |
+| CSDB | Common Source DataBase (S1000D) |
+| D | Determinism (Mandatory Inheritance) |
+| DEGF | Democratic Enterprise Governance Framework |
+| DO-178C | Software considerations in airborne systems (RTCA) |
+| DO-254 | Design assurance for airborne electronic hardware (RTCA) |
+| EAP | Employee Assistance Programme |
+| EAR | Export Administration Regulations (US) |
+| EASA | European Union Aviation Safety Agency |
+| EVM | Earned Value Management |
+| F | Fairness (Ethical Mark — Mandatory Inheritance) |
+| FAA | Federal Aviation Administration (US) |
+| GAIA-QAO | GAIA Quantum Aerospace Organisation |
+| GDPR | General Data Protection Regulation (EU) |
+| HR | Human Resources |
+| IE | Imparzialità Empatica / Empathic Impartiality (Ethical Mark — Mandatory Inheritance) |
+| IETP | Interactive Electronic Technical Publication |
+| ILO | International Labour Organization |
+| INV | Invulnerability (Security Mark — Mandatory Inheritance) |
+| ITAR | International Traffic in Arms Regulations (US) |
+| J | Justice (Ethical Mark — Mandatory Inheritance) |
+| K | Kindness (Mandatory Inheritance) |
+| KPI | Key Performance Indicator |
+| L | Legality and/or Loyalty (Design Principles — Mandatory Inheritance) |
+| LC01–LC14 | Canonical 14-phase product lifecycle phase model |
+| MLOps | Machine Learning Operations |
+| NDA | Non-Disclosure Agreement |
+| ORB | Operational Review Board (executive office; sub-ORBs include FIN, LEG, HR) |
+| ORB-FIN | ORB — Finance |
+| ORB-HR | ORB — Human Resources |
+| ORB-LEG | ORB — Legal |
+| P&L.inc | Profit & Loss, incorporated (corporate vehicle paired with GAIA-QAO) |
+| QA | Quality Assurance |
+| Q-CYBERSEC | Q-Division — Cybersecurity |
+| Q-DATAGOV | Q-Division — Data Governance |
+| Q-HPC | Q-Division — High-Performance Computing |
+| Q-SCIRES | Q-Division — Scientific Research |
+| Q-SPACE | Q-Division — Space |
+| RA | Rights of People with Addictions (Health & Dignity Mark — Mandatory Inheritance) |
+| S1000D | International specification for technical publications |
+| SBOM | Software Bill of Materials |
+| SLAPP | Strategic Lawsuit Against Public Participation |
+| SLA | Service Level Agreement |
+| TMC | Training Master Class |
+| UTCS | Universal Traceability and Configuration System |
+| WR | Workers' Rights (Labour Mark — Mandatory Inheritance) |
+
+---
+
+## Article VI — Diagrams
+
+The following diagrams render the structures described in Articles I–V and Appendix A. They are normative for shape (relationships and direction) and informative for layout.
+
+### VI.1 Authority Structure (Article III)
+
+```mermaid
+flowchart TB
+    ASIT[ASIT<br/>Repository traceability integrity]
+    QA[QA Authority<br/>Quality sign-off]
+    CERT[Certification Authority<br/>Compliance & certification sign-off]
+    DEL[Delineant<br/>Boundary definition & scoping]
+    OBS[Observer<br/>Read & monitor]
+    REPO[(AEROSPACEMODEL Repository)]
+
+    ASIT -->|governs| REPO
+    QA -->|signs off| REPO
+    CERT -->|signs off| REPO
+    DEL -->|scopes| REPO
+    REPO -->|exposes to| OBS
+```
+
+### VI.2 Lifecycle Phase Model LC01–LC14 (Article II §5)
+
+```mermaid
+flowchart LR
+    LC01[LC01] --> LC02[LC02] --> LC03[LC03] --> LC04[LC04] --> LC05[LC05] --> LC06[LC06] --> LC07[LC07]
+    LC07 --> LC08[LC08] --> LC09[LC09] --> LC10[LC10] --> LC11[LC11] --> LC12[LC12] --> LC13[LC13] --> LC14[LC14]
+```
+
+### VI.3 Change Control Workflow (Article VII)
+
+```mermaid
+flowchart LR
+    A[Proposed Change] --> B[Open Change Request<br/>CR]
+    B --> C{Impact &<br/>Compliance Review}
+    C -->|reject| R[Rejected & Recorded]
+    C -->|accept| D[Implementation]
+    D --> E[CI Validation<br/>Article VIII]
+    E -->|fail| D
+    E -->|pass| F[Authority Sign-off<br/>ASIT / QA / Cert]
+    F --> G[Merge to Governed Baseline]
+    G --> H[Evidence Registered &<br/>CHANGELOG updated]
+```
+
+### VI.4 DEGF — Separation of Powers and Crossing Powers (Appendix A §5.3)
+
+```mermaid
+flowchart TB
+    subgraph Branches[Four Branches]
+        L[Legislative<br/>Stakeholder Assembly]
+        E[Executive<br/>Executive Committee]
+        J[Judicial / Oversight<br/>Tribunal of Safety, Ethics & Compliance]
+        A[Auditorial / Control<br/>Independent Audit Board]
+    end
+
+    subgraph Crossing[Crossing Powers — cross-cutting edges]
+        CP1[CP-1<br/>Education & Training]
+        CP2[CP-2<br/>Automation, supervised]
+    end
+
+    CP1 -. certifies .-> L
+    CP1 -. certifies .-> E
+    CP1 -. certifies .-> J
+    CP1 -. certifies .-> A
+    CP2 -. governs automation in .-> L
+    CP2 -. governs automation in .-> E
+    CP2 -. governs automation in .-> J
+    CP2 -. governs automation in .-> A
+
+    CP2 -->|gated by| CP1
+```
+
+### VI.5 Mandatory Inheritance (Appendix A §5.2.1)
+
+```mermaid
+flowchart TB
+    ROOT[Charter / Constitution]
+    subgraph Traits[Mandatory Inheritance — default-on, strengthen-only]
+        K[Kindness]
+        D[Determinism]
+        LE[Legality<br/>design principle]
+        LO[Loyalty<br/>design principle]
+        F[Fairness<br/>ethical mark]
+        JU[Justice<br/>ethical mark]
+        IE[Empathic Impartiality<br/>ethical mark]
+        INV[Invulnerability<br/>security mark]
+        AR[Activist Rights<br/>civic mark]
+        WR[Workers' Rights<br/>labour mark]
+        RA[Rights of People<br/>with Addictions<br/>health & dignity mark]
+    end
+    ENT[Every entity, role, process,<br/>model and artefact]
+
+    ROOT --> Traits
+    Traits --> ENT
+    ENT -->|may strengthen, never weaken| Traits
+```
+
+---
+
+## Article VII — Change Control
 
 All changes to controlled objects require a Change Request (CR) processed through `01_GOVERNANCE/workflows/change_request_workflow.md`.
 
@@ -66,7 +249,7 @@ Unauthorized modifications to controlled objects are nonconformances.
 
 ---
 
-## Article VI — Validation and CI
+## Article VIII — Validation and CI
 
 The repository CI pipeline (`08_AUTOMATION/ci/pipeline.yaml`) is the enforcement mechanism for structural and semantic integrity.
 
@@ -74,7 +257,7 @@ CI validation is mandatory before any merge to a governed baseline branch.
 
 ---
 
-## Article VII — Compliance
+## Article IX — Compliance
 
 This constitution shall be reviewed at each major release. Amendments require ASIT approval and are recorded in `CHANGELOG.md`.
 
