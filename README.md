@@ -77,6 +77,89 @@ organization:
 
 ---
 
+## SICO.CA — Ampel Theoretical Framework
+
+### 1. Controlled Reading
+
+**Acronym:** `SICO.CA`
+
+**SICO:** Sustainable Industrial Competitive Operations
+
+**CA:** Chained Algorithms
+
+**Status:** `controlled_acronym`
+
+**Doctrine:** "No more wars. Regeneration now."
+
+```mermaid
+flowchart TD
+    A["SICO.CA"] --> B["SICO: Sustainable Industrial Competitive Operations"]
+    A --> C["CA: Chained Algorithms"]
+    A --> D["status: controlled_acronym"]
+    A --> E["doctrine: No more wars. Regeneration now."]
+```
+
+### 2. Authorization Semantics
+
+SICO does not assert that current industry is sustainable. It means competitive
+industrial operations are admissible only if they are sustainable: sustainability
+is not a descriptive label, but an authorization condition.
+
+```mermaid
+flowchart LR
+    A["Industrial operation"] --> B{"Sustainable?"}
+    B -- "yes" --> C["Admissible competitive operation"]
+    B -- "no" --> D["Not authorized"]
+    C --> E["Generative and regenerative competition"]
+    E --> F["Accountable chained algorithms"]
+```
+
+### 3. Semantic Expansion
+
+| Element | Meaning |
+|---|---|
+| **S** | Sustainable: no externalización del daño hacia el más débil |
+| **I** | Industrial: producción de energía, materiales y sus logísticas |
+| **C** | Competitive: mejora sistémica sin guerras, muertes, heridos y destrucción |
+| **O** | Operations: ejecución en tiempo casi real, no discurso |
+| **CA** | Chained Algorithms: algoritmos encadenados, auditables, gobernados y entonces extraíbles; minerías digitales las complicadas |
+
+### 4. Chained Algorithm Governance
+
+```mermaid
+flowchart LR
+    S["S: Sustainable"] --> I["I: Industrial"]
+    I --> C["C: Competitive"]
+    C --> O["O: Operations"]
+    O --> CA["CA: Chained Algorithms"]
+    CA --> A["Auditable"]
+    CA --> G["Governed"]
+    CA --> X["Extractable"]
+```
+
+### 5. Canonical Python Import
+
+The canonical SICO.CA model lives under `scripts/sicoca/`. From the repository
+root, make `scripts/` importable (for example, `PYTHONPATH=scripts`) before
+using the public import; pytest already applies this path through
+`pyproject.toml`.
+
+```python
+from sicoca import SICOCA
+
+assert SICOCA.acronym == "SICO.CA"
+assert SICOCA.expansion_for("ca").label == "Chained Algorithms"
+```
+
+### 6. Formula and Short Line
+
+**Formula:** SICO.CA = Sustainable Industrial Competitive Operations through Chained Algorithms
+
+**Short line:** SICO.CA: industry only if sustainable; competition not only if it
+is generative and regenerative, but: algorithms only if accountable.
+
+---
+
 ## Approvals
 
 | Role | Name | Signature | Date |
