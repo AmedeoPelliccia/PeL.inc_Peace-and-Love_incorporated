@@ -1,6 +1,8 @@
 """Ampel theoretical framework definitions for SICO.CA."""
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from types import MappingProxyType
+from typing import Mapping
 
 
 @dataclass(frozen=True)
@@ -22,13 +24,30 @@ class SicocaFramework:
     semantic_expansion: tuple[SicocaSemanticElement, ...]
     formula: str
     short_line: str
+    _semantic_expansion_by_element: Mapping[str, SicocaSemanticElement] = field(
+        init=False,
+        repr=False,
+    )
+
+    def __post_init__(self) -> None:
+        semantic_expansion_by_element: dict[str, SicocaSemanticElement] = {}
+        for expansion in self.semantic_expansion:
+            normalized = expansion.element.upper()
+            if normalized in semantic_expansion_by_element:
+                raise ValueError(f"duplicate semantic element: {expansion.element}")
+            semantic_expansion_by_element[normalized] = expansion
+        object.__setattr__(
+            self,
+            "_semantic_expansion_by_element",
+            MappingProxyType(semantic_expansion_by_element),
+        )
 
     def expansion_for(self, element: str) -> SicocaSemanticElement:
         normalized = element.upper()
-        for expansion in self.semantic_expansion:
-            if expansion.element == normalized:
-                return expansion
-        raise KeyError(element)
+        try:
+            return self._semantic_expansion_by_element[normalized]
+        except KeyError:
+            raise KeyError(element) from None
 
 
 CONTROLLED_ACRONYM = "controlled_acronym"
