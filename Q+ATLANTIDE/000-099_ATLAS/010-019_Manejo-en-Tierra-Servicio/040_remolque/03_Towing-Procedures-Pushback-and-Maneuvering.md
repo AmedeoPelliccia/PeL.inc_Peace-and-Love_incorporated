@@ -47,16 +47,29 @@ Defines the **procedural baseline** for AMPEL360 towing and pushback operations 
 
 ```mermaid
 flowchart LR
-    PR[(03 Procedures:\nPushback & Maneuvering)]
-    PR --> PC[Pre-tow Checks\nbypass pin · shear pin · path clear · comms]
-    PR --> CM[Communication Protocol\ninterphone · marshaller · STOP authority]
-    PR --> SQ[Pushback Sequence\nconnect → release → translate → stop → disconnect]
-    PR --> TR[Turning-Radius Mgmt\ntow-cone within nose-gear limit]
-    PR --> SD[Stop-and-Disconnect\nbrake set → disconnect → bypass pin out]
-    PC -. consumes .-> N02[02 Equipment]
-    TR -. respects limits .-> N04[04 Limits & Steering]
-    SQ -. emits checkpoints .-> N05[05 Records]
-    SD -. handover .-> TAXI[ATA 09 taxiing\n(out of scope)]
+    PR(["03 Procedures:<br/>Pushback &amp; Maneuvering"])
+
+    PC["Pre-tow Checks<br/>bypass pin · shear pin · path clear · comms"]
+    CM["Communication Protocol<br/>interphone · marshaller · STOP authority"]
+    SQ["Pushback Sequence<br/>connect → release → translate → stop → disconnect"]
+    TR["Turning-Radius Mgmt<br/>tow-cone within nose-gear limit"]
+    SD["Stop-and-Disconnect<br/>brake set → disconnect → bypass pin out"]
+
+    N02["02 Equipment"]
+    N04["04 Limits &amp; Steering"]
+    N05["05 Records"]
+    TAXI["ATA 09 taxiing<br/>(out of scope)"]
+
+    PR --> PC
+    PR --> CM
+    PR --> SQ
+    PR --> TR
+    PR --> SD
+
+    PC -.->|consumes| N02
+    TR -.->|respects limits| N04
+    SQ -.->|emits checkpoints| N05
+    SD -.->|handover| TAXI
 ```
 
 ## 4. Footprint
