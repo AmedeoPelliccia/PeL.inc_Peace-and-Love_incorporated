@@ -48,19 +48,35 @@ Defines the **equipment population** used for AMPEL360 towing operations — tow
 
 ```mermaid
 flowchart LR
-    EQ[(02 Equipment & Tug\nCompatibility)]
-    EQ --> TB[Towbars\npart # · shear pin · length · mass]
-    EQ --> TL[Towbarless Tractors\ncradle clamp · lifted tow]
-    EQ --> AP[Attachment Points\nnose-gear primary · recovery alt]
-    EQ --> MX[Tug Class Matrix\nmass band × variant → tug class]
-    TL --> FL{towbarless_status}
-    FL --> P[prohibited\n(BWB default)]
-    FL --> C[conditional]
-    FL --> A[approved]
-    MX -. consumes .-> TB
-    MX -. consumes .-> TL
-    AP -. references ATA 32-50 .-> N04[04 Limits & Steering]
-    EQ -. used by .-> N03[03 Procedures]
+    EQ(["02 Equipment &amp; Tug<br/>Compatibility"])
+
+    TB["Towbars<br/>part # · shear pin · length · mass"]
+    TL["Towbarless Tractors<br/>cradle clamp · lifted tow"]
+    AP["Attachment Points<br/>nose-gear primary · recovery alt"]
+    MX["Tug Class Matrix<br/>mass band × variant → tug class"]
+
+    FL{"towbarless_status"}
+    P["prohibited<br/>(BWB default)"]
+    C["conditional"]
+    A["approved"]
+
+    N04["04 Limits &amp; Steering"]
+    N03["03 Procedures"]
+
+    EQ --> TB
+    EQ --> TL
+    EQ --> AP
+    EQ --> MX
+
+    TL --> FL
+    FL --> P
+    FL --> C
+    FL --> A
+
+    MX -.->|consumes| TB
+    MX -.->|consumes| TL
+    AP -.->|references ATA 32-50| N04
+    EQ -.->|used by| N03
 ```
 
 ## 4. Footprint
