@@ -1,4 +1,16 @@
-# Title: Ame de Está Bien Puét
+---
+repository:
+  owner: AmedeoPelliccia
+  name: Qplus-For-All-Queer-People-and-Quantum
+  title: "Q+ — For All Queer People and Quantum"
+  short_name: "Q+"
+  role: "corporate / organizational umbrella"
+  distinction:
+    Q+: "organization / corporation / public title"
+    Q+ATLANTIDE: "architecture-taxonomy ecosystem"
+    Q+ATLANTIDE1000: "controlled 000–999 identification framework"
+---
+
 # Q+ — **For All Queer People and Quantum**
 
 ---
