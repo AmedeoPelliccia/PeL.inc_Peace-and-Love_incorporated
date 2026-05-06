@@ -53,7 +53,7 @@ flowchart LR
     OV --> N03[03 — Scheduled & Unscheduled Servicing]
     OV --> N04[04 — Servicing Points, Couplings & Interfaces]
     OV --> N05[05 — Servicing Records & Traceability]
-    N02 -. ATA 28 / 38 / 47 .-> ATA[ATA 12 — Servicing]
+    N02 -. ATA 28 / 38 / 47 .-> ATA[Servicing-related ATA overlays\n(ATA 12 / 28 / 38 / 47)]
     N04 -. couplings .-> ATA
     N03 -. AMM/MPD .-> LC11[LC11_MAINTENANCE\nbaseline]
 ```
