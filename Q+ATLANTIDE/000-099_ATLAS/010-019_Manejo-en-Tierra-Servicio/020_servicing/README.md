@@ -68,7 +68,7 @@ flowchart LR
 | `010` | Ground handling | [`../010_Ground-handling/README.md`](../010_Ground-handling/README.md) |
 | `020` | servicing (this) | [`./README.md`](./README.md) |
 | `030` | acceso | [`../030_acceso/00_Overview.md`](../030_acceso/00_Overview.md) |
-| `040` | remolque | [`../040_remolque/00_Overview.md`](../040_remolque/00_Overview.md) |
+| `040` | remolque | [`../040_remolque/README.md`](../040_remolque/README.md) |
 | `050` | parking | [`../050_parking/00_Overview.md`](../050_parking/00_Overview.md) |
 | `060` | GSE | [`../060_GSE/00_Overview.md`](../060_GSE/00_Overview.md) |
 
