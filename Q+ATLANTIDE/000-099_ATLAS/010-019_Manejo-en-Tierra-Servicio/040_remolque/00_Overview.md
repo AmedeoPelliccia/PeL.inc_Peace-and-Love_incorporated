@@ -31,15 +31,49 @@ language: en
 
 Overview entry-point for the *remolque* subsection within the `010-019` code range (Section `01` — *Manejo en Tierra & Servicio*) of the **ATLAS** architecture band (*Aircraft Top-Level Architecture System*, master range `000–099`).
 
-This subsubject (`00 Overview`) introduces the ATLAS 010-019.040.00 slice and links it to the controlled Q+ATLANTIDE baseline[^baseline] and to the applicable industry standards listed in §4.
+This subsubject (`00 Overview`) introduces the ATLAS 010-019.040.00 slice and links it to the controlled Q+ATLANTIDE baseline[^baseline] and to the applicable industry standards listed in §5. *Remolque* (towing) is the **controlled translation of the aircraft on the ground under external motive power** — pushback away from the gate, repositioning to/from the hangar, towing between maintenance bays. It is operationally and dimensionally distinct from *taxiing* (which is *self-powered* under engine thrust and is therefore **not** in this chapter).
 
 ## 2. Scope
 
-- Covers the *remolque* slice of the parent code range `010-019`.
+- Covers the *remolque* slice of the parent code range `010-019` — i.e. **towbar and towbarless tow operations, pushback, maneuvering under external power, the tug/tractor compatibility matrix, the towing limits and steering interlocks, and the towing-event record set** that together define the controlled-translation regime of the AMPEL360 aircraft on the ground.
 - Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table)[^archtable].
+- Maps to the following ATA chapters as canonical scope references:
+  - **ATA 09 — Towing and Taxiing**[^ata09] for the primary towing/pushback procedural baseline. (Taxiing is referenced for boundary clarity but is owned upstream — see §2 boundary clauses.)
+  - **ATA 32 — Landing Gear**[^ata32], in particular the **32-50 Steering** subchapter, for nose-gear steering limits, bypass-pin interlocks and torque-link integrity that bound any tow event.
+  - **ATA 07 — Lifting and Shoring**[^ata07] for adjacency on related gear-load handling (jacking, weight-on-wheels considerations during ground moves).
+- **Boundary triangulation with sibling subsections `010`, `020` and `030`.** Restated symmetrically across the lead Overviews so the partition stays clean:
+  - **Ground handling** (`010`) = aircraft *positioning*, *safety perimeter*, GSE *physical placement*. See [`../010_Ground-handling/00_Overview.md`](../010_Ground-handling/00_Overview.md).
+  - **Servicing** (`020`) = active *flow through coupling interfaces* (fluids, gases, energy). See [`../020_servicing/00_Overview.md`](../020_servicing/00_Overview.md).
+  - **Access** (`030`) = *opening the aircraft envelope* to enable presence inside or at compartments. See [`../030_acceso/00_Overview.md`](../030_acceso/00_Overview.md).
+  - **Remolque** (`040`, this) = *controlled translation* of the aircraft on the ground under *external* motive power.
+  Worked examples: nose-gear bypass-pin insertion and towbar engagement belong to *remolque*; positioning the tug at the nose belongs to *ground handling*; opening the EE-bay panel for the tow brief belongs to *access*; coupling external power for tow lighting belongs to *servicing*.
+- **Boundary with self-powered taxiing.** Taxiing under aircraft engine power is *outside* this subsection (it is governed by flight-operations procedures and the ATA 09 *taxiing* subchapter at the operator level). The handover point is the **bypass-pin removal and disconnect** at the end of a tow event, after which the aircraft transitions back to a taxi-capable state.
+- **The nose-gear steering bypass is the highest-stakes element of this subsection.** Towing with the bypass pin uninstalled (or installed incorrectly) is one of the most common causes of expensive ground damage on commercial aircraft — sheared steering collars, damaged torque links, gear-retraction interference. Subsubject `04` therefore declares bypass-pin state as a **machine-checkable interlock** in a YAML invariant block at the top of the file, not just as procedural prose.
+- **Towbarless tractor compatibility is non-trivial for AMPEL360.** Towbarless tractors clamp directly to the nose-gear and apply lifting forces; they are certified per aircraft type because the gear must tolerate the clamp loads. For a BWB with a non-conventional gear arrangement, the towbarless certification matrix may be sparse or non-existent in early service. Subsubject `02` therefore explicitly states the certified tractor classes and flags any towbarless prohibition, because operators *will* assume parity with conventional aircraft otherwise.
+- **The `03_` ↔ `04_` ↔ `05_` chain closes the digital-twin loop.** Procedures (`03_`) reference limits (`04_`); when limits are approached or exceeded, the event is logged (`05_`) with an `event_classification:` field (`nominal` / `inspection_trigger` / `mandatory_inspection` / `damage_event`) and propagates bidirectionally to the maintenance program at `AMPEL360-AIR-T/LC11_MAINTENANCE/`.
 - Subsequent subsubjects (`01`–`99`) under this subsection extend this Overview with detailed data modules per S1000D[^s1000d].
 
-## 3. Footprint
+## 3. Diagram
+
+The diagram below shows how this subsection's `00 Overview` aggregates the populated subsubjects (`01`–`05`) into the *remolque* slice of ATLAS `010-019`, and how the `03_` ↔ `04_` ↔ `05_` chain closes onto the maintenance program.
+
+```mermaid
+flowchart LR
+    OV[(00 Overview\nATLAS 010-019.01.040)]
+    OV --> N01[01 — Scope & Towing Boundaries]
+    OV --> N02[02 — Towing Equipment & Tug Compatibility]
+    OV --> N03[03 — Procedures: Pushback & Maneuvering]
+    OV --> N04[04 — Limits, Loads & Steering Constraints]
+    OV --> N05[05 — Records, Incidents & Traceability]
+    N02 -. ATA 09 / 32-50 .-> ATA[Towing-related ATA overlays\n(ATA 09 / 32 / 07)]
+    N04 -. ATA 32-50 .-> ATA
+    N03 -. references .-> N04
+    N04 -. exceedance .-> N05
+    N05 -. event_classification .-> LC11[LC11_MAINTENANCE\nbaseline]
+    N04 -. interlock: bypass_pin .-> N03
+```
+
+## 4. Footprint
 
 | Metric | Value |
 |---|---|
@@ -59,7 +93,7 @@ This subsubject (`00 Overview`) introduces the ATLAS 010-019.040.00 slice and li
 | Parent architecture | [`../../README.md`](../../README.md) |
 | Parent baseline | [`organization/Q+ATLANTIDE.md`](../../../../organization/Q+ATLANTIDE.md) |
 
-## 4. References & Citations
+## 5. References & Citations
 
 
 [^baseline]: **Q+ATLANTIDE controlled baseline (v1.0.0)** — [`organization/Q+ATLANTIDE.md`](../../../../organization/Q+ATLANTIDE.md). Defines the controlled `000-999` architecture-band taxonomy and the ATLAS-1000 register subpart.
@@ -69,6 +103,12 @@ This subsubject (`00 Overview`) introduces the ATLAS 010-019.040.00 slice and li
 [^qdiv]: **Q-Division authority** — Q-Divisions provide technical authority over an architecture row (Q+ATLANTIDE Note N-002). See [`organization/Q+ATLANTIDE.md` §4](../../../../organization/Q+ATLANTIDE.md#4-notes).
 
 [^gov]: **Governance class** — Bands are classified as `baseline` or `restricted` per Q+ATLANTIDE §4 governance rules.
+
+[^ata07]: **ATA Chapter 07 — Lifting and Shoring** — Industry chapter covering aircraft jacking, shoring and gear-load handling; adjacency reference for ground moves where weight-on-wheels and gear-load assumptions interact with the towing regime.
+
+[^ata09]: **ATA Chapter 09 — Towing and Taxiing** — Industry chapter covering towing and taxiing operations, including pushback, maintenance towing and self-powered taxiing. Primary canonical reference for this subsection's towing-procedure baseline.
+
+[^ata32]: **ATA Chapter 32 — Landing Gear** — Industry chapter covering landing-gear systems; sub-chapter **32-50 Steering** governs nose-gear steering, the steering bypass-pin interlock and torque-link integrity that constrain any tow event.
 
 [^ata2200]: **ATA iSpec 2200 — Information Standards for Aviation Maintenance** — Industry standard for digital aircraft maintenance information; governs chapter / section / subject numbering inherited by ATLAS `000-099`.
 
@@ -82,6 +122,9 @@ This subsubject (`00 Overview`) introduces the ATLAS 010-019.040.00 slice and li
 
 The following ATA-family and industry standards apply to this subsection in addition to the cross-cutting Q+ATLANTIDE governance:
 
+- ATA Chapter 07 — Lifting and Shoring[^ata07]
+- ATA Chapter 09 — Towing and Taxiing[^ata09]
+- ATA Chapter 32 — Landing Gear (sub-chapter 32-50 Steering)[^ata32]
 - ATA iSpec 2200 — Information Standards for Aviation Maintenance[^ata2200]
 - ATA Spec 100 — Manufacturers' Technical Data[^ataspec100]
 - S1000D Issue 6.0 — International specification for technical publications[^s1000d]
