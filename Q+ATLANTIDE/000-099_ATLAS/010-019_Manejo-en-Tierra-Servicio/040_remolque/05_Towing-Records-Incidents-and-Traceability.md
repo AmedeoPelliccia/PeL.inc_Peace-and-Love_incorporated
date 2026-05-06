@@ -54,20 +54,39 @@ Defines the **record set produced by every AMPEL360 tow event** — the towing l
 
 ```mermaid
 flowchart LR
-    RC[(05 Records, Incidents\n& Traceability)]
-    RC --> RT[Record Types]
-    RT --> EL[Tow Event Log]
-    RT --> OR[Gear Over-rotation Event]
-    RT --> DR[Tow-related Damage Report]
-    RT --> IB[Bypass-pin Interlock Breach]
-    RC --> EC{event_classification}
-    EC --> NM[nominal\n→ filed, no action]
-    EC --> IT[inspection_trigger\n→ next-check inspection task]
-    EC --> MI[mandatory_inspection\n→ aircraft not releasable]
-    EC --> DE[damage_event\n→ hard-stop, grounded]
-    EC -. propagates to .-> LC11[LC11_MAINTENANCE\n(bidirectional)]
-    LC11 -. updates limits .-> N04[04 Limits & Steering]
-    EL -. consumes checkpoints .-> N03[03 Procedures]
+    RC(["05 Records, Incidents<br/>&amp; Traceability"])
+
+    RT["Record Types"]
+    EL["Tow Event Log"]
+    OR["Gear Over-rotation Event"]
+    DR["Tow-related Damage Report"]
+    IB["Bypass-pin Interlock Breach"]
+
+    EC{"event_classification"}
+    NM["nominal<br/>→ filed, no action"]
+    IT["inspection_trigger<br/>→ next-check inspection task"]
+    MI["mandatory_inspection<br/>→ aircraft not releasable"]
+    DE["damage_event<br/>→ hard-stop, grounded"]
+
+    LC11["LC11_MAINTENANCE<br/>(bidirectional)"]
+    N04["04 Limits &amp; Steering"]
+    N03["03 Procedures"]
+
+    RC --> RT
+    RT --> EL
+    RT --> OR
+    RT --> DR
+    RT --> IB
+
+    RC --> EC
+    EC --> NM
+    EC --> IT
+    EC --> MI
+    EC --> DE
+
+    EC -.->|propagates to| LC11
+    LC11 -.->|updates limits| N04
+    EL -.->|consumes checkpoints| N03
 ```
 
 ## 4. Footprint
