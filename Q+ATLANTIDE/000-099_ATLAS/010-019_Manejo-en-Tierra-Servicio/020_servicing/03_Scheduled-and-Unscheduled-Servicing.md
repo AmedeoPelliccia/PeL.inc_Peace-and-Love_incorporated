@@ -55,15 +55,28 @@ The diagram below shows the bidirectional contract with the maintenance-program 
 
 ```mermaid
 flowchart LR
-    LC11[(LC11_MAINTENANCE\nmaintenance-program-baseline)]
-    LC11 -- consumed --> SCH[Scheduled tasks\n(turn-around · transit · overnight)]
-    OP[Operator request] --> UNS[Unscheduled servicing]
-    CBM[Condition-based\n(health-monitoring · inspection)] --> UNS
-    AOG[AOG event] --> UNS
-    SCH --> EXEC[(03 Servicing execution)]
+    LC11(["LC11_MAINTENANCE<br/>maintenance-program-baseline"])
+
+    SCH["Scheduled tasks<br/>(turn-around · transit · overnight)"]
+    OP["Operator request"]
+    UNS["Unscheduled servicing"]
+    CBM["Condition-based<br/>(health-monitoring · inspection)"]
+    AOG["AOG event"]
+
+    EXEC(["03 Servicing execution"])
+    N04["04 Couplings &amp; Interfaces<br/>profile selection"]
+    N05["05 Records &amp; Traceability<br/>return-to-service evidence"]
+
+    LC11 -->|consumed by| SCH
+    OP --> UNS
+    CBM --> UNS
+    AOG --> UNS
+
+    SCH --> EXEC
     UNS --> EXEC
-    EXEC -- produces --> N04[04 Couplings & Interfaces\nprofile selection]
-    EXEC -- produces --> N05[05 Records & Traceability\nreturn-to-service evidence]
+
+    EXEC -->|produces| N04
+    EXEC -->|produces| N05
 ```
 
 ## 4. Footprint
