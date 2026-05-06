@@ -45,16 +45,28 @@ The diagram below shows how this subsection's `00 Overview` aggregates the popul
 
 ```mermaid
 flowchart LR
-    R[(Subsection 040\nremolque)]
-    OV[00 Overview] --> R
-    R --> N01[01 — Scope & Towing Boundaries]
-    R --> N02[02 — Equipment & Tug Compatibility]
-    R --> N03[03 — Procedures: Pushback & Maneuvering]
-    R --> N04[04 — Limits, Loads & Steering Constraints]
-    R --> N05[05 — Records, Incidents & Traceability]
-    N03 -. respects .-> N04
-    N04 -. classifies .-> N05
-    N05 -. propagates .-> LC11[LC11_MAINTENANCE\n(bidirectional)]
+    R(["Subsection 040<br/>Remolque"])
+    OV["00 Overview"]
+
+    N01["01 — Scope &amp; Towing Boundaries"]
+    N02["02 — Equipment &amp; Tug Compatibility"]
+    N03["03 — Procedures: Pushback &amp; Maneuvering"]
+    N04["04 — Limits, Loads &amp; Steering Constraints"]
+    N05["05 — Records, Incidents &amp; Traceability"]
+
+    LC11["LC11_MAINTENANCE<br/>(bidirectional)"]
+
+    OV --> R
+
+    R --> N01
+    R --> N02
+    R --> N03
+    R --> N04
+    R --> N05
+
+    N03 -.->|respects| N04
+    N04 -.->|classifies| N05
+    N05 -.->|propagates| LC11
 ```
 
 ## 4. Subsubject Index
