@@ -48,16 +48,30 @@ The diagram below shows the data flow from servicing execution into the log, the
 
 ```mermaid
 flowchart LR
-    EXEC[(Servicing execution\nfrom subsubject 03)]
-    EXEC --> LOG[Servicing log\n(aircraft · regime · task · point · GSE)]
-    EXEC --> LOT[Fluid lot tracker\n(supplier · batch · CoA · uplift)]
-    LOG --> DPP[DPP entries\n(event → passport mapping)]
+    EXEC(["Servicing execution<br/>from subsubject 03"])
+
+    LOG["Servicing log<br/>(aircraft · regime · task · point · GSE)"]
+    LOT["Fluid lot tracker<br/>(supplier · batch · CoA · uplift)"]
+
+    DPP["DPP entries<br/>(event → passport mapping)"]
+    RTS["Return-to-service evidence<br/>(sign-off chain · completeness · handover)"]
+    NEXT["Next-flight readiness"]
+
+    ARCH(["Record archive<br/>AS9100D"])
+    EXT(["External DPP SSOT"])
+
+    EXEC --> LOG
+    EXEC --> LOT
+
+    LOG --> DPP
     LOT --> DPP
-    LOG --> RTS[Return-to-service evidence\n(sign-off chain · completeness · handover)]
-    RTS --> NEXT[Next-flight readiness]
-    LOG -. retention .-> ARCH[(Record archive\nAS9100D)]
-    LOT -. retention .-> ARCH
-    DPP -. export .-> EXT[(External DPP SSOT)]
+
+    LOG --> RTS
+    RTS --> NEXT
+
+    LOG -.->|retention| ARCH
+    LOT -.->|retention| ARCH
+    DPP -.->|export| EXT
 ```
 
 ## 4. Footprint
