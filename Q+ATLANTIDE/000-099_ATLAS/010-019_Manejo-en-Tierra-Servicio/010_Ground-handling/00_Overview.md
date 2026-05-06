@@ -37,6 +37,7 @@ This subsubject (`00 Overview`) introduces the ATLAS 010-019.010.00 slice and li
 
 - Covers the *Ground handling* slice of the parent code range `010-019`.
 - Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table)[^archtable].
+- **Boundary with subsection `020` *servicing*.** GSE interfaces are jointly addressed: this subsection's [`04_Ground-Support-Equipment-Interfaces.md`](./04_Ground-Support-Equipment-Interfaces.md) covers the *positioning and physical presence* of GSE (where it parks, how it connects mechanically, exclusion-zone footprint), whereas [`../020_servicing/04_Servicing-Points-Couplings-and-Interfaces.md`](../020_servicing/04_Servicing-Points-Couplings-and-Interfaces.md) covers the *functional servicing* through those interfaces (what flows, at what rate, under what protocol). For H₂, exposure is treated here via *exclusion zones* and under `020` via *active replenishment*.
 - Subsequent subsubjects (`01`–`99`) under this subsection extend this Overview with detailed data modules per S1000D[^s1000d].
 
 ## 3. Footprint

@@ -35,11 +35,30 @@ This subsubject (`00 Overview`) introduces the ATLAS 010-019.020.00 slice and li
 
 ## 2. Scope
 
-- Covers the *servicing* slice of the parent code range `010-019`.
+- Covers the *servicing* slice of the parent code range `010-019` — i.e. **replenishment and turn-around servicing** (fluids, gases, energy) and the operational realisation of scheduled/unscheduled servicing tasks.
 - Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table)[^archtable].
+- Maps to **ATA 12 — Servicing** with infrastructure overlay to `OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_12-SERVICING_INFRA/`. Adjacent ATA chapters consumed by replenishment (`02`) are: **ATA 28 — Fuel** (incl. ATA 28-10 storage for AMPEL360 LH₂), **ATA 38 — Water/Waste**, **ATA 47 — Inert-gas (N₂)**.
+- **Boundary with subsection `010` *Ground handling*.** The clean split with [`../010_Ground-handling/04_Ground-Support-Equipment-Interfaces.md`](../010_Ground-handling/04_Ground-Support-Equipment-Interfaces.md) is: `010/04` covers the *positioning and physical presence* of GSE (parking, mechanical connection, exclusion-zone footprint); `020/04` covers the *functional servicing* through those interfaces (what flows, at what rate, under what protocol). H₂ exposure is treated under `010` via *exclusion zones* and under `020` via *active replenishment* (couplings, transfer rates, boil-off, purge cycles).
 - Subsequent subsubjects (`01`–`99`) under this subsection extend this Overview with detailed data modules per S1000D[^s1000d].
 
-## 3. Footprint
+## 3. Diagram
+
+The diagram below shows how this subsection's `00 Overview` aggregates the populated subsubjects (`01`–`05`) into the *servicing* slice of ATLAS `010-019` and how each maps to its primary ATA reference.
+
+```mermaid
+flowchart LR
+    OV[(00 Overview\nATLAS 010-019.01.020)]
+    OV --> N01[01 — Scope & Servicing Boundaries]
+    OV --> N02[02 — Replenishment: Fluids, Gases & Energy]
+    OV --> N03[03 — Scheduled & Unscheduled Servicing]
+    OV --> N04[04 — Servicing Points, Couplings & Interfaces]
+    OV --> N05[05 — Servicing Records & Traceability]
+    N02 -. ATA 28 / 38 / 47 .-> ATA[ATA 12 — Servicing]
+    N04 -. couplings .-> ATA
+    N03 -. AMM/MPD .-> LC11[LC11_MAINTENANCE\nbaseline]
+```
+
+## 4. Footprint
 
 | Metric | Value |
 |---|---|
@@ -59,7 +78,7 @@ This subsubject (`00 Overview`) introduces the ATLAS 010-019.020.00 slice and li
 | Parent architecture | [`../../README.md`](../../README.md) |
 | Parent baseline | [`organization/Q+ATLANTIDE.md`](../../../../organization/Q+ATLANTIDE.md) |
 
-## 4. References & Citations
+## 5. References & Citations
 
 
 [^baseline]: **Q+ATLANTIDE controlled baseline (v1.0.0)** — [`organization/Q+ATLANTIDE.md`](../../../../organization/Q+ATLANTIDE.md). Defines the controlled `000-999` architecture-band taxonomy and the ATLAS-1000 register subpart.
