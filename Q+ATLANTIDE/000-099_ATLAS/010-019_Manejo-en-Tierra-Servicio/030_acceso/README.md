@@ -31,7 +31,7 @@ Subsection-level index for *acceso* (`030`) within ATLAS `010-019` — *Manejo e
 
 ## 2. Scope
 
-- Covers the full subsubject namespace `00`–`99` of subsection `030` *acceso*; subsubjects `01`–`05` are populated in this baseline release, the remaining `06`–`99` slots remain available for future extension per the Overview's authorization[^archtable].
+- Covers the full subsubject namespace `00`–`99` of subsection `030` *acceso*; subsubjects `01`–`05` are populated in this baseline release, the remaining `06`–`99` slots remain available for future extension per the Overview's authorisation[^archtable].
 - Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table)[^archtable].
 - **Boundary triangulation with subsections `010` and `020`.** Restated for navigation:
   - **Ground handling** (`010`) = aircraft *positioning*, *safety perimeter*, GSE *physical placement*. See [`../010_Ground-handling/00_Overview.md`](../010_Ground-handling/00_Overview.md).
