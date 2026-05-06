@@ -50,16 +50,29 @@ The diagram below shows how the *towing* boundary partitions the activity space 
 
 ```mermaid
 flowchart LR
-    SD[(01 Scope & Towing\nBoundaries)]
-    SD --> AX1[Towing vs. Taxiing\nexternal vs. self-powered]
-    SD --> AX2[Towing vs. Pushback\ngeneral vs. gate-departure]
-    SD --> AX3[Towbar vs. Towbarless\nshear-pin vs. clamp-on cradle]
-    SD --> AX4[Maintenance vs. Operational\nMRO authority vs. ramp authority]
-    SD --> AX5[Airside vs. Hangar\nATC-coord vs. hangar-floor regime]
-    AX1 --> OUT[Taxiing → out of scope\n(ATA 09 taxiing · flight ops)]
-    AX3 --> N02[02 Equipment & Tug Compatibility]
-    AX2 --> N03[03 Procedures: Pushback & Maneuvering]
-    AX4 --> N05[05 Records, Incidents & Traceability]
+    SD(["01 Scope &amp; Towing<br/>Boundaries"])
+
+    AX1["Towing vs. Taxiing<br/>external vs. self-powered"]
+    AX2["Towing vs. Pushback<br/>general vs. gate-departure"]
+    AX3["Towbar vs. Towbarless<br/>shear-pin vs. clamp-on cradle"]
+    AX4["Maintenance vs. Operational<br/>MRO authority vs. ramp authority"]
+    AX5["Airside vs. Hangar<br/>ATC-coord vs. hangar-floor regime"]
+
+    OUT["Taxiing → out of scope<br/>(ATA 09 taxiing · flight ops)"]
+    N02["02 Equipment &amp; Tug Compatibility"]
+    N03["03 Procedures: Pushback &amp; Maneuvering"]
+    N05["05 Records, Incidents &amp; Traceability"]
+
+    SD --> AX1
+    SD --> AX2
+    SD --> AX3
+    SD --> AX4
+    SD --> AX5
+
+    AX1 --> OUT
+    AX3 --> N02
+    AX2 --> N03
+    AX4 --> N05
     AX5 --> N03
 ```
 
