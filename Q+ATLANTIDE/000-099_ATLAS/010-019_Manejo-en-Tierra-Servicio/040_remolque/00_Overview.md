@@ -59,18 +59,29 @@ The diagram below shows how this subsection's `00 Overview` aggregates the popul
 
 ```mermaid
 flowchart LR
-    OV[(00 Overview\nATLAS 010-019.01.040)]
-    OV --> N01[01 — Scope & Towing Boundaries]
-    OV --> N02[02 — Towing Equipment & Tug Compatibility]
-    OV --> N03[03 — Procedures: Pushback & Maneuvering]
-    OV --> N04[04 — Limits, Loads & Steering Constraints]
-    OV --> N05[05 — Records, Incidents & Traceability]
-    N02 -. ATA 09 / 32-50 .-> ATA[Towing-related ATA overlays\n(ATA 09 / 32 / 07)]
-    N04 -. ATA 32-50 .-> ATA
-    N03 -. references .-> N04
-    N04 -. exceedance .-> N05
-    N05 -. event_classification .-> LC11[LC11_MAINTENANCE\nbaseline]
-    N04 -. interlock: bypass_pin .-> N03
+    OV(["00 Overview<br/>ATLAS 010-019.01.040"])
+
+    N01["01 — Scope &amp; Towing Boundaries"]
+    N02["02 — Towing Equipment &amp; Tug Compatibility"]
+    N03["03 — Procedures: Pushback &amp; Maneuvering"]
+    N04["04 — Limits, Loads &amp; Steering Constraints"]
+    N05["05 — Records, Incidents &amp; Traceability"]
+
+    ATA["Towing-related ATA overlays<br/>(ATA 09 / ATA 32 / ATA 07)"]
+    LC11["LC11_MAINTENANCE<br/>baseline"]
+
+    OV --> N01
+    OV --> N02
+    OV --> N03
+    OV --> N04
+    OV --> N05
+
+    N02 -.->|ATA 09 / 32-50| ATA
+    N04 -.->|ATA 32-50| ATA
+    N03 -.->|references| N04
+    N04 -.->|exceedance| N05
+    N05 -.->|event classification| LC11
+    N04 -.->|interlock: bypass_pin| N03
 ```
 
 ## 4. Footprint
