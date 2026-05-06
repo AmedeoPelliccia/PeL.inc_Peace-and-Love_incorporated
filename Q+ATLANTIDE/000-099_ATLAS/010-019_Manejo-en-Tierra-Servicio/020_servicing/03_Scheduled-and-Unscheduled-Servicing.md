@@ -64,8 +64,8 @@ flowchart LR
     AOG["AOG event"]
 
     EXEC(["03 Servicing execution"])
-    N04["04 Couplings &amp; Interfaces<br/>profile selection"]
-    N05["05 Records &amp; Traceability<br/>return-to-service evidence"]
+    N04["04 Couplings & Interfaces<br/>profile selection"]
+    N05["05 Records & Traceability<br/>return-to-service evidence"]
 
     LC11 -->|consumed by| SCH
     OP --> UNS

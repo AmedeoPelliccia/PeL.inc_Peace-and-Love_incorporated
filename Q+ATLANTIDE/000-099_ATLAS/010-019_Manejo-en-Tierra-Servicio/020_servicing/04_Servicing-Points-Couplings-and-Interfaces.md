@@ -18,7 +18,7 @@ subsection_title: "servicing"
 subsubject: "04"
 subsubject_title: "Servicing Points, Couplings and Interfaces"
 primary_q_division: Q-GROUND
-support_q_divisions: [Q-MECHANICS, Q-INDUSTRY, Q-GREENTECH]
+support_q_divisions: [Q-MECHANICS, Q-INDUSTRY]
 orb_function_support: [ORB-PMO, ORB-FIN]
 governance_class: baseline
 version: 1.0.0
@@ -37,7 +37,7 @@ Catalogues the **aircraft-side servicing points** and the **coupling specificati
 ## 2. Scope
 
 - Covers the *Servicing Points, Couplings and Interfaces* subsubject (`04`) of subsection `020` *servicing*.
-- Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table)[^archtable]; Q-GREENTECH is added to the support set for the H₂-specific overlay.
+- Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table)[^archtable].
 - **Aircraft-side servicing points.** Per consumable family: location on the airframe, access door / panel reference, illumination/lighting requirement, marking and labelling per ATA iSpec 2200[^ata2200].
 - **Coupling specifications.** Geometry, sealing class, pressure/temperature rating, electrical bonding/grounding, leak-detection and emergency-disconnect provisions. Each coupling is mapped to the consumable family it serves (subsubject `02`) and to the GSE-profile catalogue used by ground operations.
 - **GSE compatibility.** Profile-matching matrix — for each aircraft servicing point, the set of GSE profiles known to be compatible (nozzle/coupling pairing, max flow, max pressure, electrical bonding interface). Day-of-operations selection logic is owned by the carrier's planning layer; this subsubject only defines the *compatibility surface*.
@@ -77,7 +77,7 @@ flowchart LR
 | Subsection | `020` — servicing |
 | Subsubject | `04` — Servicing Points, Couplings and Interfaces |
 | Primary Q-Division | Q-GROUND[^qdiv] |
-| Support Q-Divisions | Q-MECHANICS, Q-INDUSTRY, Q-GREENTECH |
+| Support Q-Divisions | Q-MECHANICS, Q-INDUSTRY |
 | ORB support | ORB-PMO, ORB-FIN |
 | Governance class | `baseline`[^gov] |
 | Folder path | `Q+ATLANTIDE/000-099_ATLAS/010-019_Manejo-en-Tierra-Servicio/020_servicing/` |

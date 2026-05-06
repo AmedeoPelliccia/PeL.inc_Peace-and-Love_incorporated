@@ -31,7 +31,7 @@ language: en
 
 Overview entry-point for the *servicing* subsection within the `010-019` code range (Section `01` — *Manejo en Tierra & Servicio*) of the **ATLAS** architecture band (*Aircraft Top-Level Architecture System*, master range `000–099`).
 
-This subsubject (`00 Overview`) introduces the ATLAS 010-019.020.00 slice and links it to the controlled Q+ATLANTIDE baseline[^baseline] and to the applicable industry standards listed in §4.
+This subsubject (`00 Overview`) introduces the ATLAS 010-019.020.00 slice and links it to the controlled Q+ATLANTIDE baseline[^baseline] and to the applicable industry standards listed in §5.
 
 ## 2. Scope
 

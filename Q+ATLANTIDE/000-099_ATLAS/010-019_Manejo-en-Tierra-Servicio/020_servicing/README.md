@@ -16,7 +16,7 @@ subject_title: "General Information"
 subsection: "020"
 subsection_title: "servicing"
 primary_q_division: Q-GROUND
-support_q_divisions: [Q-MECHANICS, Q-INDUSTRY, Q-GREENTECH]
+support_q_divisions: [Q-MECHANICS, Q-INDUSTRY]
 orb_function_support: [ORB-PMO, ORB-FIN]
 governance_class: baseline
 version: 1.0.0
@@ -32,7 +32,7 @@ Subsection-level index for *servicing* (`020`) within ATLAS `010-019` — *Manej
 ## 2. Scope
 
 - Covers the full subsubject namespace `00`–`99` of subsection `020` *servicing*; subsubjects `01`–`05` are populated in this baseline release, the remaining `06`–`99` slots remain available for future extension per the Overview's authorisation[^archtable].
-- Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table)[^archtable]; Q-GREENTECH is added to the support set for the LH₂/NH₃/N₂ overlay surfaced by subsubjects `02` and `04`.
+- Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table)[^archtable].
 - **Boundary with subsection `010` *Ground handling*.** Restated for navigation: [`../010_Ground-handling/04_Ground-Support-Equipment-Interfaces.md`](../010_Ground-handling/04_Ground-Support-Equipment-Interfaces.md) defines the *physical/positioning* GSE surface; [`./04_Servicing-Points-Couplings-and-Interfaces.md`](./04_Servicing-Points-Couplings-and-Interfaces.md) defines the *functional* servicing surface (what flows, at what rate, under what protocol).
 
 ## 3. Diagram
@@ -84,7 +84,7 @@ flowchart LR
 | Subsection | `020` — servicing |
 | Subsubject namespace | `00`–`99` (`00` + `01`–`05` populated) |
 | Primary Q-Division | Q-GROUND[^qdiv] |
-| Support Q-Divisions | Q-MECHANICS, Q-INDUSTRY, Q-GREENTECH |
+| Support Q-Divisions | Q-MECHANICS, Q-INDUSTRY |
 | ORB support | ORB-PMO, ORB-FIN |
 | Governance class | `baseline`[^gov] |
 | Folder path | `Q+ATLANTIDE/000-099_ATLAS/010-019_Manejo-en-Tierra-Servicio/020_servicing/` |

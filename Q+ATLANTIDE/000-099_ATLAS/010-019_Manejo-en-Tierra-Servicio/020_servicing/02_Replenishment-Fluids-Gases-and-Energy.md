@@ -18,7 +18,7 @@ subsection_title: "servicing"
 subsubject: "02"
 subsubject_title: "Replenishment: Fluids, Gases and Energy"
 primary_q_division: Q-GROUND
-support_q_divisions: [Q-MECHANICS, Q-INDUSTRY, Q-GREENTECH]
+support_q_divisions: [Q-MECHANICS, Q-INDUSTRY]
 orb_function_support: [ORB-PMO, ORB-FIN]
 governance_class: baseline
 version: 1.0.0
@@ -37,7 +37,7 @@ Defines the **replenishment regimes and limits** for the consumables that the *s
 ## 2. Scope
 
 - Covers the *Replenishment: Fluids, Gases and Energy* subsubject (`02`) of subsection `020` *servicing*.
-- Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table)[^archtable]; Q-GREENTECH is added to the support set for the LH₂/NH₃ overlay.
+- Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table)[^archtable].
 - **Consumables in scope** (regime + limit per consumable shall be defined in the downstream data modules):
   - **Fuel.** Conventional Jet-A/Jet-A-1 for legacy variants; **LH₂ for AMPEL360**, with regime governed by transfer-rate envelope, vent/boil-off management and purge cycles. Storage interface and product specification follow ATA 28-10[^ata28] and the H₂-GSE supply-chain spec at `OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_IN_H2_GSE_AND_SUPPLY_CHAIN/IN-50-h2-gse-couplings-hoses-interfaces/`.
   - **Engine oil and hydraulic fluid.** Top-up regime per AMM/MPD, batch/lot tracking required (see subsubject `05`).
@@ -79,7 +79,7 @@ flowchart LR
 | Subsection | `020` — servicing |
 | Subsubject | `02` — Replenishment: Fluids, Gases and Energy |
 | Primary Q-Division | Q-GROUND[^qdiv] |
-| Support Q-Divisions | Q-MECHANICS, Q-INDUSTRY, Q-GREENTECH |
+| Support Q-Divisions | Q-MECHANICS, Q-INDUSTRY |
 | ORB support | ORB-PMO, ORB-FIN |
 | Governance class | `baseline`[^gov] |
 | Folder path | `Q+ATLANTIDE/000-099_ATLAS/010-019_Manejo-en-Tierra-Servicio/020_servicing/` |
