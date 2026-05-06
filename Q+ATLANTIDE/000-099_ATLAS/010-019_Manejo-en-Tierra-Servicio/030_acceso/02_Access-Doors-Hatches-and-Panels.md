@@ -24,8 +24,7 @@ governance_class: baseline
 version: 1.0.0
 status: active
 language: en
-consumes:
-  - OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_85-FUEL_CELL_SYSTEMS_INFRA/85-20-h2-handling-safety-permits-for-fcs/
+consumes: OPT-INS_FRAMEWORK/I-INFRASTRUCTURES/ATA_85-FUEL_CELL_SYSTEMS_INFRA/85-20-h2-handling-safety-permits-for-fcs/
 ---
 # ATLAS 010-019 · Section 01 · Subsection 030 · Subsubject 02 — Access: Doors, Hatches and Panels
 
